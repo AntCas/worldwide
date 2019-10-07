@@ -16,9 +16,9 @@ const links = [
     icon: <YouTube style={{fill: 'white'}} />
   },
   {
-    title: "Mailing List",
-    url: "https://formico.typeform.com/to/yN96tS",
-    icon: <Email style={{fill: 'white'}} />
+    title: "Twitter",
+    url: "https://twitter.com/ih_worldwide",
+    icon: <Twitter style={{fill: 'white'}} />
   },
   {
     title: "Facebook",
@@ -31,9 +31,9 @@ const links = [
     icon: <Slack style={{fill: 'white'}} />
   },
   {
-    title: "Twitter",
-    url: "https://twitter.com/ih_worldwide",
-    icon: <Twitter style={{fill: 'white'}} />
+    title: "Mailing List",
+    url: "https://formico.typeform.com/to/yN96tS",
+    icon: <Email style={{fill: 'white'}} />
   },
 ];
 
