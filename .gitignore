@@ -63,6 +63,7 @@ public
 
 # Vim files
 *.swp
+*.swo
 
 # Yarn
 yarn-error.log
