@@ -1,3 +1,4 @@
+@import "../main.scss";
 .SocialLinks, .LinkList {
   display: inline-flex;
 }
@@ -7,5 +8,9 @@
 
   li {
     margin: 6px;
+
+    a:hover {
+      filter: $hover-filter; 
+    }
   }
 }
