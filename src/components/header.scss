@@ -1,16 +1,26 @@
 @import "../main.scss";
 
 .SiteHeader {
-  height: 48px;
   display: flex;
   align-content: center;
   justify-content: center;
+  background: $bg-color-main;
+  width: 100%;
+  padding: 12px;
   
   .HeaderContent {
+    width: 100%;
     max-width: 1200px;
 
     .HeaderLogo {
+      margin-right: auto;
+      width: fit-content;
+    }
+    .HeaderLogo a {
       font-family: $brand-font;
+      font-size: $size-h3;
+      text-decoration: none;
+      color: $font-color-main;
     }
   }
 }
