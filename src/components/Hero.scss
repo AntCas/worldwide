@@ -1,0 +1,33 @@
+@import "../main.scss";
+
+.Hero {
+  background-image: url('../images/blue-world.png');
+  background-size: cover;
+  width: 100%;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .HeroHeader {
+    font-family: $brand-font;
+    font-size: $size-h1;
+    color: $font-color-main;
+  }
+
+  .CTA {
+    position: absolute;
+    bottom: 0px;
+    transform: translateY(50%);
+    border-radius: $radius-main;
+    border: 2px solid $cta-color-border;
+    background-color: $cta-color-bg;
+    color: $cta-color-font;
+    padding: 12px;
+    font-family: $text-font;
+    font-size: $size-cta;
+    text-decoration: none;
+  }
+}
