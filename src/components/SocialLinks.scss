@@ -1,0 +1,11 @@
+.SocialLinks, .LinkList {
+  display: inline-flex;
+}
+
+.SocialLinks {
+  width: fit-content;
+
+  li {
+    margin: 6px;
+  }
+}

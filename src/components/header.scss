@@ -6,14 +6,18 @@
   justify-content: center;
   background: $bg-color-main;
   width: 100%;
-  padding: 12px;
   
   .HeaderContent {
+    padding: 12px;
+    height: 100%;
     width: 100%;
     max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     .HeaderLogo {
-      margin-right: auto;
+      display: inline-flex;
       width: fit-content;
     }
     .HeaderLogo a {

@@ -7,7 +7,7 @@ import Slack from "../assets/slack.svg";
 import Twitter from "../assets/twitter.svg";
 import YouTube from "../assets/youtube.svg";
 
-import './header.scss';
+import './SocialLinks.scss';
 
 const links = [
   {
@@ -47,7 +47,7 @@ const socialLinks = links.map((item, i) => (
 
 const SocialLinks = ({ siteTitle }) => (
   <nav className="SocialLinks">
-    <ul>
+    <ul className="LinkList">
       { socialLinks }
     </ul>
   </nav>

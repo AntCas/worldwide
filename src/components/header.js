@@ -13,8 +13,8 @@ const Header = ({ siteTitle }) => (
         <Link to="/">
           {siteTitle}
         </Link>
-        <SocialLinks />
       </h1>
+      <SocialLinks />
     </div>
   </header>
 )
