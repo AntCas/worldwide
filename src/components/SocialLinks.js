@@ -12,7 +12,7 @@ import './header.scss';
 const links = [
   {
     title: "YouTube",
-    url: "https://formico.typeform.com/to/yN96tS",
+    url: "https://www.youtube.com/channel/UCMps9pFrqetqXMCEZqkiQ-g/",
     icon: <YouTube style={{fill: 'white'}} />
   },
   {
@@ -22,17 +22,17 @@ const links = [
   },
   {
     title: "Facebook",
-    url: "https://formico.typeform.com/to/yN96tS",
+    url: "https://www.facebook.com/groups/indie.hackers.worldwide/",
     icon: <Facebook style={{fill: 'white'}} />
   },
   {
     title: "Slack",
-    url: "https://formico.typeform.com/to/yN96tS",
+    url: "https://app.slack.com/client/TGUK83BPA/",
     icon: <Slack style={{fill: 'white'}} />
   },
   {
     title: "Twitter",
-    url: "https://formico.typeform.com/to/yN96tS",
+    url: "https://twitter.com/ih_worldwide",
     icon: <Twitter style={{fill: 'white'}} />
   },
 ];
