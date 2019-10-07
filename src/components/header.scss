@@ -1,0 +1,14 @@
+.SiteHeader {
+  height: 48px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  
+  .HeaderContent {
+    max-width: 1200px;
+
+    .HeaderLogo {
+      font-family: 'Leckerli One';
+    }
+  }
+}
