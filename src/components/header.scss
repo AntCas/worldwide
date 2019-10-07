@@ -1,3 +1,5 @@
+@import "../main.scss";
+
 .SiteHeader {
   height: 48px;
   display: flex;
@@ -8,7 +10,7 @@
     max-width: 1200px;
 
     .HeaderLogo {
-      font-family: 'Leckerli One';
+      font-family: $brand-font;
     }
   }
 }
