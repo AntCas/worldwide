@@ -10,15 +10,19 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title }) {
+import defaultImage from '../images/social.png';
+
+function SEO({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
         site {
+          host
           siteMetadata {
             title
             description
             author
+            siteUrl
           }
         }
       }
@@ -26,6 +30,8 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  // https://juliangaramendy.dev/custom-open-graph-images-in-gatsby-blog/
+  const metaImageUrl  = site.siteMetadata.siteUrl + (image || defaultImage)
 
   return (
     <Helmet
@@ -52,6 +58,10 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: metaImageUrl,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -66,6 +76,10 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: metaImageUrl,
         },
       ].concat(meta)}
     />

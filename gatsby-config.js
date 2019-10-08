@@ -3,6 +3,7 @@ module.exports = {
     title: `Worldwide`,
     description: `The worldwide virtual meetup of indie hackers, founders, and makers.`,
     author: `Anthony Castrio`,
+    siteUrl: `https://indieworldwide.co/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
