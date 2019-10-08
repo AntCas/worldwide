@@ -1,16 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Hero from "../components/Hero"
 import SEO from "../components/seo"
+import Videos from "../components/Videos"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
-    <Link to="/page-2/">Go to page 2</Link>
-    <iframe title="YouTube PlayList" width="560" height="315" src="https://www.youtube.com/embed/?listType=playlist&list=PLxIkey_AASoAdzTgOW7y1nMi24G-Oztdd" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <Videos />
   </Layout>
 )
 

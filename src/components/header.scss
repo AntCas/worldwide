@@ -8,10 +8,10 @@
   width: 100%;
   
   .HeaderContent {
-    padding: 12px;
+    padding: 12px $site-padding;
     height: 100%;
     width: 100%;
-    max-width: 1200px;
+    max-width: $site-max-width;
     display: flex;
     justify-content: space-between;
     align-items: center;

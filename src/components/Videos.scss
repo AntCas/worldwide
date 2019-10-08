@@ -1,0 +1,29 @@
+@import '../main.scss';
+
+.Videos {
+  padding: 120px $site-padding 0 $site-padding;
+  max-width: $site-max-width;
+  margin: auto;
+
+  h2 {
+    font-size: $size-h2;
+    font-family: $text-font;
+  }
+
+  .VideoContainer {
+    margin-top: 48px;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+
+    .IFrame {
+      height: fit-content;
+      height: 207px;
+      width: 368px;
+      max-width: 95%;
+      padding: 12px;
+    }
+  }
+}
