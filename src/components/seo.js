@@ -17,7 +17,6 @@ function SEO({ description, lang, meta, title, image }) {
     graphql`
       query {
         site {
-          host
           siteMetadata {
             title
             description
