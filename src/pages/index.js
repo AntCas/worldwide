@@ -10,6 +10,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Hero />
     <Link to="/page-2/">Go to page 2</Link>
+    <iframe title="YouTube PlayList" width="560" height="315" src="https://www.youtube.com/embed/flaEA2CPQWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </Layout>
 )
 
