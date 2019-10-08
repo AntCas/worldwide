@@ -17,6 +17,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+
+    @include sm {
+      flex-direction: row;
+    }
+
+    .Copyright, .SocialLinks {
+      padding-top: 12px;
+      @include sm {
+        padding: 0;
+      }
+    }
 
     .FooterLogo {
       display: inline-flex;

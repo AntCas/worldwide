@@ -31,5 +31,12 @@
       text-decoration: none;
       color: $font-color-main;
     }
+
+    .SocialLinks {
+      padding-top: 6px;
+      @include sm {
+        padding: 0;
+      }
+    }
   }
 }
