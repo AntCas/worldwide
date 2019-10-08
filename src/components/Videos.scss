@@ -1,9 +1,12 @@
 @import '../main.scss';
 
 .Videos {
-  padding: 120px $site-padding 0 $site-padding;
   max-width: $site-max-width;
   margin: auto;
+  padding: 48px $site-padding;
+  @include sm {
+    padding: 120px $site-padding 0 $site-padding;
+  }
 
   h2 {
     font-size: $size-h2;
@@ -11,12 +14,15 @@
   }
 
   .VideoContainer {
-    margin-top: 48px;
     width: 100%;
     display: flex;
     flex-flow: wrap;
     justify-content: center;
     align-content: center;
+    margin-top: 12px;
+    @include sm {
+      margin-top: 48px;
+    }
 
     .IFrame {
       height: fit-content;
