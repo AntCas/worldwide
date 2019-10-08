@@ -1,0 +1,38 @@
+@import "../main.scss";
+
+.Footer {
+  margin-top: 120px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: $bg-color-main;
+  width: 100%;
+  color: $font-color-main;
+
+  .FooterContent {
+    padding: 48px $site-padding;
+    height: 100%;
+    width: 100%;
+    max-width: $site-max-width;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .FooterLogo {
+      display: inline-flex;
+      width: fit-content;
+    }
+    a {
+      text-decoration: none;
+      color: $font-color-main;
+    }
+    .Copyright {
+      font-family: $text-font;
+      font-size: $size-p;
+    }
+    .FooterLogo a {
+      font-family: $brand-font;
+      font-size: $size-h3;
+    }
+  }
+}
