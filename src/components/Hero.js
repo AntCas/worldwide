@@ -10,6 +10,7 @@ const nextEvent = {
 const Hero = ({ siteTitle }) => (
   <section className="Hero">
     <h2 className="HeroHeader">Worldwide</h2>
+    <h3 className="Subheader">where indie hackers meet</h3>
     <a className="CTA" href={nextEvent.url}>
       {`Next Meetup: ${nextEvent.date}`}
     </a>

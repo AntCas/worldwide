@@ -12,13 +12,24 @@
   height: 240px;
 
   @include sm {
-    height: 360px;
+    height: 420px;
   }
 
   .HeroHeader {
     font-family: $brand-font;
     color: $font-color-main;
     font-size: $size-h1;
+    display: none;
+    @include sm {
+      display: block;
+    }
+  }
+
+  .Subheader {
+    font-family: monospace;
+    color: $font-color-main;
+    font-size: $size-h3;
+    margin-top: 36px;
     display: none;
     @include sm {
       display: block;
