@@ -3,8 +3,8 @@ import React from "react"
 import './Hero.scss';
 
 const nextEvent = {
-  date: "October 10th",
-  url: "https://www.mixily.com/event/5853708572761154126"
+  date: "October 22nd",
+  url: "https://www.eventbrite.com/e/worldwide-qa-w-juliet-oberding-of-dappity-predictably-well-tickets-76088168761"
 }
 
 const Hero = ({ siteTitle }) => (
