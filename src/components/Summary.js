@@ -20,7 +20,7 @@ const Summary = () => (
         <p>Open sessions with founders who've built companies with minimal funding.</p>
         <p>Ask anything you want and find out how they made their business a success.</p>
         <p>Interested in doing a Q&A?</p>
-        <Button text="Contact Us" className="Contact" link=""/>
+        <Button text="Contact Us" className="Contact" link="mailto:worldwideqa@formico.io"/>
       </li>
       <li className="BreakdownItem">
         <h3>Community</h3>
