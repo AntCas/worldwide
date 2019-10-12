@@ -1,0 +1,77 @@
+@import '../main.scss';
+
+.Summary {
+  display: flex;
+  flex-direction: column;
+  max-width: $site-max-width;
+  margin: 120px auto 0;
+
+  .Breakdown {
+    margin: 48px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .BreakdownItem {
+      width: 280px;
+      max-width: 100%;
+      margin: 32px 12px 0;
+      border: 1px solid $bg-color-main;
+      padding: 18px;
+      border-radius: $radius-main;
+    }
+  }
+
+  h2, h3, p {
+    font-family: $text-font;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: $size-h2;
+    margin: auto;
+  }
+
+  h3 {
+    font-size: $size-h2;
+  }
+
+  p {
+    font-size: $size-p;
+    line-height: 1.5em;
+    margin-top: 24px;
+  }
+}
+
+
+/*
+.Videos {
+  max-width: $site-max-width;
+  margin: auto;
+  padding: 48px $site-padding;
+  @include sm {
+    padding: 120px $site-padding 0 $site-padding;
+  }
+
+  .VideoContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 12px;
+    @include sm {
+      margin-top: 48px;
+    }
+
+    .IFrame {
+      height: fit-content;
+      height: 207px;
+      width: 368px;
+      max-width: 95%;
+      padding: 12px;
+    }
+  }
+}
+*/

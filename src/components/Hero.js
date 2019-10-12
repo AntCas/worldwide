@@ -1,5 +1,7 @@
 import React from "react"
 
+import Button from "./Button";
+
 import './Hero.scss';
 
 const nextEvent = {
@@ -11,9 +13,9 @@ const Hero = ({ siteTitle }) => (
   <section className="Hero">
     <h2 className="HeroHeader">Worldwide</h2>
     <h3 className="Subheader">where indie hackers meet</h3>
-    <a className="CTA" href={nextEvent.url}>
-      {`Next Meetup: ${nextEvent.date}`}
-    </a>
+    <Button
+      text={`Next Meetup: ${nextEvent.date}`}
+      link={nextEvent.url} />
   </section>
 )
 
