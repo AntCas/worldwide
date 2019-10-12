@@ -24,7 +24,7 @@ const Summary = () => (
       </li>
       <li className="BreakdownItem">
         <h3>Community</h3>
-        <p>Worldwide is all over the web. Join us wherever it's most convenient for you</p>
+        <p>Worldwide is all over the web. Join us wherever it's most convenient for you.</p>
         <div className="SocialLinksWrapper">
           <SocialLinks dark={true} />
         </div>

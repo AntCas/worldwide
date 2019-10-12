@@ -48,13 +48,16 @@
   }
 
   .SocialLinksWrapper {
-    text-align: center;
-    margin: auto;
+    margin: 24px auto;
     padding: 24px;
 
     svg {
-      width: 48px;
-      height: 48px;
+      width: 36px;
+      height: 36px;
+
+      &:hover {
+        opacity: .85;
+      }
     }
   }
 }
