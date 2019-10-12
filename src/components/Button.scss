@@ -10,11 +10,7 @@
   display: flex;
   font-size: 1.1em;
   padding: 12px 12px;
-
-  @include sm {
-    font-size: $size-cta;
-    padding: 12px 36px;
-  }
+  width: fit-content;
 
   &:hover {
     filter: $hover-filter;

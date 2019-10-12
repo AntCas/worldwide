@@ -1,6 +1,7 @@
 @import "../main.scss";
 .SocialLinks, .LinkList {
   display: inline-flex;
+  flex-wrap: wrap;
 }
 
 .SocialLinks {

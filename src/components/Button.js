@@ -3,8 +3,8 @@ import PropTypes from "prop-types"
 
 import './Button.scss';
 
-const Button = ({text, link}) => (
-  <a className="Button" href={link}>
+const Button = ({text, link, className}) => (
+  <a className={`Button ${className}`} href={link}>
     {text}
   </a>
 )

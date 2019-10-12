@@ -36,12 +36,16 @@
     }
   }
 
-  .Button {
+  .Button.CTA {
     position: absolute;
     transform: translateY(50%);
     bottom: 50%;
+    font-size: 1.1em;
+    padding: 12px 12px;
 
     @include sm {
+      font-size: $size-cta;
+      padding: 12px 36px;
       bottom: 0px;
     }
   }

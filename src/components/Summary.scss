@@ -42,36 +42,20 @@
     line-height: 1.5em;
     margin-top: 24px;
   }
-}
 
-
-/*
-.Videos {
-  max-width: $site-max-width;
-  margin: auto;
-  padding: 48px $site-padding;
-  @include sm {
-    padding: 120px $site-padding 0 $site-padding;
+  .Button.Contact {
+    margin: 12px auto 0;
   }
 
-  .VideoContainer {
-    width: 100%;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    align-content: center;
-    margin-top: 12px;
-    @include sm {
-      margin-top: 48px;
-    }
+  .SocialLinksWrapper {
+    text-align: center;
+    margin: auto;
+    padding: 24px;
 
-    .IFrame {
-      height: fit-content;
-      height: 207px;
-      width: 368px;
-      max-width: 95%;
-      padding: 12px;
+    svg {
+      width: 48px;
+      height: 48px;
     }
   }
 }
-*/
+
