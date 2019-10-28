@@ -20,7 +20,7 @@ const SocialLinks = ({ siteTitle, dark }) => {
     },
     {
       title: "Twitter",
-      url: "https://twitter.com/ih_worldwide",
+      url: "https://twitter.com/indie_worldwide",
       icon: <Twitter style={{fill}} />
     },
     {
