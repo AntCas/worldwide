@@ -5,8 +5,8 @@ import Button from "./Button";
 import './Hero.scss';
 
 const nextEvent = {
-  date: "October 22nd",
-  url: "https://www.eventbrite.com/e/worldwide-qa-w-juliet-oberding-of-dappity-predictably-well-tickets-76088168761"
+  date: "November 19th",
+  url: "https://www.mixily.com/event/3761852409542822844"
 }
 
 const Hero = ({ siteTitle }) => (
