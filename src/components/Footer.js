@@ -15,9 +15,10 @@ const Footer = ({ siteTitle }) => (
         </Link>
       </h1>
       <p className="Copyright">
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()} Worlwide, built by
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href="https://twitter.com/AnthonyCastrio">Anthony </a>
+        with Gatsby
       </p>
       <SocialLinks />
     </div>
