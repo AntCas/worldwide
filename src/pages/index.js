@@ -1,4 +1,5 @@
 import React from "react"
+import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 import Layout from "../components/layout"
 import Hero from "../components/Hero"
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <Hero />
     <Summary />
     <Videos />
+    <ReactTypeformEmbed style={{position: 'relative', display: 'inline-block', height: "480px"}} url="https://formico.typeform.com/to/yN96tS" />;
   </Layout>
 )
 
