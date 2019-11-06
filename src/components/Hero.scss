@@ -42,8 +42,7 @@
 
   .Button.CTA {
     position: absolute;
-    transform: translateY(50%);
-    bottom: 30%;
+    bottom: 25%;
     font-size: 1.1em;
     padding: 12px 12px;
 
@@ -51,6 +50,7 @@
       font-size: $size-cta;
       padding: 12px 36px;
       bottom: 0px;
+      transform: translateY(50%);
     }
   }
 }
