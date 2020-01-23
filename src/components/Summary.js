@@ -12,7 +12,7 @@ const Summary = () => (
       <li className="BreakdownItem">
         <h3>Meetups</h3>
         <p>Worldwide is a community for makers who can't get to an in-person meetup group or want to expand their circle beyond their local area.</p>
-        <p>We host online video chats with 5-6 other makers at a time where you can make friends, and get advice.</p>
+        <p>We host online video chats where you can make friends, meet potential co-founders or clients, and get advice.</p>
         <p>100% online.</p>
       </li>
       <li className="BreakdownItem">

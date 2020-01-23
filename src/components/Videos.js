@@ -27,7 +27,7 @@ const featuredVideos = [
 
 const Videos = () => (
   <section className="Videos">
-    <h2>Past Meetups</h2>
+    <h2>Past Q&A Meetups</h2>
     <section className="VideoContainer">
       { featuredVideos.map((video, i) => (
         <iframe title={video.title} key={i} className="IFrame" src={`https://www.youtube.com/embed/${video.videoId}`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
