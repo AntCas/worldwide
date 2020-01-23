@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 
 import Button from "./Button";
 
@@ -10,12 +10,8 @@ const nextEvent = {
 }
 
 const Hero = ({ siteTitle }) => {
-  const [degrees, setDegrees] = useState(0);
-
   return (
-    <section
-      className="Hero"
-    >
+    <section className="Hero">
       <div className="HeroInner">
         <h2 className="HeroHeader">Worldwide</h2>
         <h3 className="Subheader">where indie hackers meet</h3>
