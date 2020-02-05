@@ -30,7 +30,7 @@ const SocialLinks = ({ siteTitle, dark }) => {
     },
     {
       title: "Slack",
-      url: "https://app.slack.com/client/TGUK83BPA/",
+      url: "https://join.slack.com/t/indieworldwide/shared_invite/enQtNzYzNTUwMjc2ODgyLTBjNTRiMmMwYWQ2MmQ5OGYyNTk2OWIwN2Q1OTcyOGJjM2M3MzEwYjc5OThjNTlmMWZhNTU0NDAyYjRkNDQ0Zjk",
       icon: <Slack style={{fill}} />
     },
     {
