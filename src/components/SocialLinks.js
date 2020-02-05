@@ -25,7 +25,7 @@ const SocialLinks = ({ siteTitle, dark }) => {
     },
     {
       title: "Facebook",
-      url: "https://www.facebook.com/groups/indie.hackers.worldwide/",
+      url: "https://www.facebook.com/groups/indie.worldwide/",
       icon: <Facebook style={{fill}} />
     },
     {
