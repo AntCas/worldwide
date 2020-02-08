@@ -15,10 +15,8 @@ const Footer = ({ siteTitle }) => (
         </Link>
       </h1>
       <p className="Copyright">
-        © {new Date().getFullYear()} Worlwide, built by
-        {` `}
-        <a href="https://twitter.com/AnthonyCastrio">Anthony </a>
-        with Gatsby
+        © {new Date().getFullYear()} Worlwide, 
+        <a href="https://formico.io">Formico, LLC</a>
       </p>
       <SocialLinks />
     </div>
