@@ -5,8 +5,8 @@ import Button from "./Button";
 import './Hero.scss';
 
 const nextEvent = {
-  date: "February 13th",
-  url: "https://hopin.to/events/indie-worldwide-meetup-february-2020"
+  date: "March 12th",
+  url: "https://hopin.to/events/indie-worldwide-march-2020-meetup"
 }
 
 const Hero = ({ siteTitle }) => {
