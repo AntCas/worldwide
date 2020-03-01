@@ -1,8 +1,13 @@
 @import "../main.scss";
 
+$sm: 84px;
+$md: 114px;
+$lg: 256px;
+
 .cloud {
-  border-radius: 50%;
   position: absolute;
+  z-index: -1;
+  opacity: .8;
 }
 
 .cloud-yellow {
@@ -15,4 +20,64 @@
 
 .cloud-white {
   background-color: $white-cloud;
+}
+
+.cloud-a {
+  width: 470px;
+  height: $sm;
+  border-radius: $sm;
+  background-color: $mustard;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cloud-b {
+  width: 470px;
+  height: $lg;
+  border-radius: $lg;
+  background-color: $mustard;
+  top: 5%;
+  right: 0;
+  transform: translate(60%, 0%);
+}
+
+.cloud-c {
+  width: 470px;
+  height: $md;
+  border-radius: $md;
+  background-color: $purple-light;
+  top: 10%;
+  left: 0;
+  transform: translate(-60%, 0%);
+}
+
+.cloud-d {
+  width: 470px;
+  height: $sm;
+  border-radius: $sm;
+  background-color: $white-cloud;
+  top: 10%;
+  left: 0;
+  transform: translate(-75%, 80%);
+}
+
+.cloud-e {
+  width: 470px;
+  height: $lg;
+  border-radius: $lg;
+  background-color: $white-cloud;
+  top: 25%;
+  left: 0;
+  transform: translate(-70%, 0);
+}
+
+.cloud-f {
+  width: 470px;
+  height: $md;
+  border-radius: $md;
+  background-color: $purple-light;
+  top: 34%;
+  right: 0;
+  transform: translate(70%, 0);
 }
