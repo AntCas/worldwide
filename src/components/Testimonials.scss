@@ -32,10 +32,21 @@
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      height: 100px;
+      padding: 18px;
       text-decoration: none;
       color: $font-color-main;
       font-family: $font-main;
+    }
+  }
+
+  .Info {
+    .Name {
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .Bio {
+      margin-top: 4px;
+      font-size: 14px;
     }
   }
 
@@ -48,6 +59,7 @@
 
     .Attribution {
       background: $purple-light;
+      box-shadow: $box-shadow;
       color: white;
     }
   }

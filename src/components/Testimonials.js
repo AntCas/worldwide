@@ -8,21 +8,21 @@ const testimonials = [
     name: "Bob Job",
     bio: "Founder of CoolCo",
     image: "",
-    backlink: ""
+    backlink: "https://google.com"
   },
   {
     testimonial: "Probably the best meet-up I’ve ever been a part of. The community just rocks. I’ll definitely be attending the next event.",
     name: "Bob Job",
     bio: "Founder of CoolCo",
     image: "",
-    backlink: ""
+    backlink: "https://google.com"
   },
   {
     testimonial: "Probably the best meet-up I’ve ever been a part of. The community just rocks. I’ll definitely be attending the next event.",
     name: "Bob Job",
     bio: "Founder of CoolCo",
     image: "",
-    backlink: ""
+    backlink: "https://google.com"
   },
 ]
 
