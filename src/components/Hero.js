@@ -16,14 +16,15 @@ const Hero = ({ siteTitle }) => {
   return (
     <section className="Hero">
       <div className="HeroInner">
-        <h2 className="HeroHeader">Worldwide</h2>
-        <h3 className="Subheader">where indie hackers meet</h3>
+        <h2 className="HeroHeader">Welcome to Indie Worldwide</h2>
+        <h3 className="Subheader">A online meetup group for hackers, makers, and founders</h3>
         <NextEventCTA
           text={nextEvent.text}
           exactDate={nextEvent.exactDate}
           month={nextEvent.month} 
           date={nextEvent.date}
           link={nextEvent.url}
+          className="CTA"
         />
       </div>
     </section>

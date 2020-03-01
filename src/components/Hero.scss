@@ -1,15 +1,16 @@
 @import "../main.scss";
 
 .Hero {
-  width: 100%;
-  height: 240px;
-  @include sm {
-    height: 456px;
-  }
+  max-width: $site-max-width;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .HeroInner {
-  width: 100%;
+  margin-top: 140px;
+  width: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,34 +22,28 @@
     font-family: $text-font;
     color: $font-color-main;
     font-size: $size-h1;
+    text-align: center;
+    font-weight: 800;
     display: none;
+    line-height: 1.1;
     @include sm {
       display: block;
     }
   }
 
   .Subheader {
-    font-family: monospace;
+    font-family: $text-font;
     color: $font-color-main;
-    font-size: $size-h3;
+    font-size: $size-p;
+    text-align: center;
     margin-top: 36px;
     display: none;
     @include sm {
       display: block;
     }
   }
+}
 
-  .Button.CTA {
-    position: absolute;
-    bottom: 25%;
-    font-size: 1.1em;
-    padding: 12px 12px;
-
-    @include sm {
-      font-size: $size-cta;
-      padding: 12px 36px;
-      bottom: 0px;
-      transform: translateY(50%);
-    }
-  }
+.CTA {
+  margin-top: 140px;
 }
