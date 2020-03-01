@@ -1,36 +1,58 @@
-import React from "react"
+import React, { useState } from "react"
 
 import SocialLinks from "./SocialLinks";
 import Button from "./Button";
 
 import './Testimonials.scss';
 
-const Testimonials = () => (
-  <section className="Summary">
-    <h2>A online meetup group for hackers, makers, and founders.</h2>
-    <ul className="Breakdown">
-      <li className="BreakdownItem">
-        <h3>Meetups</h3>
-        <p>Worldwide is a community for makers who can't get to an in-person meetup group or want to expand their circle beyond their local area.</p>
-        <p>We host online video chats where you can make friends, meet potential co-founders or clients, and get advice.</p>
-        <p>100% online.</p>
-      </li>
-      <li className="BreakdownItem">
-        <h3>Q&A's</h3>
-        <p>Open sessions with founders who've built companies with minimal funding.</p>
-        <p>Ask anything you want and find out how they made their business a success.</p>
-        <p>Interested in doing a Q&A?</p>
-        <Button text="Contact Us" className="Contact" link="mailto:worldwideqa@formico.io"/>
-      </li>
-      <li className="BreakdownItem">
-        <h3>Community</h3>
-        <p>Worldwide is all over the web. Join us wherever it's most convenient for you.</p>
-        <div className="SocialLinksWrapper">
-          <SocialLinks dark={true} />
-        </div>
-      </li>
-    </ul>
-  </section>
-)
+const testimonials = [
+  {
+    testimonial: "Probably the best meet-up I’ve ever been a part of. The community just rocks. I’ll definitely be attending the next event.",
+    name: "Bob Job",
+    bio: "Founder of CoolCo",
+    image: "",
+    backlink: ""
+  },
+  {
+    testimonial: "Probably the best meet-up I’ve ever been a part of. The community just rocks. I’ll definitely be attending the next event.",
+    name: "Bob Job",
+    bio: "Founder of CoolCo",
+    image: "",
+    backlink: ""
+  },
+  {
+    testimonial: "Probably the best meet-up I’ve ever been a part of. The community just rocks. I’ll definitely be attending the next event.",
+    name: "Bob Job",
+    bio: "Founder of CoolCo",
+    image: "",
+    backlink: ""
+  },
+]
+
+const Testimonials = () => {
+  const [selected, setSelected] = useState(1);
+
+  const Items = testimonials.map((data, i) => {
+    console.log(data, i, selected);
+    return (
+    <li
+      key={i}
+      onClick={() => setSelected(i)}
+      className={`Testimonial${i === selected ? ' isActive' : ''}`}
+    >
+      <p>{`"${data.testimonial}"`}</p>
+      <a className="Attribution" href={data.backlink}>
+        <div className="Image">image</div>
+        <div className="Name">{data.name}</div>
+        <div className="Bio">{data.bio}</div>
+      </a>
+    </li>
+    )
+  });
+
+  return (
+    <ul className="Testimonials">{Items}</ul>
+  );
+}
 
 export default Testimonials

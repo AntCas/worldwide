@@ -1,8 +1,4 @@
 import React from "react"
-
-import SocialLinks from "./SocialLinks";
-import Button from "./Button";
-
 import './Summary.scss';
 
 const Summary = () => (
