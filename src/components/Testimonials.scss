@@ -1,18 +1,54 @@
 @import "../main.scss";
 
 .Testimonials {
+  margin-top: 140px;
   display: flex;
   flex-direction: row;
+  width: 100%;
+  justify-content: center;
 
   .Testimonial {
-    height: 480px;
-    width: 120px;
+    margin: 0 24px;
+    width: 280px;
     display: flex;
     flex-direction: column;
     border-top: 4px solid rgba(0,0,0,0);
 
-    &.isActive {
-      border-top: 4px solid $mustard;
+    .Text {
+      padding: 60px 0;
+      display: none;
+      color: $font-color-main;
+      font-family: $font-main;
+      font-weight: 700;
+      font-size: $size-h3;
+      line-height: 1.2;
+    }
+
+    .Attribution {
+      margin-top: auto;
+      background: none;
+      border-radius: $radius-main;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+      text-decoration: none;
+      color: $font-color-main;
+      font-family: $font-main;
+    }
+  }
+
+  .Testimonial.isActive {
+    border-top: 4px solid $mustard;
+
+    .Text {
+      display: unset;
+    }
+
+    .Attribution {
+      background: $purple-light;
+      color: white;
     }
   }
 }

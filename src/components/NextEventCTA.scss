@@ -6,7 +6,7 @@
   position: relative;
   text-decoration: none;
   margin-top: 56px;
-  font-family: $text-font;
+  font-family: $font-main;
   color: $white;
 }
 
@@ -41,7 +41,7 @@
   z-index: 2;
   background-color: $cta-color-bg;
   color: $cta-color-font;
-  font-family: $text-font;
+  font-family: $font-main;
   font-size: 1.1em;
   padding: 8px;
   width: 624px;
@@ -66,7 +66,7 @@
   width: 80px;
   background-color: $purple;
   font-weight: bold;
-  font-family: $text-font;
+  font-family: $font-main;
   display: flex;
   flex-direction: column;
   justify-content: center;

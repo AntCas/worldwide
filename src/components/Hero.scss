@@ -19,7 +19,7 @@
   height: 100%;
 
   .HeroHeader {
-    font-family: $text-font;
+    font-family: $font-main;
     color: $font-color-main;
     font-size: $size-h1;
     text-align: center;
@@ -32,7 +32,7 @@
   }
 
   .Subheader {
-    font-family: $text-font;
+    font-family: $font-main;
     color: $font-color-main;
     font-size: $size-p;
     text-align: center;

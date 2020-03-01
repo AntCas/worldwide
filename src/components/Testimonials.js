@@ -1,8 +1,5 @@
 import React, { useState } from "react"
 
-import SocialLinks from "./SocialLinks";
-import Button from "./Button";
-
 import './Testimonials.scss';
 
 const testimonials = [
@@ -40,11 +37,13 @@ const Testimonials = () => {
       onClick={() => setSelected(i)}
       className={`Testimonial${i === selected ? ' isActive' : ''}`}
     >
-      <p>{`"${data.testimonial}"`}</p>
+      <p className="Text">{`"${data.testimonial}"`}</p>
       <a className="Attribution" href={data.backlink}>
         <div className="Image">image</div>
-        <div className="Name">{data.name}</div>
-        <div className="Bio">{data.bio}</div>
+        <div className="Info">
+          <div className="Name">{data.name}</div>
+          <div className="Bio">{data.bio}</div>
+        </div>
       </a>
     </li>
     )
