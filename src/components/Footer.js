@@ -15,8 +15,8 @@ const Footer = ({ siteTitle }) => (
         </Link>
       </h1>
       <p className="Copyright">
-        © {new Date().getFullYear()} Worlwide, 
-        <a href="https://formico.io">Formico, LLC</a>
+        © {new Date().getFullYear()} Worldwide, 
+        <a href="https://formico.io"> Formico, LLC</a>
       </p>
       <SocialLinks />
     </div>
