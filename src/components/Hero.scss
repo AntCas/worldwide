@@ -1,8 +1,6 @@
 @import "../main.scss";
 
 .Hero {
-  background-image: url('../images/black-world.png');
-  background-size: cover;
   width: 100%;
   height: 240px;
   @include sm {
@@ -20,7 +18,7 @@
   height: 100%;
 
   .HeroHeader {
-    font-family: $brand-font;
+    font-family: $text-font;
     color: $font-color-main;
     font-size: $size-h1;
     display: none;

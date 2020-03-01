@@ -5,7 +5,6 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  background: $bg-color-main;
   width: 100%;
   color: $font-color-main;
 
@@ -43,7 +42,7 @@
       font-size: $size-p;
     }
     .FooterLogo a {
-      font-family: $brand-font;
+      font-family: $text-font;
       font-size: $size-h3;
     }
   }
