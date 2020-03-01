@@ -1,0 +1,18 @@
+@import "../main.scss";
+
+.cloud {
+  border-radius: 50%;
+  position: absolute;
+}
+
+.cloud-yellow {
+  background-color: $mustard;
+}
+
+.cloud-purple {
+  background-color: $purple;
+}
+
+.cloud-white {
+  background-color: $white-cloud;
+}
