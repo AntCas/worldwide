@@ -1,5 +1,10 @@
 import React, { useState } from "react"
 
+import Slider from "react-slick";
+// required by react-slick
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import Dan from "../images/testimonials/Dan.png";
 import Dru from "../images/testimonials/Dru.jpg";
 import Marc from "../images/testimonials/Marc.jpg";
@@ -30,7 +35,7 @@ const testimonials = [
     backlink: "https://marc.lavigne-gagnon.com/"
   },
   {
-    testimonial: "As a founder of an early stage remote company Indie Worldwide gives me the opportunity to talk to peers that I normally wouldn't get. The calls are great...",
+    testimonial: "As a founder of an early stage remote company Indie Worldwide gives me the opportunity to talk to peers that I normally wouldn't get. The calls are great and I love how passionate Anthony is for the Indie Hackers space.",
     name: "Volkan Kaya",
     bio: "Founder, Versoly",
     image: Volkan,
@@ -43,8 +48,9 @@ const Testimonials = () => {
 
   const Items = testimonials.map((data, i) => {
     return (
-    <li
+    <div
       key={i}
+      index={i}
       onClick={() => setSelected(i)}
       className={`Testimonial${i === selected ? ' isActive' : ''}`}
     >
@@ -56,12 +62,28 @@ const Testimonials = () => {
           <div className="Bio">{data.bio}</div>
         </div>
       </a>
-    </li>
+    </div>
     )
   });
 
+  const settings = {
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false,
+    centerMode: true,
+    centerPadding: '0px',
+    dots: true,
+    infinite: true,
+    initialSlide: selected,
+    slidesToScroll: 1,
+    slidesToShow: 3,
+    focusOnSelect: true,
+    speed: 500,
+    afterChange: current => setSelected(current)
+  };
+
   return (
-    <ul className="Testimonials">{Items}</ul>
+    <Slider {...settings} className="Testimonials">{Items}</Slider>
   );
 }
 
