@@ -10,18 +10,6 @@ $lg: 256px;
   opacity: .8;
 }
 
-.cloud-yellow {
-  background-color: $mustard;
-}
-
-.cloud-purple {
-  background-color: $purple;
-}
-
-.cloud-white {
-  background-color: $white-cloud;
-}
-
 .cloud-a {
   width: 470px;
   height: $sm;
@@ -47,7 +35,7 @@ $lg: 256px;
   height: $md;
   border-radius: $md;
   background-color: $purple-light;
-  top: 10%;
+  top: 13%;
   left: 0;
   transform: translate(-60%, 0%);
 }
@@ -57,7 +45,7 @@ $lg: 256px;
   height: $sm;
   border-radius: $sm;
   background-color: $white-cloud;
-  top: 10%;
+  top: 13%;
   left: 0;
   transform: translate(-75%, 80%);
 }
@@ -81,3 +69,55 @@ $lg: 256px;
   right: 0;
   transform: translate(70%, 0);
 }
+
+.cloud-g {
+  width: 470px;
+  height: $sm;
+  border-radius: $sm;
+  background-color: $purple-light;
+  top: 55%;
+  left: 0;
+  transform: translate(-70%, 0);
+}
+
+.cloud-h {
+  width: 470px;
+  height: $sm;
+  border-radius: $sm;
+  background-color: $white-cloud;
+  top: 63%;
+  right: 0;
+  transform: translate(70%, 0);
+}
+
+.cloud-i {
+  width: 470px;
+  height: $sm;
+  border-radius: $sm;
+  background-color: $white-cloud;
+  top: 77%;
+  left: 0;
+  transform: translate(-65%, 0);
+}
+
+.cloud-j {
+  width: 470px;
+  height: $md;
+  border-radius: $md;
+  background-color: $mustard;
+  top: 87%;
+  right: 0;
+  transform: translate(65%, 0);
+}
+
+.cloud-k {
+  width: 470px;
+  height: $sm;
+  border-radius: $sm;
+  background-color: $purple-light;
+  top: 86%;
+  right: 0;
+  transform: translate(70%, 0);
+}
+
+
