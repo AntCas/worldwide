@@ -4,6 +4,8 @@ import React from "react"
 
 import SocialLinks from './SocialLinks';
 
+import Logo from "../assets/iw-logo.svg";
+
 import './Footer.scss';
 
 const Footer = ({ siteTitle }) => (
@@ -11,11 +13,11 @@ const Footer = ({ siteTitle }) => (
     <div className="FooterContent">
       <h1 className="FooterLogo">
         <Link to="/">
-          {siteTitle}
+           <Logo alt="Indie Worldwide Logo" />
         </Link>
       </h1>
       <p className="Copyright">
-        © {new Date().getFullYear()} Worldwide, 
+        © {new Date().getFullYear()} Indie Worldwide &
         <a href="https://formico.io"> Formico, LLC</a>
       </p>
       <SocialLinks />
