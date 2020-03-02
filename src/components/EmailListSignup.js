@@ -40,6 +40,7 @@ const EmailListSignup = () => {
           className="EmailInput"
           type="text"
           name="email"
+          value={email}
           onChange={handleInputChange}
           placeholder="Email here"
         />
