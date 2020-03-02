@@ -15,6 +15,7 @@
     border-top: 4px solid rgba(0,0,0,0);
 
     .Text {
+      height: 280px;
       padding: 60px 0;
       display: none;
       color: $font-color-main;
@@ -37,7 +38,14 @@
       color: $font-color-main;
       font-family: $font-main;
     }
+
+    .Image {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+    }
   }
+
 
   .Info {
     .Name {
