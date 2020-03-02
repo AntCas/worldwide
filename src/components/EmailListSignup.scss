@@ -1,0 +1,39 @@
+@import "../main.scss";
+
+.EmailListSignup {
+  margin: auto;
+  width: fit-content;
+  margin-top: 120px;
+  font-family: $font-main;
+  h2 {
+    font-size: $size-h2;
+    font-weight: 600;
+    color: $font-color-main;
+    text-align: center;
+  }
+  form {
+    margin-top: 40px;
+    box-shadow: $box-shadow;
+  }
+  .EmailInput, .Submit {
+    background: $purple-light;
+    border: none;
+    height: 80px;
+    padding: 0;
+  }
+  .EmailInput {
+    padding-left: 16px;
+    width: 400px;
+    border-radius: $radius-main 0 0 $radius-main;
+    caret-color: $white;
+    color: $white;
+    &::placeholder {
+      color: $white;
+      font-weight: 600;
+    }
+  }
+  .Submit {
+    border-radius: 0 $radius-main $radius-main 0;
+    padding: 8px;
+  }
+}
