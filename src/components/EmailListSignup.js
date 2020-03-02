@@ -7,17 +7,26 @@ import './EmailListSignup.scss';
 
 const EmailListSignup = () => {
   const [email, setEmail] = useState();
+  const [result, setResult] = useState();
+  const [message, setMessage] = useState();
+
+  const resetState = () => {
+    setResult('');
+    setMessage('');
+  }
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(email);
-    const { result } = await addToMailchimp(email)
-    console.log(result);
-    // I recommend setting `result` to React state
-    // but you can do whatever you want
+    const { result, msg } = await addToMailchimp(email)
+    setResult(result);
+    if (msg.includes('subscribed')) setMessage('This email is already subscribed.');
+    else setMessage(msg.replace(/\d|( - )/g, ''));
+
+    if (result === 'success') setEmail('');
   }
 
   const handleInputChange = event => {
+    resetState();
     const target = event.target
     const { value, name } = target;
     setEmail(value);
@@ -26,7 +35,7 @@ const EmailListSignup = () => {
   return (
     <section className="EmailListSignup">
       <h2>Keep in the Know</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className={`${result === 'error' ? 'Error' : ''}`}>
         <input
           className="EmailInput"
           type="text"
@@ -38,6 +47,7 @@ const EmailListSignup = () => {
           <ArrowRight className="Arrow" />
         </button>
       </form>
+      <p className="Message">{message}</p>
     </section>
   );
 }

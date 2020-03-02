@@ -12,8 +12,12 @@
     text-align: center;
   }
   form {
+    position: relative;
     margin-top: 40px;
     box-shadow: $box-shadow;
+    &.Error {
+      @include shake;
+    }
   }
   .EmailInput, .Submit {
     background: $purple-light;
@@ -35,5 +39,12 @@
   .Submit {
     border-radius: 0 $radius-main $radius-main 0;
     padding: 8px;
+  }
+  .Message {
+    color: $font-color-main;
+    position: absolute;
+    margin-top: 24px;
+    max-width: 400px;
+    line-height: 1.2;
   }
 }

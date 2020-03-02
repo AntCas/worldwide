@@ -30,7 +30,6 @@ const Testimonials = () => {
   const [selected, setSelected] = useState(1);
 
   const Items = testimonials.map((data, i) => {
-    console.log(data, i, selected);
     return (
     <li
       key={i}
