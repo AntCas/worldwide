@@ -9,7 +9,6 @@
   width: 100%;
   
   .HeaderContent {
-    padding: 12px $site-padding;
     height: 100%;
     width: 100%;
     z-index: 1;
@@ -18,26 +17,34 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    padding: 4px $site-padding;
 
     @include sm {
+      padding: 12px $site-padding;
       flex-direction: row;
     }
 
     .HeaderLogo {
       display: inline-flex;
       width: fit-content;
+      margin-top: 26px;
+      order: 2;
+      @include sm {
+        order: 1;
+        margin-top: 0;
+      }
     }
     .HeaderLogo a {
-      font-family: $brand-font;
+      font-family: $font-main;
       font-size: $size-h3;
       text-decoration: none;
       color: $font-color-main;
     }
 
     .SocialLinks {
-      padding-top: 6px;
+      order: 1;
       @include sm {
-        padding: 0;
+        order: 2;
       }
     }
   }

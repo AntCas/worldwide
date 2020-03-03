@@ -1,0 +1,97 @@
+@import "../main.scss";
+
+.slick-slide {
+}
+.Testimonials {
+  margin: 100px auto 0px auto;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: center;
+
+  @include md {
+    margin: 140px auto 0px auto;
+  }
+
+  .Testimonial {
+    margin: 0 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+
+    @include xl {
+      padding-top: 40px;
+    }
+
+    .Text {
+      opacity: 0.1;
+      padding: 0 24px;
+      margin-bottom: 48px;
+      color: $font-color-main;
+      font-family: $font-main;
+      font-weight: 700;
+      line-height: 1.2;
+      font-size: 18px;
+
+      @include sm {
+        height: 100px;
+      }
+      @include md {
+        height: 200px;
+      }
+      @include xl {
+        font-size: 20px;
+        height: 200px;
+      }
+    }
+
+    .Attribution {
+      background: none;
+      border-radius: $radius-main;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      margin: auto;
+      max-width: 70%;
+      text-decoration: none;
+      color: $font-color-main;
+      font-family: $font-main;
+    }
+
+    .Image {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+    }
+  }
+
+
+  .Info {
+    .Name {
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .Bio {
+      margin-top: 4px;
+      font-size: 14px;
+    }
+  }
+
+  .Testimonial.isActive {
+
+    .Text {
+      opacity: 1;
+      transition: all 300ms ease;
+    }
+
+    .Attribution {
+      transition: all 300ms ease;
+      background: $purple-light;
+      box-shadow: $box-shadow;
+      color: white;
+    }
+  }
+}

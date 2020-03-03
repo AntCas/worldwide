@@ -1,0 +1,54 @@
+@import "../main.scss";
+
+.EmailListSignup {
+  margin: auto;
+  width: 90%;
+  max-width: 440px;
+  margin-top: 120px;
+  font-family: $font-main;
+  h2 {
+    font-size: $size-h2;
+    font-weight: 600;
+    color: $font-color-main;
+    text-align: center;
+  }
+  form {
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    box-shadow: $box-shadow;
+    &.Error {
+      @include shake;
+    }
+  }
+  .EmailInput, .Submit {
+    background: $purple-light;
+    border: none;
+    height: 80px;
+    padding: 0;
+  }
+  .EmailInput {
+    width: 80%;
+    border-radius: $radius-main 0 0 $radius-main;
+    caret-color: $white;
+    color: $white;
+    box-sizing: border-box;
+    padding-left: 16px;
+    &::placeholder {
+      color: $white;
+      font-weight: 600;
+    }
+  }
+  .Submit {
+    text-align: right;
+    width: 20%;
+    border-radius: 0 $radius-main $radius-main 0;
+  }
+  .Message {
+    color: $font-color-main;
+    position: absolute;
+    margin-top: 24px;
+    max-width: 400px;
+    line-height: 1.2;
+  }
+}

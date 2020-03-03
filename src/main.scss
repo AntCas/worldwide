@@ -1,24 +1,33 @@
 @import './screens.scss';
+@import './animations.scss';
 
 // Font Family
-$brand-font: 'Leckerli One';
-$text-font: 'Arial';
+$font-main: 'Montserrat';
 
 // Sizes
-$size-h1: 6em;
-$size-h2: 2em;
-$size-h3: 2em;
+$size-h1: 80px;
+$size-h2: 30px;
+$size-h3: 24px;
 $size-cta: 2em;
-$size-p: 1em;
-$radius-main: 6px;
+$size-p: 22px;
+$radius-main: 4px;
 $site-max-width: 1200px;
 $site-padding: 12px;
 
 // Colors
-$font-color-main: white;
-$bg-color-main: #040e1c;
-$cta-color-bg: #FCA311;
-$cta-color-font: white;
-$cta-color-border: $cta-color-font;
-$hover-filter: brightness(85%);
+$purple-light: #634AC7;
+$purple: #372094;
+$purple-dark: #291F4F;
+$mustard: #F5BF22;
+$white: white;
+$white-cloud: #EDEBF5;
+$khaki: #E4E0D6;
 
+$box-shadow: 0px 22px 14px -10px rgba(99,74,199,0.44);
+
+$cta-color-bg: $purple-light;
+$cta-color-font: $white;
+
+$font-color-main: $purple-dark;
+
+$hover-filter: brightness(85%);

@@ -1,0 +1,127 @@
+@import "../main.scss";
+
+
+.NextEventCTA {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  font-family: $font-main;
+  color: $white;
+}
+
+.EventButton, .DateIcon {
+  border-radius: $radius-main;
+}
+
+.NextEvent {
+  border-radius: $radius-main $radius-main 0 0;
+}
+
+.NextEvent {
+  position: absolute;
+  z-index: 1;
+  left: 8px;
+  top: -20px;
+
+  width: 112px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $mustard;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 12px;
+
+  @include sm {
+    top: -28px;
+    width: 184px;
+    height: 28px;
+  }
+}
+
+.EventButton {
+  position: relative;
+  z-index: 2;
+  background-color: $cta-color-bg;
+  color: $cta-color-font;
+  font-family: $font-main;
+  font-size: 1.1em;
+  padding: 8px;
+  max-width: 624px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  box-shadow: $box-shadow;
+
+  &:hover {
+    filter: $hover-filter;
+  }
+}
+
+.DateIcon, .Info {
+  display: flex;
+  flex-direction: column;
+}
+
+.DateIcon {
+  min-width: 60px;
+  min-height: 60px;
+  background-color: $purple;
+  font-weight: bold;
+  font-family: $font-main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include sm {
+    height: 80px;
+    width: 80px;
+  }
+
+  .Month {
+    font-size: 12px;
+    @include sm {
+      font-size: 17px;
+    }
+  }
+
+  .Date {
+    font-size: 30px;
+  }
+}
+
+.Info {
+  margin-left: 16px;
+  justify-content: center;
+
+  .EventTitle {
+    padding-right: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.1;
+
+    @include sm {
+      font-size: 21px;
+      font-weight: 800;
+    }
+  }
+
+  .ExactDate {
+    margin-top: 16px;
+    font-size: 14px;
+    display: none;
+
+    @include sm {
+      display: unset;
+    }
+  }
+}
+
+.Arrow {
+  margin-left: auto;
+  margin-right: 16px;
+}

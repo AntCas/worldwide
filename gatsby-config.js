@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Worldwide`,
+    title: `Indie Worldwide`,
     description: `The worldwide virtual meetup of indie hackers, founders, and makers.`,
     author: `Anthony Castrio`,
     siteUrl: `https://indieworldwide.co/`
@@ -15,10 +15,16 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://formico.us20.list-manage.com/subscribe/post?u=b379ca57df7392d22bea6cd65&amp;id=b9a4e05f69',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Leckerli One']
+          families: ['Montserrat:400,400i,700,800']
         }
       }
     },
