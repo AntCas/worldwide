@@ -1,7 +1,7 @@
 @import "../main.scss";
 
 .Footer {
-  margin-top: 120px;
+  margin-top: 240px;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -19,13 +19,13 @@
     align-items: center;
     flex-direction: column;
 
-    @include sm {
+    @include md {
       flex-direction: row;
     }
 
     .Copyright, .SocialLinks {
       padding-top: 12px;
-      @include sm {
+      @include md {
         padding: 0;
       }
     }
@@ -40,7 +40,13 @@
     }
     .Copyright {
       font-family: $font-main;
-      font-size: $size-p;
+      font-size: 16px;
+      text-align: center;
+      margin: 24px 0;
+
+      @include md {
+        margin: 0;
+      }
     }
     .FooterLogo a {
       font-family: $font-main;
