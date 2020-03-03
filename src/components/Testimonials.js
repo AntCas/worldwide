@@ -79,7 +79,24 @@ const Testimonials = () => {
     slidesToShow: 3,
     focusOnSelect: true,
     speed: 500,
-    afterChange: current => setSelected(current)
+    afterChange: current => setSelected(current),
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (

@@ -3,29 +3,47 @@
 .slick-slide {
 }
 .Testimonials {
-  margin: 140px auto 0px auto;
+  margin: 100px auto 0px auto;
   display: flex;
   flex-direction: row;
   width: 80%;
   justify-content: center;
 
+  @include md {
+    margin: 140px auto 0px auto;
+  }
+
   .Testimonial {
     margin: 0 24px;
-    padding-top: 60px;
     padding-bottom: 24px;
     display: flex;
     flex-direction: column;
-    border-top: 4px solid rgba(0,0,0,0);
+    padding-top: 30px;
+
+    @include xl {
+      padding-top: 40px;
+    }
 
     .Text {
-      height: 280px;
       opacity: 0.1;
       padding: 0 24px;
+      margin-bottom: 48px;
       color: $font-color-main;
       font-family: $font-main;
       font-weight: 700;
-      font-size: $size-p;
       line-height: 1.2;
+      font-size: 18px;
+
+      @include sm {
+        height: 100px;
+      }
+      @include md {
+        height: 200px;
+      }
+      @include xl {
+        font-size: 20px;
+        height: 200px;
+      }
     }
 
     .Attribution {
@@ -36,6 +54,8 @@
       align-items: center;
       justify-content: center;
       padding: 18px;
+      margin: auto;
+      max-width: 70%;
       text-decoration: none;
       color: $font-color-main;
       font-family: $font-main;
@@ -61,7 +81,6 @@
   }
 
   .Testimonial.isActive {
-    border-top: 4px solid $mustard;
 
     .Text {
       opacity: 1;
