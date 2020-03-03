@@ -11,6 +11,7 @@
 .HeroInner {
   margin-top: 140px;
   width: 740px;
+  max-width: 95%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,25 +22,30 @@
   .HeroHeader {
     font-family: $font-main;
     color: $font-color-main;
-    font-size: $size-h1;
     text-align: center;
     font-weight: 800;
     display: none;
     line-height: 1.1;
     @include sm {
       display: block;
+      font-size: $size-h2;
+    }
+    @include md {
+      font-size: $size-h1;
     }
   }
 
   .Subheader {
     font-family: $font-main;
     color: $font-color-main;
-    font-size: $size-p;
+    font-size: $size-h3;
+    font-weight: 600;
     text-align: center;
-    margin-top: 36px;
-    display: none;
+    margin-top: 52px;
     @include sm {
-      display: block;
+      margin-top: 36px;
+      font-weight: 400;
+      font-size: $size-p;
     }
   }
 }

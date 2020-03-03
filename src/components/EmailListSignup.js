@@ -28,7 +28,7 @@ const EmailListSignup = () => {
   const handleInputChange = event => {
     resetState();
     const target = event.target
-    const { value, name } = target;
+    const { value } = target;
     setEmail(value);
   }
 
