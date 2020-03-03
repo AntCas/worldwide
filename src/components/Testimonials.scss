@@ -4,17 +4,13 @@
 }
 .Testimonials {
   margin: 100px auto 0px auto;
-  display: flex;
-  flex-direction: row;
   width: 80%;
-  justify-content: center;
 
   @include md {
     margin: 140px auto 0px auto;
   }
 
   .Testimonial {
-    margin: 0 24px;
     padding-bottom: 24px;
     display: flex;
     flex-direction: column;
