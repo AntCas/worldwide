@@ -16,7 +16,9 @@ const Button = ({text, exactDate, month, date, link, className}) => (
         <div className="EventTitle">{text}</div>
         <div className="ExactDate">{exactDate}</div>
       </div>
-      <ArrowRight className="Arrow" />
+      <div className="ArrowWrapper">
+        <ArrowRight className="Arrow" />
+      </div>
     </div>
   </a>
 )

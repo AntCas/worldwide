@@ -5,7 +5,6 @@
   display: block;
   position: relative;
   text-decoration: none;
-  margin-top: 56px;
   font-family: $font-main;
   color: $white;
 }
@@ -22,10 +21,10 @@
   position: absolute;
   z-index: 1;
   left: 8px;
-  top: -28px;
+  top: -20px;
 
-  width: 184px;
-  height: 28px;
+  width: 112px;
+  height: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,6 +33,12 @@
   letter-spacing: 2px;
   font-weight: bold;
   font-size: 12px;
+
+  @include sm {
+    top: -28px;
+    width: 184px;
+    height: 28px;
+  }
 }
 
 .EventButton {
@@ -44,7 +49,7 @@
   font-family: $font-main;
   font-size: 1.1em;
   padding: 8px;
-  width: 624px;
+  max-width: 624px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -62,8 +67,8 @@
 }
 
 .DateIcon {
-  height: 80px;
-  width: 80px;
+  min-width: 60px;
+  min-height: 60px;
   background-color: $purple;
   font-weight: bold;
   font-family: $font-main;
@@ -72,8 +77,16 @@
   justify-content: center;
   align-items: center;
 
+  @include sm {
+    height: 80px;
+    width: 80px;
+  }
+
   .Month {
-    font-size: 17px;
+    font-size: 12px;
+    @include sm {
+      font-size: 17px;
+    }
   }
 
   .Date {
@@ -86,13 +99,25 @@
   justify-content: center;
 
   .EventTitle {
-    font-size: 21px;
-    font-weight: 800;
+    padding-right: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.1;
+
+    @include sm {
+      font-size: 21px;
+      font-weight: 800;
+    }
   }
 
   .ExactDate {
     margin-top: 16px;
     font-size: 14px;
+    display: none;
+
+    @include sm {
+      display: unset;
+    }
   }
 }
 

@@ -26,11 +26,14 @@
     font-weight: 800;
     display: none;
     line-height: 1.1;
+    margin-top: 0;
     @include sm {
+      margin-top: 36px;
       display: block;
       font-size: $size-h2;
     }
     @include md {
+      margin-top: 0;
       font-size: $size-h1;
     }
   }
@@ -51,5 +54,8 @@
 }
 
 .CTA {
-  margin-top: 140px;
+  margin-top: 80px;
+  @include sm {
+    margin-top: 140px;
+  }
 }
