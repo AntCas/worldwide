@@ -3,10 +3,10 @@ import React from "react"
 import './Videos.scss';
 
 const featuredVideos = [
-  {
-    title: "Indie Hackers Worldwide ft. Dan Bogacheck",
-    videoId: "flaEA2CPQWU",
-  },
+//  {
+//    title: "Indie Hackers Worldwide ft. Dan Bogacheck",
+//    videoId: "flaEA2CPQWU",
+//  },
   {
     title: "Indie Hackers Worldwide ft. Courtland Allen",
     videoId: "om9O4ylCBKM",
@@ -15,10 +15,10 @@ const featuredVideos = [
     title: "Live Q&A With Rosie Sherry",
     videoId: "O4SvfApW54A",
   },
-  {
-    title: "Q&A with Juliet Oberding - Founder of Dappity and Predictably Well",
-    videoId: "9I-eHdiZZfY",
-  },
+//  {
+//    title: "Q&A with Juliet Oberding - Founder of Dappity and Predictably Well",
+//    videoId: "9I-eHdiZZfY",
+//  },
   {
     title: "Q&A With Bubble Founder, co-CEO Emmanuel Straschnov",
     videoId: "jUf-yy2FI4M",
