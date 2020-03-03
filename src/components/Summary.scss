@@ -11,11 +11,20 @@
   font-family: $font-main;
 }
 .Summary .Title {
-  font-size: $size-h2;
+  font-size: $size-h3;
   font-weight: bold;
+
+  @include sm {
+    font-size: $size-h2;
+  }
 }
 .Summary .Description {
   margin-top: 16px;
-  font-size: $size-p;
   line-height: 1.2;
+  font-size: 16px;
+  padding: 0 16px;
+  @include sm {
+    font-size: $size-p;
+    padding: 0;
+  }
 }
