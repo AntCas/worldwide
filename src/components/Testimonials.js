@@ -9,6 +9,7 @@ import Dan from "../images/testimonials/Dan.png";
 import Dru from "../images/testimonials/Dru.jpg";
 import Marc from "../images/testimonials/Marc.jpg";
 import Volkan from "../images/testimonials/Volkan.jpg";
+import Heliodor from "../images/testimonials/Heliodor.jpg";
 
 import './Testimonials.scss';
 
@@ -40,6 +41,13 @@ const testimonials = [
     bio: "Founder, Versoly",
     image: Volkan,
     backlink: "https://versoly.com/"
+  },
+  {
+    testimonial: "Worldwide is an excellent resource for bootstrapping your company! It's an amazing group of talented and experienced people helping each other move their businesses forward. I finish every session feeling energized with insightful and actionable next steps.",
+    name: "Heliodor Jalba",
+    bio: "Founder, HostedMetrics",
+    image: Heliodor,
+    backlink: "https://hostedmetrics.com"
   },
 ]
 
