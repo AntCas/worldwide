@@ -45,7 +45,7 @@ const testimonials = [
   {
     testimonial: "Worldwide is an excellent resource for bootstrapping your company! It's an amazing group of talented and experienced people helping each other move their businesses forward. I finish every session feeling energized with insightful and actionable next steps.",
     name: "Heliodor Jalba",
-    bio: "Founder, HostedMetrics",
+    bio: "Founder, HostedMetrics.com",
     image: Heliodor,
     backlink: "https://hostedmetrics.com"
   },
