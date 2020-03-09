@@ -1,5 +1,7 @@
 import React from "react"
 
+import scrollTo from 'gatsby-plugin-smoothscroll';
+
 import NextEventCTA from "./NextEventCTA";
 
 import './Hero.scss';
@@ -26,6 +28,7 @@ const Hero = ({ siteTitle }) => {
           link={nextEvent.url}
           className="CTA"
         />
+        <a className="BackupCTA" onClick={() => scrollTo('#Subscribe')}>{`Can't make it?`}</a>
       </div>
     </section>
   )

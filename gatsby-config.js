@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://indieworldwide.co/`
   },
   plugins: [
+    `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
