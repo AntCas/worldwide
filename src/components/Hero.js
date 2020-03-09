@@ -28,7 +28,7 @@ const Hero = ({ siteTitle }) => {
           link={nextEvent.url}
           className="CTA"
         />
-        <a className="BackupCTA" onClick={() => scrollTo('#Subscribe')}>{`Can't make it?`}</a>
+        <p className="BackupCTA" onClick={() => scrollTo('#Subscribe')}>{`Can't make it?`}</p>
       </div>
     </section>
   )
