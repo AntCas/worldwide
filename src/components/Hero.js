@@ -7,11 +7,11 @@ import NextEventCTA from "./NextEventCTA";
 import './Hero.scss';
 
 const nextEvent = {
-  text: "Indie Worldwide - June 2020 Meetup",
-  exactDate: "June 1, 3:00PM to 4:30PM ET",
+  text: "Indie Worldwide - Weekend Meetup III",
+  exactDate: "June 20, 10:00AM to 11:30AM ET",
   month: "June",
-  date: "1",
-  url: "https://hopin.to/events/indie-worldwide-june-2020-meetup"
+  date: "20",
+  url: "https://hopin.to/events/indie-worldwide-weekend-meetup-iii"
 }
 
 const Hero = ({ siteTitle }) => {
