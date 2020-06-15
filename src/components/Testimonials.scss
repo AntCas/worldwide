@@ -21,14 +21,16 @@
     }
 
     .Text {
+      margin: auto;
+      text-align: left;
       opacity: 0.1;
       padding: 0 24px;
-      margin-bottom: 48px;
+      margin-bottom: 100px;
       color: $font-color-main;
       font-family: $font-main;
       font-weight: 700;
-      line-height: 1.2;
-      font-size: 18px;
+      line-height: 1.6;
+      font-size: 28px;
 
       @include sm {
         height: 100px;
@@ -37,8 +39,6 @@
         height: 200px;
       }
       @include xl {
-        font-size: 20px;
-        height: 200px;
       }
     }
 
