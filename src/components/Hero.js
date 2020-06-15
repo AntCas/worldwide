@@ -1,9 +1,5 @@
 import React from "react"
 
-import scrollTo from 'gatsby-plugin-smoothscroll';
-
-import NextEventCTA from "./NextEventCTA";
-
 import './Hero.scss';
 
 const Hero = ({ siteTitle }) => {

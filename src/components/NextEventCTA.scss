@@ -2,7 +2,9 @@
 
 
 .NextEventCTAWrapper {
+  margin-top: 140px;
   padding: 0 12px;
+  text-align: center;
 }
 
 .NextEventCTA {
@@ -130,4 +132,13 @@
 .Arrow {
   margin-left: auto;
   margin-right: 16px;
+}
+
+.BackupCTA {
+  margin-top: 40px;
+  font-family: $font-main;
+  color: $font-color-main;
+  font-size: 16px;
+  text-decoration: underline;
+  cursor: pointer;
 }

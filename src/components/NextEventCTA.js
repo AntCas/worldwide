@@ -1,11 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+import scrollTo from 'gatsby-plugin-smoothscroll';
+
 import './NextEventCTA.scss';
 import ArrowRight from "../assets/arrow-right.svg";
 
 const Button = ({text, exactDate, month, date, link, className}) => (
-  <div className="NextEventCTAWrapper">
+  <section className="NextEventCTAWrapper">
     <a className={`NextEventCTA ${className}`} href={link}>
       <div className="NextEvent">NEXT EVENT</div>
       <div className="EventButton">
@@ -22,7 +24,8 @@ const Button = ({text, exactDate, month, date, link, className}) => (
         </div>
       </div>
     </a>
-  </div>
+    <p className="BackupCTA" onClick={() => scrollTo('#Subscribe')}>{`Can't make it?`}</p>
+  </section>
 )
 
 Button.propTypes = {
