@@ -1,7 +1,13 @@
 @import "../main.scss";
 
 
+.NextEventCTAWrapper {
+  padding: 0 12px;
+}
+
 .NextEventCTA {
+  margin: auto;
+  width: fit-content;
   display: block;
   position: relative;
   text-decoration: none;

@@ -5,22 +5,24 @@ import './NextEventCTA.scss';
 import ArrowRight from "../assets/arrow-right.svg";
 
 const Button = ({text, exactDate, month, date, link, className}) => (
-  <a className={`NextEventCTA ${className}`} href={link}>
-    <div className="NextEvent">NEXT EVENT</div>
-    <div className="EventButton">
-      <div className="DateIcon">
-        <div className="Month">{month}</div>
-        <div className="Date">{date}</div>
+  <div className="NextEventCTAWrapper">
+    <a className={`NextEventCTA ${className}`} href={link}>
+      <div className="NextEvent">NEXT EVENT</div>
+      <div className="EventButton">
+        <div className="DateIcon">
+          <div className="Month">{month}</div>
+          <div className="Date">{date}</div>
+        </div>
+        <div className="Info">
+          <div className="EventTitle">{text}</div>
+          <div className="ExactDate">{exactDate}</div>
+        </div>
+        <div className="ArrowWrapper">
+          <ArrowRight className="Arrow" />
+        </div>
       </div>
-      <div className="Info">
-        <div className="EventTitle">{text}</div>
-        <div className="ExactDate">{exactDate}</div>
-      </div>
-      <div className="ArrowWrapper">
-        <ArrowRight className="Arrow" />
-      </div>
-    </div>
-  </a>
+    </a>
+  </div>
 )
 
 Button.propTypes = {
