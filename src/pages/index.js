@@ -10,11 +10,11 @@ import Testimonials from "../components/Testimonials"
 import EmailListSignup from "../components/EmailListSignup"
 
 const nextEvent = {
-  text: "Indie Worldwide - Weekend Meetup III",
-  exactDate: "June 20, 10:00AM to 11:30AM ET",
-  month: "June",
-  date: "20",
-  url: "https://hopin.to/events/indie-worldwide-weekend-meetup-iii"
+  text: "How to Sell Your Side Project",
+  exactDate: "Jul 1, 1:00pm - 2:00pm EST",
+  month: "July",
+  date: "1",
+  url: "https://hopin.to/events/indie-worldwide-q-a-w-helen-ryles"
 }
 
 const IndexPage = () => (
