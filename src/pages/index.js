@@ -11,7 +11,7 @@ import EmailListSignup from "../components/EmailListSignup"
 
 const nextEvent = {
   text: "Indie Worldwide - July 2020 Meetup",
-  exactDate: "Jul 16, 3:00pm - 4:30pm EST",
+  exactDate: "Jul 15, 3:00pm - 4:30pm EST",
   month: "July",
   date: "15",
   url: "https://hopin.to/events/indie-worldwide-july-2020-meetup"
