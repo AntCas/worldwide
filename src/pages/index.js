@@ -10,11 +10,11 @@ import Testimonials from "../components/Testimonials"
 import EmailListSignup from "../components/EmailListSignup"
 
 const nextEvent = {
-  text: "Indie Worldwide - July 2020 Meetup",
-  exactDate: "Jul 15, 3:00pm - 4:30pm EST",
-  month: "July",
-  date: "15",
-  url: "https://hopin.to/events/indie-worldwide-july-2020-meetup"
+  text: "No-Code Business Acquired After 3 Weeks, Q&A w/ Louis Vieira",
+  exactDate: "August 14, 11:00AM - 12:30PM EST",
+  month: "Aug",
+  date: "14",
+  url: "https://hopin.to/events/no-code-business-acquired-after-3-weeks-q-a-w-louis-vieira"
 }
 
 const IndexPage = () => (
