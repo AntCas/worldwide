@@ -10,11 +10,11 @@ import Testimonials from "../components/Testimonials"
 import EmailListSignup from "../components/EmailListSignup"
 
 const nextEvent = {
-  text: "Watch the recording: No-Code Business Acquired After 3 Weeks",
-  exactDate: "August 14, 11:00AM - 12:30PM EST",
-  month: "Aug",
-  date: "14",
-  url: "https://youtu.be/QHq3exuFvoU"
+  text: "Build and launch your no-code startup, Q&A w/ NoCodery founder",
+  exactDate: "Sep 18, 3:00PM - 4:30PM EST",
+  month: "Sep",
+  date: "18",
+  url: "https://hopin.to/events/build-and-launch-your-no-code-startup-q-a-with-goncalo-ceo-of-nocodery"
 }
 
 const IndexPage = () => (
