@@ -10,7 +10,7 @@ import Testimonials from "../components/Testimonials"
 import EmailListSignup from "../components/EmailListSignup"
 
 const nextEvent = {
-  text: "Indie Takeover, Q&A w/ Indie Worldwide Founder",
+  text: "Indie Takeover, Q&A w/ Indie Worldwide Founder Anthony Castrio",
   exactDate: "Oct 3, 11:00AM - 12:30PM EST",
   month: "Oct",
   date: "3",
