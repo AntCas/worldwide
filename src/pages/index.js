@@ -10,11 +10,11 @@ import Testimonials from "../components/Testimonials"
 import EmailListSignup from "../components/EmailListSignup"
 
 const nextEvent = {
-  text: "Build and launch your no-code startup, Q&A w/ NoCodery founder",
-  exactDate: "Sep 18, 3:00PM - 4:30PM EST",
-  month: "Sep",
-  date: "18",
-  url: "https://hopin.to/events/build-and-launch-your-no-code-startup-q-a-with-goncalo-ceo-of-nocodery"
+  text: "Weekend Meetup IV",
+  exactDate: "Oct 3, 11:00AM - 12:30PM EST",
+  month: "Oct",
+  date: "3",
+  url: "https://hopin.to/events/indie-worldwide-weekend-meetup-iv"
 }
 
 const IndexPage = () => (
