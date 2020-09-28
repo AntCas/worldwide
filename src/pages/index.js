@@ -14,7 +14,7 @@ const nextEvent = {
   exactDate: "Oct 3, 11:00AM - 12:30PM EST",
   month: "Oct",
   date: "3",
-  url: "https://hopin.to/events/indie-worldwide-weekend-meetup-iv"
+  url: "https://hopin.to/events/indie-takeover-q-a-with-indie-worldwide-founder-anthony-castrio"
 }
 
 const IndexPage = () => (
