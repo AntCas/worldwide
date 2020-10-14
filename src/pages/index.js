@@ -10,11 +10,11 @@ import Testimonials from "../components/Testimonials"
 import EmailListSignup from "../components/EmailListSignup"
 
 const nextEvent = {
-  text: "Indie Takeover, Q&A w/ Indie Worldwide Founder Anthony Castrio",
-  exactDate: "Oct 3, 11:00AM - 12:30PM EST",
+  text: "Indie Worldwide - October 2020 Meetup",
+  exactDate: "Oct 28, 1:00PM - 1:30PM EST",
   month: "Oct",
-  date: "3",
-  url: "https://hopin.to/events/indie-takeover-q-a-with-indie-worldwide-founder-anthony-castrio"
+  date: "28",
+  url: "https://hopin.to/events/indie-worldwide-october-2020-meetup"
 }
 
 const IndexPage = () => (
