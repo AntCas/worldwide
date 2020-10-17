@@ -24,9 +24,9 @@ const testimonials = [
   {
     testimonial: "I was ready for the next event before the first one was over.",
     name: "Dru Riley",
-    bio: "Founder, StrongStack",
+    bio: "Founder, Trends.vc",
     image: Dru,
-    backlink: "https://strongstack.io/"
+    backlink: "https://join.trends.vc/"
   },
   {
     testimonial: "Coffee, exercise, and IH Worldwide are my tools for being a more productive indie hacker.",
