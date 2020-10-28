@@ -7,7 +7,7 @@ const Hero = ({ siteTitle }) => {
     <section className="Hero">
       <div className="HeroInner">
         <h2 className="HeroHeader">Welcome to Indie Worldwide</h2>
-        <h3 className="Subheader">A online meetup group for hackers, makers, and founders</h3>
+        <h3 className="Subheader">An online meetup group for hackers, makers, and founders</h3>
       </div>
     </section>
   )
