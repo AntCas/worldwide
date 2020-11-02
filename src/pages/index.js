@@ -10,7 +10,7 @@ import Testimonials from "../components/Testimonials"
 import EmailListSignup from "../components/EmailListSignup"
 
 const nextEvent = {
-  text: "Indie Worldwide - November 2020 Meetup",
+  text: "Indie Worldwide - November Meetup",
   exactDate: "Nov 18, 1:00PM - 1:30PM EST",
   month: "Nov",
   date: "18",
