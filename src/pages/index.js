@@ -10,11 +10,11 @@ import Testimonials from "../components/Testimonials"
 import EmailListSignup from "../components/EmailListSignup"
 
 const nextEvent = {
-  text: "Indie Worldwide - November Meetup",
-  exactDate: "Nov 18, 1:00PM - 1:30PM EST",
+  text: "Live Streamed Q&A w/ Richard Kong - Gravity Tales, Scale AI, Shinewith",
+  exactDate: "Nov 11, 3:00PM - 5:00PM CST",
   month: "Nov",
-  date: "18",
-  url: "https://hopin.to/events/indie-worldwide-november-2020-meetup"
+  date: "11",
+  url: "https://www.mixily.com/event/5836321883268036107"
 }
 
 const IndexPage = () => (
