@@ -30,10 +30,10 @@ const testimonials = [
   },
   {
     testimonial: "Coffee, exercise, and IH Worldwide are my tools for being a more productive indie hacker.",
-    name: "Marc Lavigne-Gagnon",
-    bio: "Founder, PaleoTrack",
+    name: "Marc LG",
+    bio: "Founder, PowerImporter.com",
     image: Marc,
-    backlink: "https://marc.lavigne-gagnon.com/"
+    backlink: "https://www.powerimporter.com/"
   },
   {
     testimonial: "Indie Worldwide gives me the opportunity to talk to peers that I normally wouldn't get.",
