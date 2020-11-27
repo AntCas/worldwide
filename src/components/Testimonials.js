@@ -52,7 +52,7 @@ const testimonials = [
 ]
 
 const Testimonials = () => {
-  const [selected, setSelected] = useState(Math.floor(Math.random() * Math.floor(testimonials.length)));
+  const [selected, setSelected] = useState(1); //useState(Math.floor(Math.random() * Math.floor(testimonials.length)));
 
   const Items = testimonials.map((data, i) => {
     return (
@@ -75,9 +75,9 @@ const Testimonials = () => {
   });
 
   const settings = {
+    arrows: false,
     autoplay: true,
     autoplaySpeed: 4000,
-    arrows: false,
     centerMode: true,
     centerPadding: '0px',
     dots: false,
