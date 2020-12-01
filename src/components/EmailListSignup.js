@@ -34,7 +34,7 @@ const EmailListSignup = () => {
 
   return (
     <section className="EmailListSignup" id="Subscribe">
-      <h2>Subscribe</h2>
+      <h2 className="EmailSignupHeader">Join our community of 1,000+ indie makers.</h2>
       <form onSubmit={handleSubmit} className={`${result === 'error' ? 'Error' : ''}`}>
         <input
           className="EmailInput"

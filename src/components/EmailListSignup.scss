@@ -6,11 +6,12 @@
   max-width: 440px;
   margin-top: 120px;
   font-family: $font-main;
-  h2 {
+  h2.EmailSignupHeader {
     font-size: $size-h2;
     font-weight: 600;
     color: $font-color-main;
     text-align: center;
+    line-height: 1.4;
   }
   form {
     width: 100%;

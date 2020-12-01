@@ -21,6 +21,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
+    <EmailListSignup />
+    <Testimonials />
     <NextEventCTA
       text={nextEvent.text}
       exactDate={nextEvent.exactDate}
@@ -30,9 +32,7 @@ const IndexPage = () => (
       className="CTA"
     />
     <Summary />
-    <Testimonials />
     <Videos />
-    <EmailListSignup />
   </Layout>
 )
 
