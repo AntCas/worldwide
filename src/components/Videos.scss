@@ -35,6 +35,14 @@
       width: 368px;
       max-width: 95%;
       padding: 12px;
+      &:last-child, &:nth-last-child(2) {
+        display: none;
+      }
+      @include md {
+        &:last-child, &:nth-last-child(2) {
+          display: inline-block;
+        }
+      }
     }
   }
 }
