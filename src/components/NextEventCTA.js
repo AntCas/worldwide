@@ -24,7 +24,6 @@ const Button = ({text, exactDate, month, date, link, className}) => (
         </div>
       </div>
     </a>
-    <p className="BackupCTA" onClick={() => scrollTo('#Subscribe')}>{`Can't make it?`}</p>
   </section>
 )
 
