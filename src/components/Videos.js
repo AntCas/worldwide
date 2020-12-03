@@ -3,10 +3,10 @@ import React from "react"
 import './Videos.scss';
 
 const featuredVideos = [
-//  {
-//    title: "Indie Hackers Worldwide ft. Dan Bogacheck",
-//    videoId: "flaEA2CPQWU",
-//  },
+  {
+    title: "$10,000 in two days, 𝙷𝚊𝙺𝚛 from Simple Ops",
+    videoId: "oLeNW7b_2E0",
+  },
   {
     title: "Indie Hackers Worldwide ft. Courtland Allen",
     videoId: "om9O4ylCBKM",
@@ -15,10 +15,10 @@ const featuredVideos = [
     title: "Live Q&A With Rosie Sherry",
     videoId: "O4SvfApW54A",
   },
-//  {
-//    title: "Q&A with Juliet Oberding - Founder of Dappity and Predictably Well",
-//    videoId: "9I-eHdiZZfY",
-//  },
+  {
+    title: "Sold his company to Tencent at 18 years old for $2 million",
+    videoId: "Vqu9QhS6dGg",
+  },
   {
     title: "Q&A With Bubble Founder, co-CEO Emmanuel Straschnov",
     videoId: "jUf-yy2FI4M",
