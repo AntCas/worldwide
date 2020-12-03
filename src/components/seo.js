@@ -30,7 +30,7 @@ function SEO({ description, lang, meta, title, image }) {
 
   const metaDescription = description || site.siteMetadata.description
   // https://juliangaramendy.dev/custom-open-graph-images-in-gatsby-blog/
-  const metaImageUrl  = site.siteMetadata.siteUrl + (image || defaultImage)
+  const metaImageUrl = (image || defaultImage)
 
   return (
     <Helmet
