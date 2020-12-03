@@ -1,13 +1,14 @@
 import React from "react"
 
-import Layout from "../components/layout"
+import EmailListSignup from "../components/EmailListSignup"
 import Hero from "../components/Hero"
+import Layout from "../components/layout"
 import NextEventCTA from "../components/NextEventCTA"
+import PodcastEmbed from "../components/PodcastEmbed"
 import SEO from "../components/seo"
-import Videos from "../components/Videos"
 import Summary from "../components/Summary"
 import Testimonials from "../components/Testimonials"
-import EmailListSignup from "../components/EmailListSignup"
+import Videos from "../components/Videos"
 
 const nextEvent = {
   text: "Indie Worldwide - December Meetup",
@@ -36,6 +37,7 @@ const IndexPage = () => (
     />
     <Summary />
     <Videos />
+    <PodcastEmbed />
   </Layout>
 )
 
