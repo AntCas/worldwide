@@ -19,8 +19,11 @@ const nextEvent = {
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <Hero />
+    <SEO title="A Community of Indie Makers" />
+    <Hero
+      header={"Welcome to Indie Worldwide"}
+      subheader={"An online meetup group for hackers, makers, and founders"}
+    />
     <EmailListSignup />
     <Testimonials />
     <NextEventCTA

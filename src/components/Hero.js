@@ -2,12 +2,12 @@ import React from "react"
 
 import './Hero.scss';
 
-const Hero = ({ siteTitle }) => {
+const Hero = ({ header, subheader }) => {
   return (
     <section className="Hero">
       <div className="HeroInner">
-        <h2 className="HeroHeader">Welcome to Indie Worldwide</h2>
-        <h3 className="Subheader">An online meetup group for hackers, makers, and founders</h3>
+        <h2 className="HeroHeader">{header}</h2>
+        <h3 className="Subheader">{subheader}</h3>
       </div>
     </section>
   )
