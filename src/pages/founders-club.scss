@@ -1,0 +1,64 @@
+@import "../main.scss";
+
+.FoundersClubCTA {
+  margin: auto;
+  margin-top: 60px;
+
+  .Button {
+    background-color: $cta-color-bg;
+    color: $cta-color-font;
+    font-family: $font-main;
+    text-decoration: none;
+    display: flex;
+    font-weight: bold;
+    border-radius: $radius-main;
+    font-size: 1.3em;
+    padding: 24px 24px;
+    width: fit-content;
+    margin: auto;
+
+    &:hover {
+      filter: $hover-filter;
+    }
+  }
+
+  .ButtonArrowWrapper {
+    margin: auto;
+    width: fit-content;
+    position: relative;
+    .ArrowWrapper {
+      position: absolute;
+      right: -260px;
+      bottom: -76px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+
+      .Arrow {
+        width: 80px;
+      }
+
+      .Shake {
+        animation: rotate 1s cubic-bezier(.36,.07,.19,.97) both;
+      }
+
+      .ArrowLabel {
+        transform: translateY(50%);
+        font-size: 18px;
+        color: $purple-dark;
+        font-family: $font-main;
+      }
+    }
+  }
+
+}
+
+
+@keyframes rotate {
+  20%, 60% {
+    transform: rotate(10deg);
+  }
+  40%, 80% {
+    transform: rotate(-10deg);
+  }
+}

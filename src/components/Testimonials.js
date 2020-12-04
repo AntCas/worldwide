@@ -5,53 +5,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import Dan from "../images/testimonials/Dan.png";
-import Dru from "../images/testimonials/Dru.jpg";
-import Marc from "../images/testimonials/Marc.jpg";
-import Volkan from "../images/testimonials/Volkan.jpg";
-import Heliodor from "../images/testimonials/Heliodor.jpg";
-
 import './Testimonials.scss';
 
-const testimonials = [
-  {
-    testimonial: "Get feedback, get asked hard questions, and get that extra push to keep going.",
-    name: "Dan Bogachek",
-    bio: "Founder, Handwrite",
-    image: Dan,
-    backlink: "https://handwrite.io/"
-  },
-  {
-    testimonial: "I was ready for the next event before the first one was over.",
-    name: "Dru Riley",
-    bio: "Founder, Trends.vc",
-    image: Dru,
-    backlink: "https://join.trends.vc/"
-  },
-  {
-    testimonial: "Coffee, exercise, and IH Worldwide are my tools for being a more productive indie hacker.",
-    name: "Marc LG",
-    bio: "Founder, PowerImporter.com",
-    image: Marc,
-    backlink: "https://www.powerimporter.com/"
-  },
-  {
-    testimonial: "Indie Worldwide gives me the opportunity to talk to peers that I normally wouldn't get.",
-    name: "Volkan Kaya",
-    bio: "Founder, Versoly",
-    image: Volkan,
-    backlink: "https://versoly.com/"
-  },
-  {
-    testimonial: "I finish every session feeling energized with insightful and actionable next steps.",
-    name: "Heliodor Jalba",
-    bio: "Founder, HostedMetrics.com",
-    image: Heliodor,
-    backlink: "https://hostedmetrics.com"
-  },
-]
-
-const Testimonials = () => {
+const Testimonials = ({testimonials}) => {
   const [selected, setSelected] = useState(1); //useState(Math.floor(Math.random() * Math.floor(testimonials.length)));
 
   const Items = testimonials.map((data, i) => {
