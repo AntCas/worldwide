@@ -22,8 +22,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="A Community of Indie Makers" />
     <Hero
-      header={"Welcome to Indie Worldwide"}
-      subheader={"An online meetup group for hackers, makers, and founders"}
+      header={"The online meetup group for indie makers"}
+      subheader={"Video chats and 1-on-1 matching with makers around the world."}
     />
     <EmailListSignup />
     <Testimonials />
