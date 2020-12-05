@@ -85,7 +85,7 @@ const IndexPage = () => {
       <SEO title="Founders' Club" />
       <Hero
         header={"Burst your bubble"}
-        subheader={"Mindful 1-on-1 introductions with founders around the world"}
+        subheader={"Mindful 1-on-1 introductions with founders around the world."}
       />
       <div className="FoundersClubCTA">
         <div className="ButtonArrowWrapper"> 
@@ -102,10 +102,13 @@ const IndexPage = () => {
       </div>
       <Testimonials testimonials={testimonials} />
       <Summary
-        header={"How?"}
+        header={"The difference is careful curration"}
         description={"Matches are carefully selected by an algorithm with close human oversight. Each week you'll be paired with a founder who has similar revenue, shared interests, and/or complimentary skills."}
       />
       <FAQ faq={FAQItems} />
+      <div className="FoundersClubCTA">
+        <a className="Button" href="https://anthony169666.typeform.com/to/TIIKLIRf">{"Get your first match"}</a>
+      </div>
       <EmailListSignup />
     </Layout>
   )
