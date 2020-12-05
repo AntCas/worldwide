@@ -79,7 +79,10 @@ const IndexPage = () => (
       link={nextEvent.url}
       className="CTA"
     />
-    <Summary />
+    <Summary
+      header={"What is Worldwide?"}
+      description={"A community for makers who can't get to an in-person meetup group or want to expand their circle beyond their local area. We host online video chats where you can make friends, meet co-founders, find new clients, and get advice. 100% online."}
+    />
     <Videos />
     <PodcastEmbed />
   </Layout>

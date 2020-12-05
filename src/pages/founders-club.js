@@ -75,7 +75,10 @@ const IndexPage = () => {
         </div>
       </div>
       <Testimonials testimonials={testimonials} />
-      <Summary />
+      <Summary
+        header={"How?"}
+        description={"Matches are carefully selected by an algorithm with close human oversight. Each week you'll be paired with a founder who has similar revenue, shared interests, and/or complimentary skills."}
+      />
       <EmailListSignup />
     </Layout>
   )
