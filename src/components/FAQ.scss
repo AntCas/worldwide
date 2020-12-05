@@ -2,23 +2,42 @@
 
 .FAQSection {
   margin: 100px auto 0px auto;
-  width: 80%;
+  width: 800px;
+  max-width: 90%;
 
   color: $font-color-main;
   font-family: $font-main;
   font-weight: 700;
   line-height: 1.6;
-  font-size: 28px;
+  font-size: 22px;
 
   @include md {
     margin: 140px auto 0px auto;
   }
 
+  h2 {
+    font-size: $size-h2;
+    text-align: center;
+  }
+
+  .Items {
+    margin-top: 32px;
+  }
+
   .FAQ {
-    margin-top: 12px;
+    margin-bottom: 24px;
+    .Question {
+      font-size: $size-h3;
+    }
     .Answer {
-      font-size: $size-p;
+      font-size: 18px;
       font-weight: normal;
+      overflow: hidden;
+      height: 0px;
+      @include transition(height 1s);
+      &.isActive {
+        height: 200px;
+      }
     }
   }
 }

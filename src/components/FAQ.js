@@ -1,16 +1,20 @@
-import React from "react"
+import React, { useState } from "react"
 
 import './FAQ.scss';
 
 const FAQ = ({faq}) => {
+  const [selected, setSelected] = useState(1);
+
   const FAQ = faq.map(({question, answer}, i) => {
     return (
     <div
       key={i}
+      index={i}
+      onClick={() => selected === i ? setSelected('') : setSelected(i)}
       className="FAQ"
     >
-      <p className="Question">{question}</p>
-      <p className="Answer">{answer}</p>
+      <p className="Question">{`+ ${question}`}</p>
+      <p className={`Answer${i === selected ? ' isActive' : ''}`}>{answer}</p>
     </div>
     )
   });
@@ -18,7 +22,9 @@ const FAQ = ({faq}) => {
   return (
     <section className="FAQSection">
       <h2>FAQ</h2>
-      {FAQ}
+      <div className="Items">
+        {FAQ}
+      </div>
     </section>
   );
 }
