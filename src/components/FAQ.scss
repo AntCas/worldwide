@@ -1,0 +1,25 @@
+@import "../main.scss";
+
+.FAQSection {
+  margin: 100px auto 0px auto;
+  width: 80%;
+
+  color: $font-color-main;
+  font-family: $font-main;
+  font-weight: 700;
+  line-height: 1.6;
+  font-size: 28px;
+
+  @include md {
+    margin: 140px auto 0px auto;
+  }
+
+  .FAQ {
+    margin-top: 12px;
+    .Answer {
+      font-size: $size-p;
+      font-weight: normal;
+    }
+  }
+}
+
