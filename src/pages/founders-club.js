@@ -21,7 +21,7 @@ import Richard from "../images/testimonials/Richard.jpeg";
 
 const testimonials = [
   {
-    testimonial: "Get feedback, get asked hard questions, and get that extra push to keep going.",
+    testimonial: "Founders' Club is a game changer. I've met so many awesome people and had my eyes opened talking with all of them.",
     name: "Dan Bogachek",
     bio: "Founder, Handwrite",
     image: Dan,
