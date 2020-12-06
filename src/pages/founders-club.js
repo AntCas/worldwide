@@ -59,11 +59,11 @@ const FAQItems = [
   },
   {
     question: "How do I change my responses to the sign-up questions?",
-    answer: "If you need to update lifetime-revenue, your interests, timezone, self-description or anything else, send me an email at anthony [at] indieworldwide [dot] co.",
+    answer: "If you need to update lifetime-revenue, your interests, timezone, self-description or anything else, send me an email at foundersclub [at] indieworldwide [dot] co.",
   },
   {
     question: "Who's in the club?",
-    answer: "The current pool of founders has been pulled from communities like Indie Worldwide, IndieHackers, and ProductHunt as well as startup incubators and my personal network. The average participant has at least $30,000 in lifetime revenue. There is currently no revenue requirement to join the club, but you will be matched only with founders at a similar level to you in terms of revenue most of the time. The club also includes a large and growing number of founders with $100,000+ in lifetime revenue and several who've passed the $1 Million dollar mark.",
+    answer: "The current pool of founders has been pulled from communities like Indie Worldwide, IndieHackers, and ProductHunt as well as startup incubators and my personal network. The average participant has at least $30,000 in lifetime revenue. There is currently no revenue requirement to join the club, but you will be matched with founders at a similar level to you in terms of revenue most of the time. The club also includes a large and growing number of founders with $100,000+ in lifetime revenue and several who've passed the $1 Million dollar mark.",
   },
   {
     question: "What happens if I don't show up for a match I've scheduled?",
@@ -71,7 +71,7 @@ const FAQItems = [
   },
   {
     question: "Can I get a refund?",
-    answer: "Sure, cancel any time by sending me an email at anthony [at] indieworldwide [dot] co and I'll refund you your club dues pro-rated for the number of months since you signed up.",
+    answer: "Sure, cancel any time by sending me an email at foundersclub [at] indieworldwide [dot] co and I'll refund you your club dues pro-rated for the number of months since you signed up.",
   },
   {
     question: "What is Indie Worldwide?",
