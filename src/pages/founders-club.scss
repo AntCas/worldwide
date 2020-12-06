@@ -34,6 +34,11 @@
       flex-direction: row;
       align-items: flex-end;
 
+      display: none;
+      @include lg {
+        display: flex;
+      }
+
       .Arrow {
         width: 80px;
       }

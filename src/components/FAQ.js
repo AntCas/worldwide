@@ -3,7 +3,7 @@ import React, { useState } from "react"
 import './FAQ.scss';
 
 const FAQ = ({faq}) => {
-  const [selected, setSelected] = useState(1);
+  const [selected, setSelected] = useState();
 
   const FAQ = faq.map(({question, answer}, i) => {
     return (

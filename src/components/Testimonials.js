@@ -7,8 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 import './Testimonials.scss';
 
+import UpArrow from "../assets/chalk-arrow-up.svg";
+
 const Testimonials = ({testimonials}) => {
-  const [selected, setSelected] = useState(1); //useState(Math.floor(Math.random() * Math.floor(testimonials.length)));
+  const [selected, setSelected] = useState(Math.floor(Math.random() * Math.floor(testimonials.length)));
 
   const Items = testimonials.map((data, i) => {
     return (
@@ -25,6 +27,12 @@ const Testimonials = ({testimonials}) => {
           <div className="Name">{data.name}</div>
           <div className="Bio">{data.bio}</div>
         </div>
+        {data.shoutout &&
+          <div className="Shoutout">
+            <UpArrow className="Arrow" />
+            <p className="ArrowLabel">{data.shoutout}</p>
+          </div>
+        }
       </a>
     </div>
     )

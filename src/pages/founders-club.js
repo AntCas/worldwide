@@ -32,7 +32,8 @@ const testimonials = [
     name: "Dru Riley",
     bio: "Founder, Trends.vc",
     image: Dru,
-    backlink: "https://join.trends.vc/"
+    backlink: "https://join.trends.vc/",
+    shoutout: "Has 30,000 subscribers and is making $20k/month+"
   },
   {
     testimonial: "I'm LOVING this, the people participating are awesome. I meet with my my first match weekly.",
@@ -46,7 +47,8 @@ const testimonials = [
     name: "Richard Kong",
     bio: "Founder, Gravity Tales",
     image: Richard,
-    backlink: "https://twitter.com/snowingpines"
+    backlink: "https://twitter.com/snowingpines",
+    shoutout: "Acquired by Tencent for $2 million dollars"
   },
 ]
 
