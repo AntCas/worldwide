@@ -1,7 +1,7 @@
 @import "../main.scss";
 
 .FAQSection {
-  margin: 100px auto 0px auto;
+  margin: 100px auto 40px auto;
   width: 800px;
   max-width: 90%;
 
@@ -12,7 +12,7 @@
   font-size: 22px;
 
   @include md {
-    margin: 140px auto 0px auto;
+    margin: 140px auto;
   }
 
   h2 {

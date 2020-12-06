@@ -70,10 +70,6 @@ const FAQItems = [
     answer: "You'll be kicked out of the club.",
   },
   {
-    question: "Can I get a refund?",
-    answer: "Sure, cancel any time by sending me an email at foundersclub [at] indieworldwide [dot] co and I'll refund you your club dues pro-rated for the number of months since you signed up.",
-  },
-  {
     question: "What is Indie Worldwide?",
     answer: "Indie Worldwide organizes online meetups for indie makers around the world. Founders' Club is a part of Indie Worldwide and when you sign up for Founders' Club you also get access to the larger Indie Worldwide community.",
   },
@@ -104,8 +100,8 @@ const IndexPage = () => {
       </div>
       <Testimonials testimonials={testimonials} />
       <Summary
-        header={"The difference is careful curration"}
-        description={"Matches are carefully selected by an algorithm with close human oversight. Each week you'll be paired with a founder who has similar revenue, shared interests, and/or complimentary skills."}
+        header={"What is Founders' Club?"}
+        description={"Once a week, I will send you a carefully selected introduction to a founder who I think has the potential to change your business. The average member of Founders' Club has made at least $30,000 in lifetime revenue."}
       />
       <FAQ faq={FAQItems} />
       <div className="FoundersClubCTA">
