@@ -3,7 +3,7 @@ import React, { useState } from "react"
 import './FAQ.scss';
 
 const FAQ = ({faq}) => {
-  const [selected, setSelected] = useState();
+  const [selected, setSelected] = useState(0);
 
   const FAQ = faq.map(({question, answer}, i) => {
     return (
@@ -13,7 +13,10 @@ const FAQ = ({faq}) => {
       onClick={() => selected === i ? setSelected('') : setSelected(i)}
       className="FAQ"
     >
-      <p className="Question">{`+ ${question}`}</p>
+      <div className="Question">
+        <div className="Indicator">{`${i === selected ? '-' : '+'}`}</div>
+        <p>{`${question}`}</p>
+      </div>
       <p className={`Answer${i === selected ? ' isActive' : ''}`}>{answer}</p>
     </div>
     )
