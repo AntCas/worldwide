@@ -58,16 +58,20 @@ const FAQItems = [
     answer: "Matches are made based on lifetime revenue, interests, geographic location, and skills. You will usually be matched with someone who is within an order of magnitude of you on revenue and within a few hours time difference. Sometimes I might break the mold in order to match you with an interesting person who doesn't fit the normal criteria. I use custom software to suggest matches which I carefully review to ensure quality. The goal is no bad matches.",
   },
   {
+    question: "How are matches scheduled?",
+    answer: "You'll be matched with someone in a similar timezone and from there it will be up to you and your match to find a time that works.",
+  },
+  {
+    question: "What happens if I don't show up for a match I've scheduled?",
+    answer: "You'll be kicked out of the club. Please give your match at least 2-days notice if you need to re-schedule (barring a true emergency).",
+  },
+  {
     question: "How do I change my responses to the sign-up questions?",
     answer: "If you need to update lifetime-revenue, your interests, timezone, self-description or anything else, send me an email at foundersclub [at] indieworldwide [dot] co.",
   },
   {
     question: "Who's in the club?",
     answer: "The current pool of founders has been pulled from communities like Indie Worldwide, IndieHackers, and ProductHunt as well as startup incubators and my personal network. The average participant has at least $30,000 in lifetime revenue. There is currently no revenue requirement to join the club, but you will be matched with founders at a similar level to you in terms of revenue most of the time. The club also includes a large and growing number of founders with $100,000+ in lifetime revenue and several who've passed the $1 Million dollar mark.",
-  },
-  {
-    question: "What happens if I don't show up for a match I've scheduled?",
-    answer: "You'll be kicked out of the club.",
   },
   {
     question: "What is Indie Worldwide?",
