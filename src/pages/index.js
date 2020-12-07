@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import EmailListSignup from "../components/EmailListSignup"
 import Hero from "../components/Hero"
@@ -85,6 +86,9 @@ const IndexPage = () => (
     />
     <Videos />
     <PodcastEmbed />
+    <div className="FoundersClubCTA" style={{marginTop: '180px'}}>
+      <Link className="Button" to="founders-club">{"Psst, check out Founders' Club"}</Link>
+    </div>
   </Layout>
 )
 

@@ -21,7 +21,7 @@ import Richard from "../images/testimonials/Richard.jpeg";
 
 const testimonials = [
   {
-    testimonial: "Founders' Club is a game changer. I've met so many awesome people and had my eyes opened talking with all of them.",
+    testimonial: "Get feedback, get asked hard questions, and get that extra push to keep going.",
     name: "Dan Bogachek",
     bio: "Founder, Handwrite",
     image: Dan,
@@ -94,7 +94,7 @@ const IndexPage = () => {
               className={`ArrowLabel ${activeClass}`}
               onClick={() => setActiveClass('Shake')}
               onAnimationEnd={() => setActiveClass('')}
-            >Limited to the first 12 signups</p>
+            >Limited to the next 12 signups</p>
           </div>
         </div>
       </div>
@@ -107,7 +107,9 @@ const IndexPage = () => {
       <div className="FoundersClubCTA">
         <a className="Button" href="https://anthony169666.typeform.com/to/TIIKLIRf">{"Get your first match"}</a>
       </div>
-      <EmailListSignup />
+      <div className="EmailSignup">
+        <EmailListSignup />
+      </div>
     </Layout>
   )
 };
