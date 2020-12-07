@@ -94,7 +94,7 @@ const IndexPage = () => {
               className={`ArrowLabel ${activeClass}`}
               onClick={() => setActiveClass('Shake')}
               onAnimationEnd={() => setActiveClass('')}
-            >Limited to the next 12 signups</p>
+            >{"12 spots left at this price, $70/yr for next 50."}</p>
           </div>
         </div>
       </div>
