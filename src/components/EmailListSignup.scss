@@ -23,7 +23,7 @@
     }
   }
   .EmailInput, .Submit {
-    background: $purple-light;
+    background: $khaki;
     border: none;
     height: 80px;
     padding: 0;
@@ -31,12 +31,14 @@
   .EmailInput {
     width: 80%;
     border-radius: $radius-main 0 0 $radius-main;
-    caret-color: $white;
-    color: $white;
+    border: 2px solid $purple;
+    border-right: 0px;
+    caret-color: $purple;
+    color: $purple;
     box-sizing: border-box;
     padding-left: 16px;
     &::placeholder {
-      color: $white;
+      color: $purple;
       font-weight: 600;
     }
   }
@@ -44,6 +46,8 @@
     text-align: right;
     width: 20%;
     border-radius: 0 $radius-main $radius-main 0;
+    border: 2px solid $purple;
+    border-left: 0px;
   }
   .Message {
     color: $font-color-main;
