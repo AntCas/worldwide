@@ -11,6 +11,9 @@ const FAQ = ({faq}) => {
       key={i}
       index={i}
       onClick={() => selected === i ? setSelected('') : setSelected(i)}
+      onKeyDown={() => selected === i ? setSelected('') : setSelected(i)}
+      role="button"
+      tabIndex={0}
       className="FAQ"
     >
       <div className="Question">

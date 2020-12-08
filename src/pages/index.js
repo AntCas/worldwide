@@ -13,7 +13,7 @@ import Videos from "../components/Videos"
 
 import Dan from "../images/testimonials/Dan.png";
 import Dru from "../images/testimonials/Dru.jpg";
-import Marc from "../images/testimonials/Marc.jpg";
+//import Marc from "../images/testimonials/Marc.jpg";
 import Volkan from "../images/testimonials/Volkan.jpg";
 import Heliodor from "../images/testimonials/Heliodor.jpg";
 

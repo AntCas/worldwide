@@ -1,8 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import scrollTo from 'gatsby-plugin-smoothscroll';
-
 import './NextEventCTA.scss';
 import ArrowRight from "../assets/arrow-right.svg";
 

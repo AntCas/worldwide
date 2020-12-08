@@ -1,8 +1,7 @@
-import React, { useState } from "react"
+import React from "react"
 
 import EmailListSignup from "../components/EmailListSignup"
 import FAQ from "../components/FAQ"
-import Hero from "../components/Hero"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Summary from "../components/Summary"
@@ -75,8 +74,6 @@ const FAQItems = [
 ]
 
 const IndexPage = () => {
-  const [activeClass, setActiveClass] = useState('Shake');
-
   return (
     <Layout>
       <SEO title="Founders' Club" />
