@@ -25,18 +25,18 @@ const testimonials = [
     backlink: "https://handwrite.io/"
   },
   {
-    testimonial: "Indie Worldwide gives me the opportunity to talk to peers that I normally wouldn't get.",
-    name: "Volkan Kaya",
-    bio: "Founder, Versoly",
-    image: Volkan,
-    backlink: "https://versoly.com/"
-  },
-  {
     testimonial: "I'm LOVING this, the people participating are awesome. I meet with my my first match weekly.",
     name: "Matt Gale",
     bio: "Founder, FBARS.app",
     image: Matt,
     backlink: "https://fbars.app/beta-offer"
+  },
+  {
+    testimonial: "Indie Worldwide gives me the opportunity to talk to peers that I normally wouldn't get.",
+    name: "Volkan Kaya",
+    bio: "Founder, Versoly",
+    image: Volkan,
+    backlink: "https://versoly.com/"
   },
   {
     testimonial: "It's been incredible getting a community together to make the startup journey less lonely and more fun.",
