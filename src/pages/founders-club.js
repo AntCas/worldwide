@@ -10,9 +10,6 @@ import Testimonials from "../components/Testimonials"
 
 import "./founders-club.scss";
 
-// SVGs
-import UpArrow from "../assets/chalk-arrow-up.svg";
-
 // Founder Photos for Testimonials
 import Dan from "../images/testimonials/Dan.png";
 import Dru from "../images/testimonials/Dru.jpg";
@@ -90,22 +87,14 @@ const IndexPage = () => {
         <h3 className="Subheader">{`We're shipping products and making revenue on our own terms. Take your business to the next level with `}<strong>personalized introductions to other top-performers.</strong></h3>
       </section>
       <div className="FoundersClubCTA">
-        <div className="ButtonArrowWrapper"> 
-          <a className="Button" href="https://anthony169666.typeform.com/to/TIIKLIRf">{"Get your matches for $60 / year"}</a>
-          <div className="ArrowWrapper">
-            <UpArrow className="Arrow" />
-            <p
-              className={`ArrowLabel ${activeClass}`}
-              onClick={() => setActiveClass('Shake')}
-              onAnimationEnd={() => setActiveClass('')}
-            >{"12 spots left at this price, $70/yr for next 50."}</p>
-          </div>
-        </div>
+        <a className="Button" href="https://anthony169666.typeform.com/to/TIIKLIRf">{"Get your matches for $60 / year"}</a>
+        <p className="SpecialOffer">{"12 seats left, $70/yr for next 50."}</p>
       </div>
+      <div className="FeaturedTestimonial">{`"The high-signal matches are amazing. Worth paying for."`}<strong>{` Dru Riley, Trends.vc, $20k+/month`}</strong></div>
       <Testimonials testimonials={testimonials} />
       <Summary
         header={"What is Founders' Club?"}
-        description={"Once a week, I will send you a carefully selected introduction to a founder who I think has the potential to change your business. The average member of Founders' Club has made at least $30,000 in lifetime revenue."}
+        description={"Once a week, I'll send you a carefully selected introduction to a founder who I think has the potential to change your business. The average member of Founders' Club has made at least $30,000 in lifetime revenue."}
       />
       <FAQ faq={FAQItems} />
       <div className="FoundersClubCTA">

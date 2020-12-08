@@ -49,8 +49,8 @@
 }
 
 .FoundersClubCTA {
-  margin: 100px auto;
-
+  margin: 80px auto;
+  width: fit-content;
   .Button {
     background-color: $cta-color-bg;
     color: $cta-color-font;
@@ -62,59 +62,27 @@
     font-size: 1.3em;
     padding: 24px 24px;
     width: fit-content;
-    margin: auto;
 
     &:hover {
       filter: $hover-filter;
     }
   }
-
-  .ButtonArrowWrapper {
-    margin: auto;
-    width: fit-content;
-    position: relative;
-    .ArrowWrapper {
-      position: absolute;
-      right: -290px;
-      bottom: -76px;
-      display: flex;
-      flex-direction: row;
-      align-items: flex-end;
-
-      display: none;
-      @include lg {
-        display: flex;
-      }
-
-      .Arrow {
-        width: 80px;
-      }
-
-      .Shake {
-        animation: rotate 1s cubic-bezier(.36,.07,.19,.97) both;
-      }
-
-      .ArrowLabel {
-        transform: translateY(50%);
-        font-size: 18px;
-        color: $purple-dark;
-        font-family: $font-main;
-      }
-    }
+  .SpecialOffer {
+    font-size: 18px;
+    color: $purple-dark;
+    font-family: $font-main;
+    margin: 6px 0 0 4px;
   }
+}
 
+.FeaturedTestimonial {
+  font-family: $font-main;
+  text-align: center;
+  strong {
+    font-weight: 600;
+  }
 }
 
 .EmailSignup {
   margin-top: 200px;
-}
-
-
-@keyframes rotate {
-  20%, 60% {
-    transform: rotate(10deg);
-  }
-  40%, 80% {
-    transform: rotate(-10deg);
-  }
 }
