@@ -3,7 +3,6 @@
 .slick-slide {
 }
 .slick-list {
-  overflow: visible;
 }
 .Testimonials {
   margin: 100px auto 0px auto;
@@ -60,24 +59,7 @@
       color: $font-color-main;
       font-family: $font-main;
       position: relative;
-
-      .Shoutout {
-        opacity: 0;
-        position: absolute;
-        left: 83px;
-        bottom: -66px;
-        color: $font-color-main;
-        line-height: 1.3;
-
-        display: none;
-        @include lg {
-          display: block;
-        }
-
-        .Arrow {
-          width: 50px;
-        }
-      }
+      line-height: 1.3;
     }
 
     .Image {

@@ -41,7 +41,7 @@ const testimonials = [
     backlink: "https://join.trends.vc/"
   },
   {
-    testimonial: "Coffee, exercise, and IH Worldwide are my tools for being a more productive indie hacker.",
+    testimonial: "Coffee, exercise, and Indie Worldwide are my tools for being a more productive indie hacker.",
     name: "Marc LG",
     bio: "Founder, PowerImporter.com",
     image: Marc,

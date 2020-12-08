@@ -12,25 +12,24 @@ import "./founders-club.scss";
 
 // Founder Photos for Testimonials
 import Dan from "../images/testimonials/Dan.png";
-import Dru from "../images/testimonials/Dru.jpg";
 import Matt from "../images/testimonials/Matt.png";
 import Richard from "../images/testimonials/Richard.jpeg";
+import Volkan from "../images/testimonials/Volkan.jpg";
 
 const testimonials = [
   {
     testimonial: "Get feedback, get asked hard questions, and get that extra push to keep going.",
     name: "Dan Bogachek",
-    bio: "Founder, Handwrite",
+    bio: "Founder, Handwrite, $10k+/month",
     image: Dan,
     backlink: "https://handwrite.io/"
   },
   {
-    testimonial: "The high-signal matches are amazing. Worth paying for.",
-    name: "Dru Riley",
-    bio: "Founder, Trends.vc",
-    image: Dru,
-    backlink: "https://join.trends.vc/",
-    shoutout: "Has 30,000 subscribers and is making $20k/month+"
+    testimonial: "Indie Worldwide gives me the opportunity to talk to peers that I normally wouldn't get.",
+    name: "Volkan Kaya",
+    bio: "Founder, Versoly",
+    image: Volkan,
+    backlink: "https://versoly.com/"
   },
   {
     testimonial: "I'm LOVING this, the people participating are awesome. I meet with my my first match weekly.",
@@ -42,10 +41,9 @@ const testimonials = [
   {
     testimonial: "It's been incredible getting a community together to make the startup journey less lonely and more fun.",
     name: "Richard Kong",
-    bio: "Founder, Gravity Tales",
+    bio: "Founder, Gravity Tales, acquired $2M",
     image: Richard,
     backlink: "https://twitter.com/snowingpines",
-    shoutout: "Acquired by Tencent for $2 million dollars"
   },
 ]
 
@@ -94,7 +92,7 @@ const IndexPage = () => {
       <Testimonials testimonials={testimonials} />
       <Summary
         header={"What is Founders' Club?"}
-        description={"Once a week, I'll send you a carefully selected introduction to a founder who I think has the potential to change your business. The average member of Founders' Club has made at least $30,000 in lifetime revenue."}
+        description={"Once a week, I'll send you a carefully selected introduction to a founder who I think has the potential to change your business. The average member of Founders' Club has made at least $30,000 in lifetime revenue and many $100k+."}
       />
       <FAQ faq={FAQItems} />
       <div className="FoundersClubCTA">
