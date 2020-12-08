@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import Logo from "../assets/iw-logo.svg";
-import SocialLinks from './SocialLinks';
 
 import './header.scss';
 
@@ -12,10 +11,9 @@ const Header = ({ siteTitle }) => (
     <div className="HeaderContent">
       <h1 className="HeaderLogo">
         <Link to="/" >
-          <Logo alt="Indie Worldwide Logo" />
+          <Logo className="LogoSVG" alt="Indie Worldwide Logo" />
         </Link>
       </h1>
-      <SocialLinks />
     </div>
   </header>
 )
