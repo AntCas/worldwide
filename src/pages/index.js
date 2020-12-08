@@ -40,6 +40,7 @@ const testimonials = [
     image: Dru,
     backlink: "https://join.trends.vc/"
   },
+/*
   {
     testimonial: "Coffee, exercise, and Indie Worldwide are my tools for being a more productive indie hacker.",
     name: "Marc LG",
@@ -47,6 +48,7 @@ const testimonials = [
     image: Marc,
     backlink: "https://www.powerimporter.com/"
   },
+ */
   {
     testimonial: "Indie Worldwide gives me the opportunity to talk to peers that I normally wouldn't get.",
     name: "Volkan Kaya",
