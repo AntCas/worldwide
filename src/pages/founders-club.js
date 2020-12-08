@@ -85,10 +85,10 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Founders' Club" />
-      <Hero
-        header={"Burst your bubble"}
-        subheader={"Mindful 1-on-1 introductions with founders around the world."}
-      />
+      <section className="FoundersClubHero">
+        <h2 className="HeroHeader">Meet 150+ top indie makers from around the world.</h2>
+        <h3 className="Subheader">{`We're shipping products and making revenue on our own terms. Take your business to the next level with `}<strong>personalized introductions to other top-performers.</strong></h3>
+      </section>
       <div className="FoundersClubCTA">
         <div className="ButtonArrowWrapper"> 
           <a className="Button" href="https://anthony169666.typeform.com/to/TIIKLIRf">{"Get your matches for $60 / year"}</a>
