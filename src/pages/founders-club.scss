@@ -19,7 +19,7 @@
   .HeroHeader {
     font-family: $font-main;
     color: $font-color-main;
-    font-size: $size-h1;
+    font-size: 40px;
     text-align: center;
     font-weight: 800;
     line-height: 1.1;
@@ -27,6 +27,7 @@
     @include sm {
       margin-top: 36px;
       display: block;
+      font-size: $size-h1;
     }
     @include md {
       margin-top: 0;
