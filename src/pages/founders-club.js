@@ -91,7 +91,7 @@ const FAQItems = [
   },
   {
     question: "What happens if I don't show up for a match I've scheduled?",
-    answer: "You'll be kicked out of the club. Please give your match at least 2-days notice if you need to re-schedule (barring a true emergency).",
+    answer: "You'll be kicked out of the club. Please give your match at least 2-days notice if you need to re-schedule (barring a true emergency). To clarify, you'll only get booted if you schedule a time with someone and fail to show up. If you just don't want a match one week that's fine, you can take a break any time.",
   },
   {
     question: "How do I change my responses to the sign-up questions?",
