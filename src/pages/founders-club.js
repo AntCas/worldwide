@@ -23,56 +23,58 @@ const testimonials = [
   {
     testimonial: "I've met so many awesome people and had my eyes opened talking with all of them.",
     name: "Dan Bogachek",
-    bio: "Founder, Handwrite, $10k+/month",
+    bio: "Handwrite.io, $10k+/month",
     image: Dan,
     backlink: "https://handwrite.io/"
   },
+/*
   {
     testimonial: "The high-signal matches are amazing. Worth paying for.",
     name: "Dru Riley",
-    bio: "Founder, Trends.vc, 20k+/month",
+    bio: "Trends.vc, 20k+/month",
     image: Dru,
     backlink: "https://trends.vc/"
   },
+ */
   {
     testimonial: "It's been incredible getting a community together to make the startup journey less lonely and more fun.",
     name: "Richard Kong",
-    bio: "Founder, Gravity Tales, acquired $2M",
+    bio: "Gravity Tales, acquired $2M",
     image: Richard,
     backlink: "https://twitter.com/snowingpines",
   },
   {
     testimonial: "Founders' Club is different--it feels like a IRL community.",
     name: "Marc LG",
-    bio: "Founder, PowerImporter.com",
+    bio: "PowerImporter.com",
     image: Marc,
     backlink: "https://www.powerimporter.com/",
   },
   {
+    testimonial: "I'm LOVING this, the people participating are awesome. I meet with my my first match weekly.",
+    name: "Matt Gale",
+    bio: "FBARS.app",
+    image: Matt,
+    backlink: "https://fbars.app/beta-offer"
+  },
+  {
     testimonial: "An essential part of my entrepreneurial journey",
     name: "Shakil",
-    bio: "Founder, ExplodingNiches",
+    bio: "ExplodingNiches",
     image: Shakil,
     backlink: "https://explodingniches.com/",
   },
   {
     testimonial: "Everyone has already made money online and understands the difficulties of starting something new.",
     name: "Volkan Kaya",
-    bio: "Founder, Versoly",
+    bio: "Versoly",
     image: Volkan,
     backlink: "https://versoly.com/"
   },
   {
-    testimonial: "I'm LOVING this, the people participating are awesome. I meet with my my first match weekly.",
-    name: "Matt Gale",
-    bio: "Founder, FBARS.app",
-    image: Matt,
-    backlink: "https://fbars.app/beta-offer"
-  },
-  {
     testimonial: "Founders' Club is the one place every Indie Hacker should turn to when they feel stuck in their journey.",
     name: "Sukhpal Saini",
-    bio: "Founder, SaaSBase, Pre-Revenue",
+    bio: "SaaSBase",
     image: Sukhpal,
     backlink: "https://saasbase.dev/",
   },
