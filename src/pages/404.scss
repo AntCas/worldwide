@@ -1,0 +1,26 @@
+@import "../main.scss";
+
+.NotFound {
+  min-height: 100vh;
+  color: $font-color-main;
+  font-family: $font-main;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+  padding: 6px;
+  h1 {
+    font-size: $size-h1;
+  }
+  p {
+    font-size: $size-h2;
+    margin-top: 12px;
+  }
+  a {
+    font-size: $size-p;
+    margin-top: 12px;
+  }
+}
+
