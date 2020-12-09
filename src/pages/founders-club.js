@@ -11,17 +11,56 @@ import "./founders-club.scss";
 
 // Founder Photos for Testimonials
 import Dan from "../images/testimonials/Dan.png";
+import Dru from "../images/testimonials/Dru.jpg";
+import Marc from "../images/testimonials/Marc.jpg";
 import Matt from "../images/testimonials/Matt.png";
 import Richard from "../images/testimonials/Richard.jpeg";
+import Shakil from "../images/testimonials/Shakil.jpg";
+import Sukhpal from "../images/testimonials/Sukhpal.jpg";
 import Volkan from "../images/testimonials/Volkan.jpg";
 
 const testimonials = [
   {
-    testimonial: "Get feedback, get asked hard questions, and get that extra push to keep going.",
+    testimonial: "I've met so many awesome people and had my eyes opened talking with all of them.",
     name: "Dan Bogachek",
     bio: "Founder, Handwrite, $10k+/month",
     image: Dan,
     backlink: "https://handwrite.io/"
+  },
+  {
+    testimonial: "The high-signal matches are amazing. Worth paying for.",
+    name: "Dru Riley",
+    bio: "Founder, Trends.vc, 20k+/month",
+    image: Dru,
+    backlink: "https://trends.vc/"
+  },
+  {
+    testimonial: "It's been incredible getting a community together to make the startup journey less lonely and more fun.",
+    name: "Richard Kong",
+    bio: "Founder, Gravity Tales, acquired $2M",
+    image: Richard,
+    backlink: "https://twitter.com/snowingpines",
+  },
+  {
+    testimonial: "Founders' Club is different--it feels like a IRL community.",
+    name: "Marc LG",
+    bio: "Founder, PowerImporter.com",
+    image: Marc,
+    backlink: "https://www.powerimporter.com/",
+  },
+  {
+    testimonial: "An essential part of my entrepreneurial journey",
+    name: "Shakil",
+    bio: "Founder, ExplodingNiches",
+    image: Shakil,
+    backlink: "https://explodingniches.com/",
+  },
+  {
+    testimonial: "Everyone has already made money online and understands the difficulties of starting something new.",
+    name: "Volkan Kaya",
+    bio: "Founder, Versoly",
+    image: Volkan,
+    backlink: "https://versoly.com/"
   },
   {
     testimonial: "I'm LOVING this, the people participating are awesome. I meet with my my first match weekly.",
@@ -31,18 +70,11 @@ const testimonials = [
     backlink: "https://fbars.app/beta-offer"
   },
   {
-    testimonial: "Indie Worldwide gives me the opportunity to talk to peers that I normally wouldn't get.",
-    name: "Volkan Kaya",
-    bio: "Founder, Versoly",
-    image: Volkan,
-    backlink: "https://versoly.com/"
-  },
-  {
-    testimonial: "It's been incredible getting a community together to make the startup journey less lonely and more fun.",
-    name: "Richard Kong",
-    bio: "Founder, Gravity Tales, acquired $2M",
-    image: Richard,
-    backlink: "https://twitter.com/snowingpines",
+    testimonial: "Founders' Club is the one place every Indie Hacker should turn to when they feel stuck in their journey.",
+    name: "Sukhpal Saini",
+    bio: "Founder, SaaSBase, Pre-Revenue",
+    image: Sukhpal,
+    backlink: "https://saasbase.dev/",
   },
 ]
 
