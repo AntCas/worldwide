@@ -10,8 +10,8 @@ import YouTube from "../assets/youtube.svg";
 
 import './SocialLinks.scss';
 
-const SocialLinks = ({ siteTitle, dark }) => {
-  const fill = dark ? 'black' : 'white';
+const SocialLinks = ({ siteTitle}) => {
+  const fill = '#291f4f';
   const links = [
     {
       title: "YouTube",
@@ -64,7 +64,6 @@ const SocialLinks = ({ siteTitle, dark }) => {
 
 SocialLinks.propTypes = {
   siteTitle: PropTypes.string,
-  dark: PropTypes.bool
 }
 
 export default SocialLinks;
