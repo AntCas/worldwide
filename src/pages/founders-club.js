@@ -11,13 +11,14 @@ import "./founders-club.scss";
 
 // Founder Photos for Testimonials
 import Dan from "../images/testimonials/Dan.png";
-import Dru from "../images/testimonials/Dru.jpg";
+//import Dru from "../images/testimonials/Dru.jpg";
 import Marc from "../images/testimonials/Marc.jpg";
 import Matt from "../images/testimonials/Matt.png";
 import Richard from "../images/testimonials/Richard.jpeg";
 import Shakil from "../images/testimonials/Shakil.jpg";
 import Sukhpal from "../images/testimonials/Sukhpal.jpg";
 import Volkan from "../images/testimonials/Volkan.jpg";
+import Toby from "../images/testimonials/Toby.jpeg";
 
 const testimonials = [
   {
@@ -58,11 +59,11 @@ const testimonials = [
     backlink: "https://fbars.app/beta-offer"
   },
   {
-    testimonial: "An essential part of my entrepreneurial journey",
-    name: "Shakil",
-    bio: "ExplodingNiches",
-    image: Shakil,
-    backlink: "https://explodingniches.com/",
+    testimonial: "Meet people that understand you and your struggle, the journey is more awesome together.",
+    name: "Toby Allen",
+    bio: "StartupMill",
+    image: Toby,
+    backlink: "https://www.startupmill.co/",
   },
   {
     testimonial: "Everyone has already made money online and understands the difficulties of starting something new.",
@@ -77,6 +78,13 @@ const testimonials = [
     bio: "SaaSBase",
     image: Sukhpal,
     backlink: "https://saasbase.dev/",
+  },
+  {
+    testimonial: "An essential part of my entrepreneurial journey",
+    name: "Shakil",
+    bio: "ExplodingNiches",
+    image: Shakil,
+    backlink: "https://explodingniches.com/",
   },
 ]
 
