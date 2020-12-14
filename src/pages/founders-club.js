@@ -52,7 +52,7 @@ const testimonials = [
     backlink: "https://www.powerimporter.com/",
   },
   {
-    testimonial: "I'm LOVING this, the people participating are awesome. I meet with my my first match weekly.",
+    testimonial: "I'm LOVING this, the people participating are awesome. I meet with my first match weekly.",
     name: "Matt Gale",
     bio: "FBARS.app",
     image: Matt,
@@ -120,7 +120,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Founders' Club" />
       <section className="FoundersClubHero">
-        <h2 className="HeroHeader">Meet 150+ top indie makers from around the world.</h2>
+        <h2 className="HeroHeader">Meet top indie founders from around the world.</h2>
         <h3 className="Subheader">{`We're shipping products and making revenue on our own terms. Take your business to the next level with `}<strong>personalized introductions to other top-performers.</strong></h3>
       </section>
       <div className="FoundersClubCTA">
