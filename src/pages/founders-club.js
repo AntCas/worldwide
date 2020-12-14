@@ -120,7 +120,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Founders' Club" />
       <section className="FoundersClubHero">
-        <h2 className="HeroHeader">Meet top indie founders from around the world.</h2>
+        <h2 className="HeroHeader">Meet top indie founders around the world.</h2>
         <h3 className="Subheader">{`We're shipping products and making revenue on our own terms. Take your business to the next level with `}<strong>personalized introductions to other top-performers.</strong></h3>
       </section>
       <div className="FoundersClubCTA">
