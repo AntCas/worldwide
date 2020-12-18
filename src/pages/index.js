@@ -18,11 +18,11 @@ import Volkan from "../images/testimonials/Volkan.jpg";
 import Heliodor from "../images/testimonials/Heliodor.jpg";
 
 const nextEvent = {
-  text: "Indie Worldwide - December Meetup",
-  exactDate: "Dec 10th, 1:00PM - 2:30PM EST",
-  month: "Dec",
-  date: "10",
-  url: "https://hopin.com/events/indie-worldwide-december-2020-meetup"
+  text: "Indie Worldwide - First Meetup of 2021",
+  exactDate: "Jan 21, 11:00AM → 12:30PM CST",
+  month: "Jan",
+  date: "21",
+  url: "https://hopin.com/events/indie-worldwide-first-meetup-of-2021"
 }
 
 const testimonials = [
