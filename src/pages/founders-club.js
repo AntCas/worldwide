@@ -128,7 +128,7 @@ const IndexPage = () => {
       </section>
       <div className="FoundersClubCTA">
         <a className="Button" href="https://anthony169666.typeform.com/to/TIIKLIRf">{"Get your matches for $80 / year"}</a>
-        <p className="SpecialOffer">{"48 seats left, $100/yr for next 100."}</p>
+        <p className="SpecialOffer">{"42 seats left, $100/yr for next 100."}</p>
       </div>
       <div className="FeaturedTestimonial">{`"The high-signal matches are amazing. Worth paying for."`}<strong>{` Dru Riley, Trends.vc, $20k+/month`}</strong></div>
       <Testimonials testimonials={testimonials} />
