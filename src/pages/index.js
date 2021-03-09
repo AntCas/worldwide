@@ -17,12 +17,14 @@ import Dru from "../images/testimonials/Dru.jpg";
 import Volkan from "../images/testimonials/Volkan.jpg";
 import Heliodor from "../images/testimonials/Heliodor.jpg";
 
+
+// → 
 const nextEvent = {
-  text: "Lead generation from scratch ft. Lemlist Head of Growth",
-  exactDate: "Mar 2, 11:00AM → 12:30PM EST",
+  text: "Online Indie Hackers Meetup",
+  exactDate: "Mar 18, 1:00PM → 2:30PM EST",
   month: "Mar",
-  date: "2",
-  url: "https://hopin.com/events/lead-generation-from-scratch-ft-lemlist-head-of-growth"
+  date: "18",
+  url: "https://hopin.com/events/online-indie-hackers-meetup-march-2021"
 }
 
 const testimonials = [
