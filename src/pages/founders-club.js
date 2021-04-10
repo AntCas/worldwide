@@ -138,7 +138,7 @@ const IndexPage = () => {
       />
       <FAQ faq={FAQItems} />
       <div className="FoundersClubCTA">
-        <a className="Button" href="https://anthony169666.typeform.com/to/TIIKLIRf">{"Get your first match"}</a>
+        <a className="Button" href="https://indieworldwide.typeform.com/to/TIIKLIRf">{"Get your first match"}</a>
       </div>
       <div className="EmailSignup">
         <EmailListSignup />
