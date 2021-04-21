@@ -20,11 +20,11 @@ import Heliodor from "../images/testimonials/Heliodor.jpg";
 
 // → 
 const nextEvent = {
-  text: "LAUNCH by Indie Worldwide",
-  exactDate: "Apr 14, 11:00AM → 12:45PM CDT",
+  text: "Indie Worldwide April Meetup",
+  exactDate: "Apr 29, 12:00PM → 1:30PM CDT",
   month: "Apr",
-  date: "14",
-  url: "https://hopin.com/events/launch-d0371111-485a-451e-b977-ed6c0b393c9a"
+  date: "29",
+  url: "https://hopin.com/events/indie-worldwide-april-meetup"
 }
 
 const testimonials = [
