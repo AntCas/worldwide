@@ -118,6 +118,9 @@ const FAQItems = [
   },
 ]
 
+const SIGNUP_LINK = "https://indieworldwide.typeform.com/to/TIIKLIRf";
+
+
 const IndexPage = () => {
   return (
     <Layout>
@@ -127,7 +130,7 @@ const IndexPage = () => {
         <h3 className="Subheader">{`We're shipping products and making revenue on our own terms. Take your business to the next level with `}<strong>personalized introductions to other top-performers.</strong></h3>
       </section>
       <div className="FoundersClubCTA">
-        <a className="Button" href="https://anthony169666.typeform.com/to/TIIKLIRf">{"Get your matches for $80 / year"}</a>
+        <a className="Button" href={SIGNUP_LINK}>{"Get your matches for $80 / year"}</a>
         <p className="SpecialOffer">{"33 seats left, $100/yr for next 100."}</p>
       </div>
       <div className="FeaturedTestimonial">{`"The high-signal matches are amazing. Worth paying for."`}<strong>{` Dru Riley, Trends.vc, $20k+/month`}</strong></div>
@@ -138,7 +141,7 @@ const IndexPage = () => {
       />
       <FAQ faq={FAQItems} />
       <div className="FoundersClubCTA">
-        <a className="Button" href="https://indieworldwide.typeform.com/to/TIIKLIRf">{"Get your first match"}</a>
+        <a className="Button" href={SIGNUP_LINK}>{"Get your first match"}</a>
       </div>
       <div className="EmailSignup">
         <EmailListSignup />
