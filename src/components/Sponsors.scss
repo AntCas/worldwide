@@ -1,0 +1,26 @@
+@import "../main.scss";
+
+.Sponsors {
+  margin: 100px auto 0 auto;
+  width: 1400px;
+  max-width: 100%;
+  text-align: center;
+}
+.SponsorLogos {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Title {
+  color: $font-color-main;
+  font-family: $font-main;
+}
+.Title {
+  font-size: $size-h3;
+  font-weight: bold;
+
+  @include sm {
+    font-size: $size-h2;
+  }
+}
