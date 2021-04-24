@@ -1,7 +1,7 @@
 @import "../main.scss";
 
 .Sponsors {
-  margin: 100px auto 0 auto;
+  margin: 140px auto 0 auto;
   width: 1400px;
   max-width: 100%;
   text-align: center;
@@ -12,7 +12,11 @@
   flex-direction: row;
   justify-content: center;
 }
-.Title {
+.Sponsor img {
+  width: 320px;
+  max-width: 100%;
+}
+.Title, .Subtitle {
   color: $font-color-main;
   font-family: $font-main;
 }
@@ -22,5 +26,36 @@
 
   @include sm {
     font-size: $size-h2;
+  }
+}
+
+.Subtitle {
+  margin-top: 120px;
+  font-size: $size-h4;
+  font-weight: bold;
+
+  @include sm {
+    font-size: $size-h3;
+  }
+}
+
+.SponsorshipCTA {
+  margin: 48px auto;
+  width: fit-content;
+  .Button {
+    background-color: $cta-color-bg;
+    color: $cta-color-font;
+    font-family: $font-main;
+    text-decoration: none;
+    display: flex;
+    font-weight: bold;
+    border-radius: $radius-main;
+    font-size: 1.3em;
+    padding: 24px 24px;
+    width: fit-content;
+
+    &:hover {
+      filter: $hover-filter;
+    }
   }
 }
