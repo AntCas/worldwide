@@ -130,8 +130,8 @@ const IndexPage = () => {
         <h3 className="Subheader">{`We're shipping products and making revenue on our own terms. Take your business to the next level with `}<strong>personalized introductions to other top-performers.</strong></h3>
       </section>
       <div className="FoundersClubCTA">
-        <a className="Button" href={SIGNUP_LINK}>{"Get your matches for $80 / year"}</a>
-        <p className="SpecialOffer">{"33 seats left, $100/yr for next 100."}</p>
+        <a className="Button" href={SIGNUP_LINK}>{"Get my first match"}</a>
+        <p className="SpecialOffer">{"Club dues are $80 per year."}</p>
       </div>
       <div className="FeaturedTestimonial">{`"The high-signal matches are amazing. Worth paying for."`}<strong>{` Dru Riley, Trends.vc, $20k+/month`}</strong></div>
       <Testimonials testimonials={testimonials} />
