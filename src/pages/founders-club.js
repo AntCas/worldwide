@@ -126,8 +126,8 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Founders' Club" image={ogImage} />
       <section className="FoundersClubHero">
-        <h2 className="HeroHeader">Meet top indie founders around the world.</h2>
-        <h3 className="Subheader">{`We're shipping products and making revenue on our own terms. Take your business to the next level with `}<strong>personalized introductions to other top-performers.</strong></h3>
+        <h2 className="HeroHeader">Grow your network, thoughtfully.</h2>
+        <h3 className="Subheader">Meet a new, profitable, indie founder every week with a carefully selected introduction <strong>delivered straight to your inbox.</strong></h3>
       </section>
       <div className="FoundersClubCTA">
         <a className="Button" href={SIGNUP_LINK}>{"Get my first match"}</a>
