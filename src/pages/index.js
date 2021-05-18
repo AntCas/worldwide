@@ -25,11 +25,11 @@ import Orbit from "../images/sponsors/Orbit.png";
 
 // → 
 const nextEvent = {
-  text: "Indie Worldwide April Meetup",
-  exactDate: "Apr 29, 12:00PM → 1:30PM CDT",
-  month: "Apr",
-  date: "29",
-  url: "https://hopin.com/events/indie-worldwide-april-meetup"
+  text: "Indie Hackers Meetup",
+  exactDate: "May 20, 12:00PM → 1:30PM CDT",
+  month: "May",
+  date: "20",
+  url: "https://hopin.com/events/indie-hackers-meetup-may-2021"
 }
 
 const testimonials = [
