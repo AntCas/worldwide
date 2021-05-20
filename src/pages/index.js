@@ -25,11 +25,11 @@ import Orbit from "../images/sponsors/Orbit.png";
 
 // → 
 const nextEvent = {
-  text: "Indie Hackers Meetup",
-  exactDate: "May 20, 12:00PM → 1:30PM CDT",
+  text: "Community x Audience - Rosie Sherry + Corey Haines",
+  exactDate: "May 20, 11:00AM → 12:45PM CDT",
   month: "May",
-  date: "20",
-  url: "https://hopin.com/events/indie-hackers-meetup-may-2021"
+  date: "27",
+  url: "https://hopin.com/events/community-x-audience-w-rosie-sherry-corey-haines"
 }
 
 const testimonials = [
