@@ -21,6 +21,7 @@ import Heliodor from "../images/testimonials/Heliodor.jpg";
 
 // Sponsors
 import Orbit from "../images/sponsors/Orbit.png";
+import Folderly from "../images/sponsors/Folderly.jpg";
 
 
 // → 
@@ -77,6 +78,11 @@ const sponsors = [
     name: "Orbit.love",
     link: "https://orbit.love/?ref=indieworldwide.co",
     image: Orbit,
+  },
+  {
+    name: "Folderly",
+    link: "https://folderly.com/?ref=indieworldwide.co",
+    image: Folderly,
   },
 ]
 
