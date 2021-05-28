@@ -26,11 +26,11 @@ import Folderly from "../images/sponsors/Folderly.jpg";
 
 // → 
 const nextEvent = {
-  text: "Community x Audience - Rosie Sherry + Corey Haines",
-  exactDate: "May 20, 11:00AM → 12:45PM CDT",
-  month: "May",
-  date: "27",
-  url: "https://hopin.com/events/community-x-audience-w-rosie-sherry-corey-haines"
+  text: "Indie Worldwide Meetup - June 2021",
+  exactDate: "Jun 10, 10:00AM → 11:30PM CDT",
+  month: "June",
+  date: "10",
+  url: "https://hopin.com/events/indie-worldwide-meetup-june-2021"
 }
 
 const testimonials = [
