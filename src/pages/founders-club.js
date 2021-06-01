@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Summary from "../components/Summary"
 import Testimonials from "../components/Testimonials"
+import TalkingHeads from "../components/TalkingHeads"
 
 import "./founders-club.scss";
 
@@ -126,6 +127,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Founders' Club" image={ogImage} />
       <section className="FoundersClubHero">
+        <TalkingHeads />
         <h2 className="HeroHeader">Meet profitable indie founders from around the world.</h2>
         <h3 className="Subheader">Carefully made introductions delivered by email every Tuesday.</h3>
       </section>
