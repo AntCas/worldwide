@@ -6,12 +6,15 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Summary from "../components/Summary"
 import Testimonials from "../components/Testimonials"
-import TalkingHeads from "../components/TalkingHeads"
+import Video from "../components/Video"
 
 import "./founders-club.scss";
 
 // Preview Image
 import ogImage from "../images/fc-preview.png";
+
+// Video of people talking
+import TalkingHeads from "../video/talking-heads.mp4";
 
 // Founder Photos for Testimonials
 import Dan from "../images/testimonials/Dan.png";
@@ -127,7 +130,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Founders' Club" image={ogImage} />
       <section className="FoundersClubHero">
-        <TalkingHeads />
+        <Video videoSrc={TalkingHeads} />
         <h2 className="HeroHeader">Meet profitable indie founders from around the world.</h2>
         <h3 className="Subheader">Carefully made introductions delivered by email every Tuesday.</h3>
       </section>

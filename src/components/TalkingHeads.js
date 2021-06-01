@@ -1,13 +1,12 @@
 import React from "react"
-import PaulinaAndOras from "../video/talking-heads.mp4";
 
-const TalkingHeads = () => {
+const Video = ({videoSrc}) => {
   return (
     <video width="320" height="240" autoPlay playsinline loop muted>
-      <source src={PaulinaAndOras} type="video/mp4" />
+      <source src={videoSrc} type="video/mp4" />
     </video>
   );
 
 }
 
-export default TalkingHeads;
+export default Video;
