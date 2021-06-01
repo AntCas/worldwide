@@ -29,6 +29,7 @@
       width: fit-content;
       margin-top: 26px;
       order: 2;
+      margin: auto;
       @include sm {
         order: 1;
         margin-top: 0;

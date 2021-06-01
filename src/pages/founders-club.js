@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Summary from "../components/Summary"
 import Testimonials from "../components/Testimonials"
-import Video from "../components/Video"
+import Video from "../components/video"
 
 import "./founders-club.scss";
 
@@ -17,17 +17,18 @@ import ogImage from "../images/fc-preview.png";
 import TalkingHeads from "../video/talking-heads.mp4";
 
 // Founder Photos for Testimonials
-import Dan from "../images/testimonials/Dan.png";
+//import Dan from "../images/testimonials/Dan.png";
 //import Dru from "../images/testimonials/Dru.jpg";
-import Marc from "../images/testimonials/Marc.jpg";
+//import Marc from "../images/testimonials/Marc.jpg";
 import Matt from "../images/testimonials/Matt.png";
 import Richard from "../images/testimonials/Richard.jpeg";
-import Shakil from "../images/testimonials/Shakil.jpg";
-import Sukhpal from "../images/testimonials/Sukhpal.jpg";
+//import Shakil from "../images/testimonials/Shakil.jpg";
+//import Sukhpal from "../images/testimonials/Sukhpal.jpg";
 import Volkan from "../images/testimonials/Volkan.jpg";
 import Toby from "../images/testimonials/Toby.jpeg";
 
 const testimonials = [
+/*
   {
     testimonial: "I've met so many awesome people and had my eyes opened talking with all of them.",
     name: "Dan Bogachek",
@@ -35,7 +36,6 @@ const testimonials = [
     image: Dan,
     backlink: "https://handwrite.io/"
   },
-/*
   {
     testimonial: "The high-signal matches are amazing. Worth paying for.",
     name: "Dru Riley",
@@ -47,10 +47,11 @@ const testimonials = [
   {
     testimonial: "It's been incredible getting a community together to make the startup journey less lonely and more fun.",
     name: "Richard Kong",
-    bio: "Gravity Tales, acquired $2M",
+    bio: "Gravity Tales",
     image: Richard,
     backlink: "https://twitter.com/snowingpines",
   },
+/*
   {
     testimonial: "Founders' Club is different--it feels like a IRL community.",
     name: "Marc LG",
@@ -58,8 +59,9 @@ const testimonials = [
     image: Marc,
     backlink: "https://www.powerimporter.com/",
   },
+*/
   {
-    testimonial: "I'm LOVING this, the people participating are awesome. I meet with my first match weekly.",
+    testimonial: "I'm LOVING Founders' Club, the people participating are awesome. I meet with my first match weekly.",
     name: "Matt Gale",
     bio: "FBARS.app",
     image: Matt,
@@ -79,6 +81,7 @@ const testimonials = [
     image: Volkan,
     backlink: "https://versoly.com/"
   },
+/*
   {
     testimonial: "Founders' Club is the one place every Indie Hacker should turn to when they feel stuck in their journey.",
     name: "Sukhpal Saini",
@@ -93,6 +96,7 @@ const testimonials = [
     image: Shakil,
     backlink: "https://explodingniches.com/",
   },
+ */
 ]
 
 const FAQItems = [
@@ -130,15 +134,22 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Founders' Club" image={ogImage} />
       <section className="FoundersClubHero">
-        <Video videoSrc={TalkingHeads} />
-        <h2 className="HeroHeader">Meet profitable indie founders from around the world.</h2>
-        <h3 className="Subheader">Carefully made introductions delivered by email every Tuesday.</h3>
+        <div className="Left">
+          <Video videoSrc={TalkingHeads} />
+        </div>
+        <div className="Right">
+          <h2 className="HeroHeader">{`Founders' Club`}</h2>
+          <h3 className="Subheader">Receive a carefully made introduction to a fellow indie founder every week based on revenue and shared interests.</h3>
+          <div className="FoundersClubCTA">
+            <a className="Button" href={SIGNUP_LINK}>{"Get my first match"}</a>
+            <p className="SpecialOffer">{"Club dues are $80 per year."}</p>
+          </div>
+        </div>
       </section>
-      <div className="FoundersClubCTA">
-        <a className="Button" href={SIGNUP_LINK}>{"Get my first match"}</a>
-        <p className="SpecialOffer">{"Club dues are $80 per year."}</p>
+
+      <div className="FeaturedTestimonial">
+        {`"The high-signal matches are amazing. Worth paying for."`}<strong>{` Dru Riley, Trends.vc, $20k+/month`}</strong>
       </div>
-      <div className="FeaturedTestimonial">{`"The high-signal matches are amazing. Worth paying for."`}<strong>{` Dru Riley, Trends.vc, $20k+/month`}</strong></div>
       <Testimonials testimonials={testimonials} />
       <Summary
         header={"What is Founders' Club?"}

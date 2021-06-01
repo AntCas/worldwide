@@ -1,18 +1,16 @@
 @import "../main.scss";
 
 .FoundersClubHero {
-  width: 1000px;
+  width: 1400px;
   max-width: 95%;
   margin: auto;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  align-items: end;
   justify-content: center;
   margin-top: 140px;
   max-width: 95%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: relative;
   height: 100%;
 
@@ -22,6 +20,7 @@
     font-size: 40px;
     text-align: center;
     font-weight: 800;
+    width: 100%;
     line-height: 1.1;
     margin-top: 0;
     @include sm {
@@ -32,6 +31,9 @@
     @include md {
       margin-top: 0;
     }
+    @include xl {
+      text-align: left;
+    }
   }
 
   .Subheader {
@@ -41,6 +43,7 @@
     max-width: 800px;
     font-weight: 400;
     text-align: center;
+    text-align: left;
     margin-top: 42px;
     line-height: 1.6;
     strong {
@@ -49,18 +52,38 @@
   }
 }
 
+.Left, .Right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px;
+}
+.Left {
+  width: 60%;
+  display: none;
+  @include xl {
+    display: flex;
+  }
+}
+.Right {
+  width: 100%;
+  @include xl {
+    width: 40%;
+  }
+}
+
 .FoundersClubCTA {
-  margin: 80px auto;
+  margin: 64px auto;
   width: fit-content;
   .Button {
     background-color: $cta-color-bg;
-    color: $cta-color-font;
+    color: white;
     font-family: $font-main;
     text-decoration: none;
     display: flex;
     font-weight: bold;
     border-radius: $radius-main;
-    font-size: 1.3em;
+    font-size: 2.2em;
     padding: 24px 24px;
     width: fit-content;
 
@@ -78,8 +101,9 @@
 
 .FeaturedTestimonial {
   font-family: $font-main;
+  font-size: 1.4em;
   text-align: center;
-  margin: auto;
+  margin: 88px auto 0;
   max-width: 95%;
   line-height: 1.3;
   strong {

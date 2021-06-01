@@ -1,8 +1,10 @@
 import React from "react"
 
+import "./video.scss";
+
 const Video = ({videoSrc}) => {
   return (
-    <video width="320" height="240" autoPlay playsinline loop muted>
+    <video className="video" width="768" height="576" autoPlay playsinline loop muted>
       <source src={videoSrc} type="video/mp4" />
     </video>
   );
