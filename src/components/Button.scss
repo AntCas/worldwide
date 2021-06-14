@@ -4,11 +4,18 @@
   background-color: $cta-color-bg;
   color: $cta-color-font;
   font-family: $font-main;
+  border-radius: $radius-main;
+  margin: auto;
   text-decoration: none;
   display: flex;
-  font-size: 1.1em;
-  padding: 12px 12px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 24px;
   width: fit-content;
+
+  @include md {
+    font-size: 1.4em;
+  }
 
   &:hover {
     filter: $hover-filter;

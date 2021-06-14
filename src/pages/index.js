@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Button from "../components/Button"
 import EmailListSignup from "../components/EmailListSignup"
 import Hero from "../components/Hero"
 import Layout from "../components/layout"
@@ -110,8 +111,11 @@ const IndexPage = () => (
     />
     <Videos />
     <PodcastEmbed />
-    <div className="FoundersClubCTA" style={{marginTop: '180px'}}>
-      <Link className="Button" to="founders-club">{"Psst, check out Founders' Club"}</Link>
+    <div className="CTA" style={{margin: '180px auto 0'}}>
+      <Button
+        text={"Psst, check out Founders' Club"}
+        link={"founders-club"}
+      />
     </div>
   </Layout>
 )
