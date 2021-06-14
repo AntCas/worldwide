@@ -50,7 +50,13 @@ module.exports = {
         plugins: [`gatsby-remark-responsive-iframe`],
       },
     },
-    `gatsby-plugin-sass`,
+    {
+      // https://github.com/gatsbyjs/gatsby/issues/27754
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        implementation: require('sass')
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
