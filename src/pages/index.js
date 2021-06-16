@@ -27,11 +27,11 @@ import Folderly from "../images/sponsors/Folderly.jpg";
 
 // → 
 const nextEvent = {
-  text: "Indie Worldwide Meetup - June 2021",
-  exactDate: "Jun 10, 10:00AM → 11:30PM CDT",
+  text: "How to Sell Your Startup",
+  exactDate: "Jun 23, 12:00PM → 1:45PM CDT",
   month: "June",
-  date: "10",
-  url: "https://hopin.com/events/indie-worldwide-meetup-june-2021"
+  date: "23",
+  url: "https://hopin.com/events/how-to-sell-your-startup"
 }
 
 const testimonials = [
