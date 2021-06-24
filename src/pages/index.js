@@ -94,7 +94,7 @@ const IndexPage = () => (
       header={"The online meetup group for indie makers"}
       subheader={"Video chats and 1-on-1 matching with makers around the world."}
     />
-    <EmailListSignup />
+    <EmailListSignup headline={"Join our community of 1,000+ indie makers."} />
     <Testimonials testimonials={testimonials} />
     <NextEventCTA
       text={nextEvent.text}
