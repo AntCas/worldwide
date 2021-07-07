@@ -2,6 +2,7 @@
 
 .FoundersClubHero {
   width: 1400px;
+  height: 100%;
   max-width: 95%;
   margin: auto;
   display: flex;
@@ -9,10 +10,7 @@
   align-items: end;
   justify-content: center;
   margin-top: 140px;
-  max-width: 95%;
-  display: flex;
   position: relative;
-  height: 100%;
 
   .HeroHeader {
     font-family: $font-main;
@@ -26,13 +24,14 @@
     @include sm {
       margin-top: 36px;
       display: block;
-      font-size: $size-h1;
+      font-size: 46px;
     }
     @include md {
       margin-top: 0;
     }
     @include xl {
       text-align: left;
+      margin-top: 48px;
     }
   }
 
@@ -43,11 +42,13 @@
     max-width: 800px;
     font-weight: 400;
     text-align: center;
-    text-align: left;
     margin-top: 42px;
     line-height: 1.6;
     strong {
       font-weight: 800;
+    }
+    @include xl {
+      text-align: left;
     }
   }
 }
@@ -63,32 +64,37 @@
   display: none;
   @include xl {
     display: flex;
+    min-width: 728px;
+    width: 728px;
   }
 }
 .Right {
   width: 100%;
   @include xl {
-    width: 40%;
+    width: 440px;
+    min-width: 440px;
   }
 }
 
 .FoundersClubCTA {
   margin: 64px auto;
   width: fit-content;
+  @include xl {
+    margin: 52px auto 0 0;
+  }
   .Button {
     background-color: $cta-color-bg;
     color: white;
     font-family: $font-main;
     text-decoration: none;
     display: flex;
-    font-weight: bold;
     border-radius: $radius-main;
     font-size: 1.4em;
-    padding: 24px 24px;
+    padding: 18px 24px;
     width: fit-content;
 
     @include md {
-      font-size: 2.2em;
+      font-size: 1.8em;
     }
 
     &:hover {
