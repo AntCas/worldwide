@@ -156,7 +156,7 @@ const IndexPage = () => {
         description={"Once a week, I'll send you a carefully selected introduction to a founder who I think has the potential to change your business. The average member of Founders' Club has made at least $30,000 in lifetime revenue and many $100k+."}
       />
       <FAQ faq={FAQItems} />
-      <div className="FoundersClubCTA">
+      <div className="FoundersClubCTA" style={{margin: "auto"}}>
         <a className="Button" href={SIGNUP_LINK}>{"Get your first match"}</a>
       </div>
       <div className="EmailSignup">
