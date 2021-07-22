@@ -142,7 +142,7 @@ const IndexPage = () => {
           <h3 className="Subheader">Receive a thoughtfully-curated introduction every week based on revenue and shared interests.</h3>
           <div className="FoundersClubCTA">
             <a className="Button" href={SIGNUP_LINK}>{"Get my first match"}</a>
-            <p className="SpecialOffer">{"Club dues are $80 per year."}</p>
+            <p className="SpecialOffer">{"Club dues are $120 per year."}</p>
           </div>
         </div>
       </section>
