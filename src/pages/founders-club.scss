@@ -3,7 +3,7 @@
 .FoundersClubHero {
   width: 1400px;
   height: 100%;
-  max-width: 95%;
+  max-width: 75%;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -12,26 +12,31 @@
   margin-top: 140px;
   position: relative;
 
+  .Eyebrow {
+    font-family: $font-main;
+    color: $font-color-main;
+    font-size: $size-p;
+    text-transform: uppercase;
+    margin-top: 18px;
+
+    @include xl {
+      margin-right: auto;
+    }
+  }
+
   .HeroHeader {
     font-family: $font-main;
     color: $font-color-main;
-    font-size: 40px;
+    font-size: 32px;
     text-align: center;
     font-weight: 800;
     width: 100%;
     line-height: 1.1;
-    margin-top: 0;
-    @include sm {
-      margin-top: 36px;
-      display: block;
-      font-size: 46px;
-    }
-    @include md {
-      margin-top: 0;
-    }
+    margin-top: 36px;
+    display: block;
     @include xl {
       text-align: left;
-      margin-top: 44px;
+      margin-top: 12px;
     }
   }
 
@@ -51,6 +56,14 @@
       text-align: left;
     }
   }
+}
+
+.MinorHeader {
+  font-family: $font-main;
+  color: $font-color-main;
+  font-size: $size-h3;
+  text-align: center;
+  font-weight: bold;
 }
 
 .Left, .Right {

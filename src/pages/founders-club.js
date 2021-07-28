@@ -138,10 +138,11 @@ const IndexPage = () => {
           <Video videoSrc={TalkingHeads} />
         </div>
         <div className="Right">
-          <h2 className="HeroHeader">{`Founders' Club`}</h2>
+          <h1 className="Eyebrow">{`Founders' Club`}</h1>
+          <h2 className="HeroHeader">Make the startup journey less lonely and more fun.</h2>
           <h3 className="Subheader">Receive a thoughtfully-curated introduction every week based on revenue and shared interests.</h3>
           <div className="FoundersClubCTA">
-            <a className="Button" href={SIGNUP_LINK}>{"Get my first match"}</a>
+            <a className="Button" href={SIGNUP_LINK}>{"Apply to Join"}</a>
             <p className="SpecialOffer">{"Club dues are $120 per year."}</p>
           </div>
         </div>
@@ -157,9 +158,10 @@ const IndexPage = () => {
       />
       <FAQ faq={FAQItems} />
       <div className="FoundersClubCTA" style={{margin: "auto"}}>
-        <a className="Button" href={SIGNUP_LINK}>{"Get your first match"}</a>
+        <a className="Button" href={SIGNUP_LINK}>{"Apply to Join Founders' Club"}</a>
       </div>
       <div className="EmailSignup">
+        <h3 className="MinorHeader">Join the free slack group:</h3>
         <EmailListSignup />
       </div>
     </Layout>
