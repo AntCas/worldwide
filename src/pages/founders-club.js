@@ -140,7 +140,7 @@ const IndexPage = () => {
         <div className="Right">
           <h1 className="Eyebrow">{`Founders' Club`}</h1>
           <h2 className="HeroHeader">Make the startup journey less lonely and more fun.</h2>
-          <h3 className="Subheader">Receive a thoughtfully-curated introduction every week based on revenue and shared interests.</h3>
+          <h3 className="Subheader">Get introduced to a like-minded founder every week. We match you based on revenue and shared interests.</h3>
           <div className="FoundersClubCTA">
             <a className="Button" href={SIGNUP_LINK}>{"Apply to Join"}</a>
             <p className="SpecialOffer">{"Club dues are $120 per year."}</p>
