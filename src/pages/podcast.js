@@ -20,25 +20,6 @@ import Dru from "../images/testimonials/Dru.jpg";
 import Volkan from "../images/testimonials/Volkan.jpg";
 import Heliodor from "../images/testimonials/Heliodor.jpg";
 
-// Sponsors
-import Orbit from "../images/sponsors/Orbit.png";
-import Folderly from "../images/sponsors/Folderly.jpg";
-
-
-
-const sponsors = [
-  {
-    name: "Orbit.love",
-    link: "https://orbit.love/?ref=indieworldwide.co",
-    image: Orbit,
-  },
-  {
-    name: "Folderly",
-    link: "https://folderly.com/?ref=indieworldwide.co",
-    image: Folderly,
-  },
-]
-
 const IndexPage = () => (
   <Layout>
     <SEO title="The Indie Worldwide Podcast" />
@@ -48,7 +29,7 @@ const IndexPage = () => (
     />
     <EmailListSignup headline={"Get an email when the next episode comes out."} />
     <PodcastEmbed />
-    <Sponsors sponsors={sponsors} />
+    <Sponsors />
     <Summary
       header={"What is Worldwide?"}
       description={"A community for makers who can't get to an in-person meetup group or want to expand their circle beyond their local area. We host online video chats where you can make friends, meet co-founders, find new clients, and get advice. 100% online."}

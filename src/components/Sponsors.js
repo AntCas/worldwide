@@ -2,12 +2,37 @@ import React from "react"
 
 import './Sponsors.scss';
 
-const Sponsors = ({sponsors}) => {
+// Sponsors
+//import Orbit from "../images/sponsors/Orbit.png";
+//import Folderly from "../images/sponsors/Folderly.jpg";
+import AlternativeAssets from "../images/sponsors/AlternativeAssets.svg";
+
+const sponsors = [
+  {
+    name: "Alternative Assets",
+    link: "https://alternativeassets.club/?ref=indieworldwide.co",
+    image: AlternativeAssets,
+  },
+/*
+  {
+    name: "Orbit.love",
+    link: "https://orbit.love/?ref=indieworldwide.co",
+    image: Orbit,
+  },
+  {
+    name: "Folderly",
+    link: "https://folderly.com/?ref=indieworldwide.co",
+    image: Folderly,
+  },
+ */
+]
+
+const Sponsors = () => {
   return (
     <section className="Sponsors">
       <h3 className="Title">Sponsored By</h3>
       <div className="SponsorLogos"> 
-        {sponsors && sponsors.map((sponsor, idx) => 
+        {sponsors.map((sponsor, idx) =>
           <a key={idx} className="Sponsor" href={sponsor.link}>
             <img alt={sponsor.name} src={sponsor.image} className="Image" />
           </a>
