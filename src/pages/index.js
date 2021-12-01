@@ -24,9 +24,9 @@ import Heliodor from "../images/testimonials/Heliodor.jpg";
 // → 
 const nextEvent = {
   text: "Last meetup of the year!",
-  exactDate: "Dec 9, 12:00PM → 1:30PM CDT",
+  exactDate: "Dec 16, 12:00PM → 1:30PM CDT",
   month: "Dec",
-  date: "9",
+  date: "16",
   url: "https://hopin.com/events/copy-of-indie-worldwide-december-meetup"
 }
 
