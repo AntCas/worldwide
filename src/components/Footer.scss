@@ -5,11 +5,19 @@
   display: flex;
   align-content: center;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   color: $font-color-main;
   font-family: $font-main;
 
+  .Badge {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+  }
+
   .FooterContent {
+    margin: auto;
     padding: 48px $site-padding;
     height: 100%;
     width: 100%;

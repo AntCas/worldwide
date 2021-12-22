@@ -5,11 +5,15 @@ import React from "react"
 import SocialLinks from './SocialLinks';
 
 import Logo from "../assets/iw-logo.svg";
+import UnitaBadge from "../assets/unita-badge.svg";
 
 import './Footer.scss';
 
 const Footer = ({ siteTitle }) => (
-  <header className="Footer">
+  <footer className="Footer">
+    <a className="Badge" href="https://www.unita.co/communities/indie-worldwide/">
+      <UnitaBadge alt="Unita Top 10 Community Badge" />
+    </a>
     <div className="FooterContent">
       <h1 className="FooterLogo">
         <Link to="/">
@@ -22,7 +26,7 @@ const Footer = ({ siteTitle }) => (
       </p>
       <SocialLinks />
     </div>
-  </header>
+  </footer>
 )
 
 Footer.propTypes = {
