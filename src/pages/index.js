@@ -24,9 +24,8 @@ import Heliodor from "../images/testimonials/Heliodor.jpg";
 // → 
 const nextEvent = {
   text: "First Indie Worldwide meetup of 2022!",
-  exactDate: "Jan 13, 12:00PM → 1:30PM CDT",
-  month: "Jan",
-  date: "13",
+  startDate: "1/13/2022, 12:00 PM GMT-0600",
+  endDate: "1/13/2022, 1:30 PM GMT-0600",
   url: "https://hopin.com/events/indie-worldwide-first-meetup-of-2022?code=Uh7VRDvV6nVy5nFc6REkL5chG"
 }
 
@@ -81,9 +80,8 @@ const IndexPage = () => (
     <Testimonials testimonials={testimonials} />
     <NextEventCTA
       text={nextEvent.text}
-      exactDate={nextEvent.exactDate}
-      month={nextEvent.month}
-      date={nextEvent.date}
+      startDate={nextEvent.startDate}
+      endDate={nextEvent.endDate}
       link={nextEvent.url}
       className="CTA"
     />
