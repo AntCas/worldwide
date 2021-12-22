@@ -23,11 +23,11 @@ import Heliodor from "../images/testimonials/Heliodor.jpg";
 
 // → 
 const nextEvent = {
-  text: "Last meetup of the year!",
-  exactDate: "Dec 16, 12:00PM → 1:30PM CDT",
-  month: "Dec",
-  date: "16",
-  url: "https://hopin.com/events/copy-of-indie-worldwide-december-meetup"
+  text: "First Indie Worldwide meetup of 2022!",
+  exactDate: "Jan 13, 12:00PM → 1:30PM CDT",
+  month: "Jan",
+  date: "13",
+  url: "https://hopin.com/events/indie-worldwide-first-meetup-of-2022?code=Uh7VRDvV6nVy5nFc6REkL5chG"
 }
 
 const testimonials = [
