@@ -16,7 +16,7 @@ import Videos from "../components/Videos"
 // Testimonials
 import Dan from "../images/testimonials/Dan.png";
 import Dru from "../images/testimonials/Dru.jpg";
-//import Marc from "../images/testimonials/Marc.jpg";
+import Marc from "../images/testimonials/Marc.jpg";
 import Volkan from "../images/testimonials/Volkan.jpg";
 import Heliodor from "../images/testimonials/Heliodor.jpg";
 
@@ -44,15 +44,13 @@ const testimonials = [
     image: Dru,
     backlink: "https://join.trends.vc/"
   },
-/*
   {
-    testimonial: "Coffee, exercise, and Indie Worldwide are my tools for being a more productive indie hacker.",
+    testimonial: "Coffee, exercise, & Indie Worldwide are my tools to being a productive indie hacker.",
     name: "Marc LG",
     bio: "Founder, PowerImporter.com",
     image: Marc,
     backlink: "https://www.powerimporter.com/"
   },
- */
   {
     testimonial: "Indie Worldwide gives me the opportunity to talk to peers that I normally wouldn't get.",
     name: "Volkan Kaya",
@@ -77,6 +75,10 @@ const IndexPage = () => (
     />
     <EmailListSignup headline={"Get motivation & support to help you build your startup."} />
     <Testimonials testimonials={testimonials} />
+    <Summary
+      header={"A community for bootstrapped founders."}
+      description={"We host virtual meetups and challenges where you can make friends, meet co-founders, find new clients, and get advice."}
+    />
     <NextEventCTA
       text={nextEvent.text}
       startDate={nextEvent.startDate}
@@ -84,12 +86,8 @@ const IndexPage = () => (
       link={nextEvent.url}
       className="CTA"
     />
-    <Sponsors />
-    <Summary
-      header={"What is Worldwide?"}
-      description={"A community for makers who can't get to an in-person meetup group or want to expand their circle beyond their local area. We host online video chats where you can make friends, meet co-founders, find new clients, and get advice. 100% online."}
-    />
     <Videos />
+    <Sponsors />
     <PodcastEmbed />
     <div className="CTA" style={{margin: '180px auto 0'}}>
       <Button

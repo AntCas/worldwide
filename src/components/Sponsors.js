@@ -38,10 +38,12 @@ const Sponsors = () => {
           </a>
         )}
       </div>
+      {/*
       <h4 className="Subtitle">Interested in Sponsoring?</h4>
       <div className="SponsorshipCTA">
         <a className="Button" href="mailto:sponsorships@indieworldwide.co">{"Contact Us"}</a>
       </div>
+     */}
     </section>
   );
 }
