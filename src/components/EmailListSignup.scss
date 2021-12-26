@@ -24,7 +24,7 @@
   .EmailInput, .Submit {
     background: $white;
     border: none;
-    height: 80px;
+    height: 60px;
     padding: 0;
   }
   .EmailInput {
@@ -50,8 +50,7 @@
   }
   .Message {
     color: $font-color-main;
-    position: absolute;
-    margin-top: 24px;
+    margin: 24px auto 0;
     max-width: 400px;
     line-height: 1.2;
   }
