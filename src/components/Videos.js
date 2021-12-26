@@ -14,12 +14,12 @@ import Taylor from "../images/youtube/Taylor.png";
 
 const featuredVideos = [
   {
-    title: "30,000 active users and 100% monthly growth",
+    title: "30,000 active users and 100% growth",
     image: Taylor,
     videoId: "CmQII6taRxA",
   },
   {
-    title: "Indie Hackers Worldwide ft. Courtland Allen",
+    title: "Indie Worldwide ft. Courtland Allen",
     image: Courtland,
     videoId: "om9O4ylCBKM",
   },
@@ -29,12 +29,12 @@ const featuredVideos = [
     videoId: "O4SvfApW54A",
   },
   {
-    title: "Sold his company to Tencent at 18 years old for $2 million",
+    title: "Sold to Tencent at 18 years old",
     image: Richard,
     videoId: "Vqu9QhS6dGg",
   },
   {
-    title: "Q&A With Bubble Founder, co-CEO Emmanuel Straschnov",
+    title: "Bubble Founder Emmanuel Straschnov",
     image: Emmanuel,
     videoId: "jUf-yy2FI4M",
   }
@@ -46,6 +46,8 @@ const Videos = () => (
     <section className="VideoContainer">
       { featuredVideos.map((video, i) => (
         <a href={`https://www.youtube.com/embed/${video.videoId}`} className="VideoPreview">
+          <div className="Gradient" />
+          <p className="VideoTitle">{video.title}</p>
           <img src={video.image} alt={video.title} className="VideoImage" />
           <PlayButton className="PlayButton"/>
         </a>
