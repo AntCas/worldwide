@@ -29,20 +29,40 @@
       margin-top: 48px;
     }
 
-    .IFrame {
-      height: fit-content;
+    .VideoPreview {
+      border: 1px dotted pink;
+      position: relative;
+      display: flex;
+      justify-content: center;
       height: 207px;
       width: 368px;
       max-width: 95%;
-      padding: 12px;
+      margin: 12px;
       &:last-child, &:nth-last-child(2) {
         display: none;
       }
       @include md {
         &:last-child, &:nth-last-child(2) {
-          display: inline-block;
+          display: flex;
         }
       }
+
+      &:hover {
+        opacity: .8;
+      }
+
+      .VideoImage {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .PlayButton {
+        width: 20%;
+        z-index: 1;
+      }
     }
+
   }
 }
