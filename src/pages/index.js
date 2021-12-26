@@ -73,10 +73,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="A Community of Indie Makers" />
     <Hero
-      header={"The online meetup group for indie makers"}
-      subheader={<span>Video chats and <Link to="/founders-club">1-on-1 matching</Link> with makers around the world.</span>}
+      header={"Join a community of 2,000+ indie founders."}
     />
-    <EmailListSignup headline={"Join our community of 2,000+ indie founders."} />
+    <EmailListSignup headline={"Get motivation & support to help you build your startup."} />
     <Testimonials testimonials={testimonials} />
     <NextEventCTA
       text={nextEvent.text}
