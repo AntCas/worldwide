@@ -24,16 +24,9 @@
     color: $font-color-main;
     text-align: center;
     font-weight: 800;
-    display: none;
     line-height: 1.1;
-    margin-top: 0;
-    @include sm {
-      margin-top: 36px;
-      display: block;
-      font-size: $size-h2;
-    }
+    font-size: $size-h2;
     @include md {
-      margin-top: 0;
       font-size: $size-h1;
     }
   }
