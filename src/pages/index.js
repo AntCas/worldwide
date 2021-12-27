@@ -21,14 +21,6 @@ import Volkan from "../images/testimonials/Volkan.jpg";
 import Heliodor from "../images/testimonials/Heliodor.jpg";
 
 
-// → 
-const nextEvent = {
-  text: "First Indie Worldwide meetup of 2022!",
-  startDate: "1/13/2022, 12:00 PM GMT-0600",
-  endDate: "1/13/2022, 1:30 PM GMT-0600",
-  url: "https://hopin.com/events/indie-worldwide-first-meetup-of-2022?code=Uh7VRDvV6nVy5nFc6REkL5chG"
-}
-
 const testimonials = [
   {
     testimonial: "Get feedback, get asked hard questions, and get that extra push to keep going.",
@@ -79,13 +71,9 @@ const IndexPage = () => (
       header={"A community for bootstrapped founders."}
       description={"We host virtual meetups and challenges where you can make friends, meet co-founders, find new clients, and get advice."}
     />
-    <NextEventCTA
-      text={nextEvent.text}
-      startDate={nextEvent.startDate}
-      endDate={nextEvent.endDate}
-      link={nextEvent.url}
-      className="CTA"
-    />
+    <div style={{margin: "140px 0 0 0" }}>
+      <NextEventCTA />
+    </div>
     <Videos />
     <Sponsors />
     <PodcastEmbed />

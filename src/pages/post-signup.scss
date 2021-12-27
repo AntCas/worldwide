@@ -1,0 +1,39 @@
+@import "../main.scss";
+
+.PostSignup {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+
+  h3, p {
+    font-family: $font-main;
+    color: $font-color-main;
+  }
+
+  h3 {
+    font-size: $size-h3;
+    width: 560px;
+    max-width: 100%;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  p {
+    font-size: $size-p;
+  }
+
+  ol {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    max-width: 100%;
+    width: 560px;
+    text-align: left;
+  }
+
+  li {
+    line-height: 1.4;
+    margin-top: 16px;
+  }
+}

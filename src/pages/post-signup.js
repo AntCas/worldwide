@@ -1,5 +1,6 @@
 import React from "react"
 
+import { Link } from "gatsby"
 import EmailListSignup from "../components/EmailListSignup"
 import FAQ from "../components/FAQ"
 import Layout from "../components/layout"
@@ -7,8 +8,11 @@ import SEO from "../components/seo"
 import Summary from "../components/Summary"
 import Testimonials from "../components/Testimonials"
 import Video from "../components/video"
+import Hero from "../components/Hero"
+import NextEventCTA from "../components/NextEventCTA"
 
 import "./founders-club.scss";
+import "./post-signup.scss";
 
 // Preview Image
 import ogImage from "../images/fc-preview.png";
@@ -18,8 +22,8 @@ import TalkingHeads from "../video/talking-heads.mp4";
 
 // Founder Photos for Testimonials
 //import Dan from "../images/testimonials/Dan.png";
-//import Dru from "../images/testimonials/Dru.jpg";
-//import Marc from "../images/testimonials/Marc.jpg";
+import Dru from "../images/testimonials/Dru.jpg";
+import Marc from "../images/testimonials/Marc.jpg";
 import Matt from "../images/testimonials/Matt.png";
 import Richard from "../images/testimonials/Richard.jpeg";
 //import Shakil from "../images/testimonials/Shakil.jpg";
@@ -36,6 +40,7 @@ const testimonials = [
     image: Dan,
     backlink: "https://handwrite.io/"
   },
+ */
   {
     testimonial: "The high-signal matches are amazing. Worth paying for.",
     name: "Dru Riley",
@@ -43,7 +48,6 @@ const testimonials = [
     image: Dru,
     backlink: "https://trends.vc/"
   },
- */
   {
     testimonial: "It's been incredible getting a community together to make the startup journey less lonely and more fun.",
     name: "Richard Kong",
@@ -51,7 +55,6 @@ const testimonials = [
     image: Richard,
     backlink: "https://twitter.com/snowingpines",
   },
-/*
   {
     testimonial: "Founders' Club is different--it feels like a IRL community.",
     name: "Marc LG",
@@ -59,7 +62,6 @@ const testimonials = [
     image: Marc,
     backlink: "https://www.powerimporter.com/",
   },
-*/
   {
     testimonial: "I'm LOVING Founders' Club, the people participating are awesome. I meet with my first match weekly.",
     name: "Matt Gale",
@@ -128,14 +130,42 @@ const FAQItems = [
 
 const SIGNUP_LINK = "https://indieworldwide.typeform.com/to/TIIKLIRf";
 
-
 const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Thanks for Signing Up!" image={ogImage} />
-      <div className="FeaturedTestimonial">
-        {`"The high-signal matches are amazing. Worth paying for."`}<strong>{` Dru Riley, Trends.vc, $20k+/month`}</strong>
-      </div>
+      <Hero header={"Welcome aboard!"} />
+      <section className="PostSignup">
+        <h3>{`Here's some first steps to get the most out of Indie Worldwide:`}</h3>
+        <ol>
+          <li><p>1. Check your inbox for a welcome email with instructions for joining the Slack group. 📧</p></li>
+          <li><p>2. Sign up for the next free meetup. 👇</p></li>
+          <div style={{margin: "60px 0 40px 0"}}>
+            <NextEventCTA />
+          </div>
+          <li><p>3. Check out <Link to="/founders-club">{`Founders' Club`}</Link> for access to one on one matching with indie founders as well as over $30,000 in free benefits for your startup.</p></li>
+          <li>
+            <p>{`See you there!`}</p>
+          </li>
+          <li>
+            <p>{`--Anthony Castrio, Indie Worldwide 🌎🌍🌏`}</p>
+          </li>
+        </ol>
+      </section>
+      <section className="FoundersClubHero">
+        <div className="Left">
+          <Video videoSrc={TalkingHeads} />
+        </div>
+        <div className="Right">
+          <h1 className="Eyebrow">{`Founders' Club`}</h1>
+          <h2 className="HeroHeader">Make the startup journey less lonely and more fun.</h2>
+          <h3 className="Subheader">Get introduced to a like-minded founder every week. We match you based on revenue and shared interests.</h3>
+          <div className="FoundersClubCTA">
+            <a className="Button" href={SIGNUP_LINK}>{"Apply to Join"}</a>
+            <p className="SpecialOffer">{"Club dues are $120 per year."}</p>
+          </div>
+        </div>
+      </section>
       <Testimonials testimonials={testimonials} />
       <Summary
         header={"What is Founders' Club?"}

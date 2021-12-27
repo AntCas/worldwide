@@ -4,7 +4,13 @@ import PropTypes from "prop-types"
 import './NextEventCTA.scss';
 import ArrowRight from "../assets/arrow-right.svg";
 
-const Button = ({text, startDate, endDate, link, className}) => {
+const Button = ({
+  text="First Indie Worldwide meetup of 2022!",
+  startDate="1/13/2022, 12:00 PM GMT-0600",
+  endDate="1/13/2022, 1:30 PM GMT-0600",
+  link="https://hopin.com/events/indie-worldwide-first-meetup-of-2022?code=Uh7VRDvV6nVy5nFc6REkL5chG",
+  className
+}) => {
   const startDateObj = new Date(startDate);
   const endDateObj = new Date(endDate);
   const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timezone: 'short' };
@@ -31,11 +37,6 @@ const Button = ({text, startDate, endDate, link, className}) => {
       </a>
     </section>
   )
-}
-
-Button.propTypes = {
-  text: PropTypes.node.isRequired,
-  link: PropTypes.node.isRequired,
 }
 
 export default Button;
