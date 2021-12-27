@@ -22,7 +22,10 @@ const EmailListSignup = ({headline}) => {
     if (msg.includes('subscribed')) setMessage('This email is already subscribed.');
     else setMessage(msg.replace(/\d|( - )/g, ''));
 
-    if (result === 'success') setEmail('');
+    if (result === 'success') {
+      setEmail('');
+      window.location.replace('/post-signup');
+    }
   }
 
   const handleInputChange = event => {
