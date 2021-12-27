@@ -18,8 +18,8 @@ import TalkingHeads from "../video/talking-heads.mp4";
 
 // Founder Photos for Testimonials
 //import Dan from "../images/testimonials/Dan.png";
-//import Dru from "../images/testimonials/Dru.jpg";
-//import Marc from "../images/testimonials/Marc.jpg";
+import Dru from "../images/testimonials/Dru.jpg";
+import Marc from "../images/testimonials/Marc.jpg";
 import Matt from "../images/testimonials/Matt.png";
 import Richard from "../images/testimonials/Richard.jpeg";
 //import Shakil from "../images/testimonials/Shakil.jpg";
@@ -36,6 +36,7 @@ const testimonials = [
     image: Dan,
     backlink: "https://handwrite.io/"
   },
+ */
   {
     testimonial: "The high-signal matches are amazing. Worth paying for.",
     name: "Dru Riley",
@@ -43,7 +44,6 @@ const testimonials = [
     image: Dru,
     backlink: "https://trends.vc/"
   },
- */
   {
     testimonial: "It's been incredible getting a community together to make the startup journey less lonely and more fun.",
     name: "Richard Kong",
@@ -51,7 +51,6 @@ const testimonials = [
     image: Richard,
     backlink: "https://twitter.com/snowingpines",
   },
-/*
   {
     testimonial: "Founders' Club is different--it feels like a IRL community.",
     name: "Marc LG",
@@ -59,7 +58,6 @@ const testimonials = [
     image: Marc,
     backlink: "https://www.powerimporter.com/",
   },
-*/
   {
     testimonial: "I'm LOVING Founders' Club, the people participating are awesome. I meet with my first match weekly.",
     name: "Matt Gale",
@@ -147,10 +145,6 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
-
-      <div className="FeaturedTestimonial">
-        {`"The high-signal matches are amazing. Worth paying for."`}<strong>{` Dru Riley, Trends.vc, $20k+/month`}</strong>
-      </div>
       <Testimonials testimonials={testimonials} />
       <Summary
         header={"What is Founders' Club?"}
