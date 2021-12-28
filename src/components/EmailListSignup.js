@@ -24,6 +24,7 @@ const EmailListSignup = ({headline}) => {
 
     if (result === 'success') {
       setEmail('');
+      window.history.pushState({}, '', '/');
       window.location.replace('/post-signup');
     }
   }
