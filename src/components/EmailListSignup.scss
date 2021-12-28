@@ -20,6 +20,9 @@
     &.Error {
       @include shake;
     }
+    &.Disabled {
+      opacity: .75;
+    }
   }
   .EmailInput, .Submit {
     background: $white;
