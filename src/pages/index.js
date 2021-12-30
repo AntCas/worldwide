@@ -19,6 +19,7 @@ import Dru from "../images/testimonials/Dru.jpg";
 import Marc from "../images/testimonials/Marc.jpg";
 import Volkan from "../images/testimonials/Volkan.jpg";
 import Heliodor from "../images/testimonials/Heliodor.jpg";
+import Miriam from "../images/testimonials/Miriam.png";
 
 
 const testimonials = [
@@ -56,6 +57,13 @@ const testimonials = [
     bio: "Founder, HostedMetrics.com",
     image: Heliodor,
     backlink: "https://hostedmetrics.com"
+  },
+  {
+    testimonial: "A next level community with a little bit of everything. The crowd is inspirational and curious.",
+    name: "Miriam Dorsett",
+    bio: "Founder, Quokka",
+    image: Miriam,
+    backlink: "https://twitter.com/eduovrignorance"
   },
 ]
 

@@ -26,6 +26,7 @@ import Richard from "../images/testimonials/Richard.jpeg";
 //import Sukhpal from "../images/testimonials/Sukhpal.jpg";
 import Volkan from "../images/testimonials/Volkan.jpg";
 import Toby from "../images/testimonials/Toby.jpeg";
+import Miriam from "../images/testimonials/Miriam.png";
 
 const testimonials = [
 /*
@@ -51,6 +52,7 @@ const testimonials = [
     image: Richard,
     backlink: "https://twitter.com/snowingpines",
   },
+  /*
   {
     testimonial: "Founders' Club is different--it feels like a IRL community.",
     name: "Marc LG",
@@ -58,6 +60,7 @@ const testimonials = [
     image: Marc,
     backlink: "https://www.powerimporter.com/",
   },
+ */
   {
     testimonial: "I'm LOVING Founders' Club, the people participating are awesome. I meet with my first match weekly.",
     name: "Matt Gale",
@@ -78,6 +81,13 @@ const testimonials = [
     bio: "Versoly",
     image: Volkan,
     backlink: "https://versoly.com/"
+  },
+  {
+    testimonial: "A next level community with a little bit of everything. The crowd is inspirational and curious.",
+    name: "Miriam Dorsett",
+    bio: "Founder, Quokka",
+    image: Miriam,
+    backlink: "https://twitter.com/eduovrignorance"
   },
 /*
   {
