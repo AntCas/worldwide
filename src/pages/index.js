@@ -61,7 +61,7 @@ const testimonials = [
   {
     testimonial: "A next level community with a little bit of everything. The crowd is inspirational and curious.",
     name: "Miriam Dorsett",
-    bio: "Founder, Quokka",
+    bio: "Founder, Quoka",
     image: Miriam,
     backlink: "https://twitter.com/eduovrignorance"
   },
