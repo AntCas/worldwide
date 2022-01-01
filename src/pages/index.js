@@ -69,7 +69,7 @@ const testimonials = [
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="A Community of Indie Makers" />
+    <SEO />
     <Hero
       header={"Join a community of 2,000+ indie founders."}
     />
