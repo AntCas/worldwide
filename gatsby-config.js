@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Indie Worldwide`,
+    title: `Indie Worldwide: Community for Bootstrapped Startup Founders`,
     description: `The worldwide virtual meetup of indie hackers, founders, and makers.`,
     author: `Anthony Castrio`,
     siteUrl: `https://indieworldwide.co/`,
