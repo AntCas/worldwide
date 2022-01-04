@@ -27,6 +27,7 @@ import Richard from "../images/testimonials/Richard.jpeg";
 import Volkan from "../images/testimonials/Volkan.jpg";
 import Toby from "../images/testimonials/Toby.jpeg";
 import Miriam from "../images/testimonials/Miriam.png";
+import Aprilynne from "../images/testimonials/Aprilynne.png";
 
 const testimonials = [
 /*
@@ -38,6 +39,13 @@ const testimonials = [
     backlink: "https://handwrite.io/"
   },
  */
+  {
+    testimonial: `The weekly match-ups have been incredible! The opportunity to meet new people who "get it" is huge.`,
+    name: "Aprilynne Alter",
+    bio: "Founder, Tenderfoot",
+    image: Aprilynne,
+    backlink: "https://tenderfoot.io/"
+  },
   {
     testimonial: "The high-signal matches are amazing. Worth paying for.",
     name: "Dru Riley",
@@ -68,6 +76,7 @@ const testimonials = [
     image: Matt,
     backlink: "https://fbars.app/beta-offer"
   },
+  /*
   {
     testimonial: "Meet people that understand you and your struggle, the journey is more awesome together.",
     name: "Toby Allen",
@@ -75,6 +84,7 @@ const testimonials = [
     image: Toby,
     backlink: "https://www.startupmill.co/",
   },
+ */
   {
     testimonial: "Everyone has already made money online and understands the difficulties of starting something new.",
     name: "Volkan Kaya",

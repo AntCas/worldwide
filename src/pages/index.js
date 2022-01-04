@@ -20,15 +20,25 @@ import Marc from "../images/testimonials/Marc.jpg";
 import Volkan from "../images/testimonials/Volkan.jpg";
 import Heliodor from "../images/testimonials/Heliodor.jpg";
 import Miriam from "../images/testimonials/Miriam.png";
+import Aprilynne from "../images/testimonials/Aprilynne.png";
 
 
 const testimonials = [
+  /*
   {
     testimonial: "Get feedback, get asked hard questions, and get that extra push to keep going.",
     name: "Dan Bogachek",
     bio: "Founder, Handwrite",
     image: Dan,
     backlink: "https://handwrite.io/"
+  },
+ */
+  {
+    testimonial: "You'll meet so many others who can help you out - there are really only upsides to joining!",
+    name: "Aprilynne Alter",
+    bio: "Founder, Tenderfoot",
+    image: Aprilynne,
+    backlink: "https://tenderfoot.io/"
   },
   {
     testimonial: "I was ready for the next event before the first one was over.",
