@@ -175,7 +175,7 @@ const IndexPage = () => {
         <a className="Button" href={SIGNUP_LINK}>{"Apply to Join Founders' Club"}</a>
       </div>
       <div className="EmailSignup">
-        <h3 className="MinorHeader">Join the free slack group:</h3>
+        <h3 className="MinorHeader">Get an invite to the next event:</h3>
         <EmailListSignup />
       </div>
     </Layout>
