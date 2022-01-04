@@ -138,12 +138,12 @@ const IndexPage = () => {
       <section className="PostSignup">
         <h3>{`Here's some first steps to get the most out of Indie Worldwide:`}</h3>
         <ol>
-          <li><p>1. Check your inbox for a welcome email with instructions for joining the Slack group. 📧</p></li>
+          <li><p>1. Check your inbox for our welcome email. 📧</p></li>
           <li><p>2. Sign up for the next free meetup. 👇</p></li>
           <div style={{margin: "60px 0 40px 0"}}>
             <NextEventCTA />
           </div>
-          <li><p>3. Check out <Link to="/founders-club">{`Founders' Club`}</Link> for access to one on one matching with indie founders as well as over $30,000 in free benefits for your startup.</p></li>
+          <li><p>3. Check out <Link to="/founders-club">{`Founders' Club`}</Link> for access to our super active Slack group, one on one matching with indie founders, and over $10,000 in free benefits for your startup.</p></li>
           <li>
             <p>{`See you there!`}</p>
           </li>
