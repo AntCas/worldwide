@@ -6,12 +6,18 @@ import './Sponsors.scss';
 //import Orbit from "../images/sponsors/Orbit.png";
 //import Folderly from "../images/sponsors/Folderly.jpg";
 import AlternativeAssets from "../images/sponsors/AlternativeAssets.svg";
+import SaaSBox from "../images/sponsors/SaaSBox.png";
 
 const sponsors = [
   {
     name: "Alternative Assets",
     link: "https://alternativeassets.club/?ref=indieworldwide.co",
     image: AlternativeAssets,
+  },
+  {
+    name: "SaasBox",
+    link: "https://saasbox.net/?ref=indieworldwide.co",
+    image: SaaSBox,
   },
 /*
   {
