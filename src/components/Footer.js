@@ -11,21 +11,28 @@ import './Footer.scss';
 
 const Footer = ({ siteTitle }) => (
   <footer className="Footer">
-    <a className="Badge" href="https://www.unita.co/communities/indie-worldwide/">
-      <UnitaBadge alt="Unita Top 10 Community Badge" />
-    </a>
     <div className="FooterContent">
-      <h1 className="FooterLogo">
-        <Link to="/">
-           <Logo alt="Indie Worldwide Logo" />
-        </Link>
-      </h1>
-      <p className="Copyright">
-        © {new Date().getFullYear()} Indie Worldwide &
-        <a href="https://formico.io"> Formico, LLC</a>
-      </p>
-      <SocialLinks />
+      <div className="FooterLeft">
+        <Link className="SiteLink" to="/community-guidelines">Community Guidelines</Link>
+        <Link className="SiteLink" to="/founders-club">Founders Club</Link>
+        <Link className="SiteLink" to="/podcast">Podcast</Link>
+        <Link className="SiteLink" to="/post-signup">Getting Started</Link>
+      </div>
+      <a className="Badge" href="https://www.unita.co/communities/indie-worldwide/">
+        <UnitaBadge alt="Unita Top 10 Community Badge" />
+      </a>
+      <div className="FooterRight">
+        <div className="FooterLogo">
+          <Link to="/">
+             <Logo alt="Indie Worldwide Logo" />
+          </Link>
+        </div>
+        <SocialLinks />
+      </div>
     </div>
+    <p className="Copyright">
+      © {new Date().getFullYear()} Indie Worldwide & <a href="https://formico.io">Formico, LLC</a>
+    </p>
   </footer>
 )
 

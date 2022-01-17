@@ -1,7 +1,7 @@
 @import "../main.scss";
 
 .Footer {
-  margin-top: 240px;
+  margin-top: 80px;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -11,16 +11,18 @@
   font-family: $font-main;
 
   .Badge {
-    height: 200px;
-    width: 200px;
-    margin: auto;
+    width: 140px;
+    margin: 24px 0;
+
+    @include md {
+      margin: auto;
+    }
   }
 
   .FooterContent {
     margin: auto;
-    padding: 48px $site-padding;
     height: 100%;
-    width: 100%;
+    width: 98%;
     max-width: $site-max-width;
     display: flex;
     justify-content: space-between;
@@ -31,13 +33,9 @@
       flex-direction: row;
     }
 
-    .Copyright, .SocialLinks {
-      padding-top: 12px;
-      @include md {
-        padding: 0;
-      }
+    .SocialLinks {
+      padding-top: 24px;
     }
-
     .FooterLogo {
       display: inline-flex;
       width: fit-content;
@@ -46,19 +44,42 @@
       text-decoration: none;
       color: $font-color-main;
     }
-    .Copyright {
-      font-family: $font-main;
-      font-size: 16px;
-      text-align: center;
-      margin: 24px 0;
 
-      @include md {
-        margin: 0;
-      }
-    }
     .FooterLogo a {
       font-family: $font-main;
       font-size: $size-h3;
+    }
+
+    .FooterLeft {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .FooterRight {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .SiteLink {
+      margin: 8px 0;
+      text-align: center;
+      &:hover {
+        text-decoration: underline;
+      }
+      @include md {
+        text-align: left;
+      }
+    }
+  }
+  .Copyright {
+    font-family: $font-main;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px;
+
+    @include md {
+      margin: 0;
     }
   }
 }
