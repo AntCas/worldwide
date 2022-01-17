@@ -1,0 +1,58 @@
+@import "../main.scss";
+
+.Guidelines {
+  font-family: $font-main;
+  color: $font-color-main;
+  max-width: 90%;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 36px;
+
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 26px;
+    margin-bottom: 12px;
+  }
+  h3 {
+    font-size: $size-h3;
+    width: 560px;
+    max-width: 100%;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  p {
+  }
+
+  ol {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    max-width: 100%;
+    width: 560px;
+    text-align: left;
+  }
+
+  li {
+    line-height: 1.4;
+    margin-top: 8px;
+    list-style: disc;
+
+    .SubList {
+      margin-top: 6px;
+      margin-left: 12px;
+    }
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  .Slack {
+    display: inline;
+    color: #1264a3;
+    background: rgba(29,155,209,.1);
+  }
+}
