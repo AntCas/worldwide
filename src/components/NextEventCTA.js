@@ -5,10 +5,10 @@ import './NextEventCTA.scss';
 import ArrowRight from "../assets/arrow-right.svg";
 
 const Button = ({
-  text="First Indie Worldwide meetup of 2022!",
-  startDate="1/13/2022, 12:00 PM GMT-0600",
-  endDate="1/13/2022, 1:30 PM GMT-0600",
-  link="https://hopin.com/events/indie-worldwide-first-meetup-of-2022?code=Uh7VRDvV6nVy5nFc6REkL5chG",
+  text="Indie Worldwide - Meetup for Bootstrapped Founders",
+  startDate="2/17/2022, 12:00 PM GMT-0600",
+  endDate="2/17/2022, 1:30 PM GMT-0600",
+  link="https://hopin.com/events/meetup-for-bootstrapped-founders?code=9S2psdbuZrhIoZialugHGRqxt",
   className
 }) => {
   const startDateObj = new Date(startDate);
