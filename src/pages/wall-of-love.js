@@ -152,7 +152,7 @@ const WallOfLove = () => (
     <div className="CTA" style={{margin: '48px auto 0'}}>
       <Button
         text={"Meet Founders' Like These."}
-        link={"founders-club"}
+        link={"/founders-club"}
       />
     </div>
     <Summary
