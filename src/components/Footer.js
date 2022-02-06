@@ -15,6 +15,7 @@ const Footer = ({ siteTitle }) => (
       <div className="FooterLeft">
         <Link className="SiteLink" to="/community-guidelines">Community Guidelines</Link>
         <Link className="SiteLink" to="/founders-club">Founders Club</Link>
+        <Link className="SiteLink" to="/free-resources-for-startup-founders">Partner Deals - Free Resources</Link>
         <Link className="SiteLink" to="/podcast">Podcast</Link>
         <Link className="SiteLink" to="/post-signup">Getting Started</Link>
         <Link className="SiteLink" to="/wall-of-love">Wall of Love</Link>
