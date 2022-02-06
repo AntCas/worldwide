@@ -15,10 +15,10 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding: 4px $site-padding;
+    padding: 4px $site-padding 0;
 
     @include sm {
-      padding: 12px $site-padding;
+      padding: 12px $site-padding 0;
       flex-direction: row;
     }
 
