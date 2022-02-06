@@ -78,7 +78,7 @@ const partnerDeals = [
   },
 ]
 
-const WallOfLove = () => (
+const PartnerDeals = () => (
   <Layout>
     <SEO />
     <Hero
@@ -103,4 +103,4 @@ const WallOfLove = () => (
   </Layout>
 )
 
-export default WallOfLove
+export default PartnerDeals
