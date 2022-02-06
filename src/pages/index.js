@@ -83,7 +83,10 @@ const IndexPage = () => (
     <Hero
       header={"Go Farther, Together."}
     />
-    <EmailListSignup headline={"Join a community of startup founders who are forging their own path."} />
+    <EmailListSignup
+      headline={"Join a community of startup founders who are forging their own path."}
+      inputText={"Enter your email to get started"}
+    />
     <Testimonials testimonials={testimonials} />
     <Summary
       header={"A community for bootstrapped founders."}

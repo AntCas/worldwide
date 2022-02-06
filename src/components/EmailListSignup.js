@@ -5,7 +5,7 @@ import ArrowRight from "../assets/arrow-right.svg";
 
 import './EmailListSignup.scss';
 
-const EmailListSignup = ({headline}) => {
+const EmailListSignup = ({headline, inputText}) => {
   const [email, setEmail] = useState();
   const [result, setResult] = useState();
   const [message, setMessage] = useState();
@@ -60,7 +60,7 @@ const EmailListSignup = ({headline}) => {
             name="email"
             value={email}
             onChange={handleInputChange}
-            placeholder="Enter your email"
+            placeholder={inputText ? inputText : "Enter your email"}
           />
           <button className="Submit" type="submit">
             <ArrowRight className="Arrow" />
