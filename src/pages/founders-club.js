@@ -165,7 +165,7 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
-      <Testimonials testimonials={testimonials} />
+      <Testimonials testimonials={testimonials} responsive={true} />
       <Summary
         header={"What is Founders' Club?"}
         description={"Once a week, I'll send you a carefully selected introduction to a founder who I think has the potential to change your business. The average member of Founders' Club has made at least $30,000 in lifetime revenue and many $100k+."}

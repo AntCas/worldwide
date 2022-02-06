@@ -87,7 +87,7 @@ const IndexPage = () => (
       headline={"Join a community of startup founders who are forging their own path."}
       inputText={"Enter your email to get started"}
     />
-    <Testimonials testimonials={testimonials} />
+    <Testimonials testimonials={testimonials} responsive={true} />
     <Summary
       header={"A community for bootstrapped founders."}
       description={"We host virtual meetups and challenges where you can make friends, meet co-founders, find new clients, and get advice."}

@@ -23,7 +23,7 @@
     border-radius: $radius-main;
     padding: 12px;
 
-    &:nth-of-type(1n+4) {
+    &.Responsive:nth-of-type(1n+4) {
       display: none;
 
       @include lg {

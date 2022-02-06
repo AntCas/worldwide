@@ -78,7 +78,7 @@ const partnerDeals = [
   },
 ]
 
-const PartnerDeals = () => (
+const PartnerDealsPage = () => (
   <Layout>
     <SEO />
     <Hero
@@ -103,4 +103,4 @@ const PartnerDeals = () => (
   </Layout>
 )
 
-export default PartnerDeals
+export default PartnerDealsPage
