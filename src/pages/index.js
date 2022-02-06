@@ -81,9 +81,9 @@ const IndexPage = () => (
   <Layout>
     <SEO />
     <Hero
-      header={"Join a community of 2,000+ indie founders."}
+      header={"Go Farther, Together."}
     />
-    <EmailListSignup headline={"Get motivation & support to help you build your startup."} />
+    <EmailListSignup headline={"Join a community of startup founders who are forging their own path."} />
     <Testimonials testimonials={testimonials} />
     <Summary
       header={"A community for bootstrapped founders."}
