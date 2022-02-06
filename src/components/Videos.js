@@ -45,7 +45,7 @@ const Videos = () => (
     <h2>Past Meetups</h2>
     <section className="VideoContainer">
       { featuredVideos.map((video, i) => (
-        <a href={`https://www.youtube.com/embed/${video.videoId}`} className="VideoPreview">
+        <a href={`https://www.youtube.com/watch?v=${video.videoId}`} className="VideoPreview">
           <div className="Gradient" />
           <p className="VideoTitle">{video.title}</p>
           <img src={video.image} alt={video.title} className="VideoImage" />
