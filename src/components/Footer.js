@@ -17,6 +17,7 @@ const Footer = ({ siteTitle }) => (
         <Link className="SiteLink" to="/founders-club">Founders Club</Link>
         <Link className="SiteLink" to="/podcast">Podcast</Link>
         <Link className="SiteLink" to="/post-signup">Getting Started</Link>
+        <Link className="SiteLink" to="/wall-of-love">Wall of Love</Link>
       </div>
       <a className="Badge" href="https://www.unita.co/communities/indie-worldwide/">
         <UnitaBadge alt="Unita Top 10 Community Badge" />
