@@ -7,6 +7,7 @@ module.exports = {
     ogImage: `/images/social.png`
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
