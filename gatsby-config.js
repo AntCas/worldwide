@@ -7,6 +7,8 @@ module.exports = {
     ogImage: `/images/social.png`
   },
   plugins: [
+    //  https://www.joshwcomeau.com/gatsby/seo-friendly-sitemap/
+    //  https://www.gatsbyjs.com/plugins/gatsby-plugin-sitemap/#example
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
