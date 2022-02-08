@@ -5,9 +5,9 @@ import EmailListSignup from "../components/EmailListSignup"
 import Hero from "../components/Hero"
 import Layout from "../components/layout"
 import NextEventCTA from "../components/NextEventCTA"
+import PartnerDeals from "../components/PartnerDeals"
 import SEO from "../components/seo"
 import Summary from "../components/Summary"
-import PartnerDeals from "../components/PartnerDeals"
 
 // Company Logos
 import Stripe from "../images/partner-logos/stripe.svg";

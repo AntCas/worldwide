@@ -1,15 +1,15 @@
 import React from "react"
-
 import { Link } from "gatsby"
+
 import EmailListSignup from "../components/EmailListSignup"
 import FAQ from "../components/FAQ"
+import Hero from "../components/Hero"
 import Layout from "../components/layout"
+import NextEventCTA from "../components/NextEventCTA"
 import SEO from "../components/seo"
 import Summary from "../components/Summary"
 import Testimonials from "../components/Testimonials"
 import Video from "../components/video"
-import Hero from "../components/Hero"
-import NextEventCTA from "../components/NextEventCTA"
 
 import "./founders-club.scss";
 import "./post-signup.scss";
