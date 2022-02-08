@@ -1,7 +1,6 @@
 import React from "react"
 
 import Button from "../components/Button"
-import EmailListSignup from "../components/EmailListSignup"
 import Hero from "../components/Hero"
 import Layout from "../components/layout"
 import NextEventCTA from "../components/NextEventCTA"

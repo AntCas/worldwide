@@ -19,13 +19,13 @@ import TalkingHeads from "../video/talking-heads.mp4";
 // Founder Photos for Testimonials
 //import Dan from "../images/testimonials/Dan.png";
 import Dru from "../images/testimonials/Dru.jpg";
-import Marc from "../images/testimonials/Marc.jpg";
+//import Marc from "../images/testimonials/Marc.jpg";
 import Matt from "../images/testimonials/Matt.png";
 import Richard from "../images/testimonials/Richard.jpeg";
 //import Shakil from "../images/testimonials/Shakil.jpg";
 //import Sukhpal from "../images/testimonials/Sukhpal.jpg";
 import Volkan from "../images/testimonials/Volkan.jpg";
-import Toby from "../images/testimonials/Toby.jpeg";
+//import Toby from "../images/testimonials/Toby.jpeg";
 import Miriam from "../images/testimonials/Miriam.png";
 import Aprilynne from "../images/testimonials/Aprilynne.png";
 

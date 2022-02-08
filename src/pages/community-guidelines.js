@@ -1,16 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import Button from "../components/Button"
 import EmailListSignup from "../components/EmailListSignup"
 import Hero from "../components/Hero"
 import Layout from "../components/layout"
 import NextEventCTA from "../components/NextEventCTA"
 import PodcastEmbed from "../components/PodcastEmbed"
 import SEO from "../components/seo"
-import Sponsors from "../components/Sponsors"
-import Summary from "../components/Summary"
-import Testimonials from "../components/Testimonials"
 import Videos from "../components/Videos"
 
 import "./community-guidelines.scss";

@@ -7,7 +7,6 @@ import Layout from "../components/layout"
 import NextEventCTA from "../components/NextEventCTA"
 import SEO from "../components/seo"
 import Summary from "../components/Summary"
-import Testimonials from "../components/Testimonials"
 
 import "./community.scss";
 

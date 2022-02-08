@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Button from "../components/Button"
 import EmailListSignup from "../components/EmailListSignup"
@@ -14,7 +13,7 @@ import Testimonials from "../components/Testimonials"
 import Videos from "../components/Videos"
 
 // Testimonials
-import Dan from "../images/testimonials/Dan.png";
+//import Dan from "../images/testimonials/Dan.png";
 import Dru from "../images/testimonials/Dru.jpg";
 import Marc from "../images/testimonials/Marc.jpg";
 import Volkan from "../images/testimonials/Volkan.jpg";
