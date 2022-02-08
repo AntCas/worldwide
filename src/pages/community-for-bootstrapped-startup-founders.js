@@ -35,7 +35,7 @@ const sections = [
   },
   {
     headline: "Get Those Warm Intro's",
-    description: "Hiring? Shopping for a product? Get recommendations from people you trust. Save weeks of your time.",
+    description: "Hiring? Shopping for a solution? Get recommendations from people you trust. Save weeks of your time.",
     image: [Recommend]
   },
   {
@@ -49,7 +49,7 @@ const CommunityPage = () => (
   <Layout>
     <Seo />
     <Hero
-      header={"Slack Group"}
+      header={"The Indie Worldwide Slack Group"}
     />
     <EmailListSignup
       headline={"Join a community of startup founders who are forging their own path."}
@@ -62,9 +62,7 @@ const CommunityPage = () => (
             <h3>{s.headline}</h3>
             <p>{s.description}</p>
           </div>
-          <div className="Images">
-            <img alt={'slack comment screenshot'} src={s.image} className="Comment" />
-          </div>
+          <img alt={'slack comment screenshot'} src={s.image} className="Image" />
         </div>
       ))}
     </div>

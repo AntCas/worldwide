@@ -5,13 +5,14 @@
   color: $font-color-main;
 
   .CommunitySection {
-    width: 1200px;
+    width: 1000px;
     max-width: 100%;
     margin: auto;
-    padding: 24px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     @include md {
+      padding: 24px;
       flex-direction: row;
       &:nth-child(even) {
         flex-direction: row-reverse;
@@ -20,10 +21,17 @@
   }
 
   .Text {
-    width: 50%;
+    padding: 24px;
+    @include md {
+      width: 50%;
+    }
   }
-  .Images {
+  .Image {
+    padding: 24px;
     max-width: 80%;
+    @include md {
+      width: 480px;
+    }
   }
 
   h3 {
@@ -31,10 +39,8 @@
   }
   p {
     font-size: $size-p;
-  }
-
-  .Comment {
-    padding: 12px;
+    margin-top: 6px;
+    line-height: 1.1;
   }
 }
 
