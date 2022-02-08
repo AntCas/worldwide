@@ -1,0 +1,34 @@
+@import "../main.scss";
+
+.SlackCommunity {
+  font-family: $font-main;
+  color: $font-color-main;
+
+  .CommunitySection {
+    width: 1200px;
+    margin: auto;
+    max-width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Text {
+    width: 30%;
+  }
+  .Images {
+    width: 70%;
+  }
+
+  h3 {
+    font-size: $size-h2;
+  }
+  p {
+    font-size: $size-p;
+  }
+
+  .Comment {
+    padding: 12px;
+  }
+}
+
