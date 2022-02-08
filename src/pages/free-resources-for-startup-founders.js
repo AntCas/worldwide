@@ -5,7 +5,7 @@ import Hero from "../components/Hero"
 import Layout from "../components/layout"
 import NextEventCTA from "../components/NextEventCTA"
 import PartnerDeals from "../components/PartnerDeals"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Summary from "../components/Summary"
 
 // Company Logos
@@ -79,7 +79,7 @@ const partnerDeals = [
 
 const PartnerDealsPage = () => (
   <Layout>
-    <SEO />
+    <Seo />
     <Hero
       header={"Partner Deals"}
       subheader={""}

@@ -5,14 +5,14 @@ import Hero from "../components/Hero"
 import Layout from "../components/layout"
 import NextEventCTA from "../components/NextEventCTA"
 import PodcastEmbed from "../components/PodcastEmbed"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Videos from "../components/Videos"
 
 import "./community-guidelines.scss";
 
 const IndexPage = () => (
   <Layout>
-    <SEO />
+    <Seo />
     <Hero
       header={"Community Guidelines"}
     />

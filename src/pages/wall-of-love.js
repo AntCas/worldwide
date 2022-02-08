@@ -5,7 +5,7 @@ import EmailListSignup from "../components/EmailListSignup"
 import Hero from "../components/Hero"
 import Layout from "../components/layout"
 import NextEventCTA from "../components/NextEventCTA"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Summary from "../components/Summary"
 import Testimonials from "../components/Testimonials"
 
@@ -140,7 +140,7 @@ const testimonials = [
 
 const WallOfLove = () => (
   <Layout>
-    <SEO />
+    <Seo />
     <Hero
       header={"Wall of Love"}
     />

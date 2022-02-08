@@ -6,7 +6,7 @@ import Hero from "../components/Hero"
 import Layout from "../components/layout"
 import NextEventCTA from "../components/NextEventCTA"
 import PodcastEmbed from "../components/PodcastEmbed"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Sponsors from "../components/Sponsors"
 import Summary from "../components/Summary"
 import Testimonials from "../components/Testimonials"
@@ -78,7 +78,7 @@ const testimonials = [
 
 const IndexPage = () => (
   <Layout>
-    <SEO />
+    <Seo />
     <Hero
       header={"Go Farther, Together."}
     />

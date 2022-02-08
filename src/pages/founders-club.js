@@ -1,9 +1,9 @@
 import React from "react"
 
 import EmailListSignup from "../components/EmailListSignup"
-import FAQ from "../components/FAQ"
+import Faq from "../components/FAQ"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Summary from "../components/Summary"
 import Testimonials from "../components/Testimonials"
 import Video from "../components/video"
@@ -150,7 +150,7 @@ const SIGNUP_LINK = "https://indieworldwide.typeform.com/to/TIIKLIRf";
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Founders' Club" image={ogImage} />
+      <Seo title="Founders' Club" image={ogImage} />
       <section className="FoundersClubHero">
         <div className="Left">
           <Video videoSrc={TalkingHeads} />
@@ -170,7 +170,7 @@ const IndexPage = () => {
         header={"What is Founders' Club?"}
         description={"Once a week, I'll send you a carefully selected introduction to a founder who I think has the potential to change your business. The average member of Founders' Club has made at least $30,000 in lifetime revenue and many $100k+."}
       />
-      <FAQ faq={FAQItems} />
+      <Faq faq={FAQItems} />
       <div className="FoundersClubCTA" style={{margin: "auto"}}>
         <a className="Button" href={SIGNUP_LINK}>{"Apply to Join Founders' Club"}</a>
       </div>
