@@ -11,44 +11,37 @@ import Summary from "../components/Summary"
 import "./community.scss";
 
 // Comments
-import CelebrateAndrew from "../images/comments/celebrate-andrew.png";
-import CelebrateGreg from "../images/comments/celebrate-greg.png";
-import CelebrateMiriam from "../images/comments/celebrate-miriam.png";
-import DiscussAnthony from "../images/comments/discuss-anthony.png";
-import DiscussHarvey from "../images/comments/discuss-harvey.png";
-import LaunchKavya from "../images/comments/launch-kavya.png";
-import LaunchLevi from "../images/comments/launch-levi.png";
-import RecommendErik from "../images/comments/recommend-erik.png";
-import RecommendHannah from "../images/comments/recommend-hannah.png";
-import RecommendOlu from "../images/comments/recommend-olu.png";
-import TroubleshootDaniel from "../images/comments/troubleshoot-daniel.png";
-import TroubleshootRox from "../images/comments/troubleshoot-rox.png";
+import Celebrate from "../images/comments/celebrate.png";
+import Discuss from "../images/comments/discuss.png";
+import Launch from "../images/comments/launch.png";
+import Recommend from "../images/comments/recommend.png";
+import Troubleshoot from "../images/comments/troubleshoot.png";
 
 const sections = [
   {
     headline: "Celebrate Success",
     description: "Winning is more fun when you have someone to share it with.",
-    images: [CelebrateAndrew, CelebrateGreg, CelebrateMiriam ]
+    image: [Celebrate],
   },
   {
     headline: "Discuss",
     description: "The best advice comes from other founders who've done what you're trying to do.",
-    images: [DiscussAnthony, DiscussHarvey]
+    image: [Discuss],
   },
   {
     headline: "Boost Your Launch",
     description: "Get feedback and support before, during, and after your product launch on any platform.",
-    images: [LaunchKavya, LaunchLevi]
+    image: [Launch],
   },
   {
     headline: "Get Those Warm Intro's",
     description: "Hiring? Shopping for a product? Get recommendations from people you trust. Save weeks of your time.",
-    images: [RecommendErik, RecommendHannah, RecommendOlu]
+    image: [Recommend]
   },
   {
     headline: "Troubleshoot",
     description: "Bust through tricky problems in any part of your business with a team that supports you. Just because you're a solo-founder doesn't mean you're alone.",
-    images: [TroubleshootDaniel, TroubleshootRox]
+    image: [Troubleshoot]
   }
 ]
 
@@ -70,9 +63,7 @@ const CommunityPage = () => (
             <p>{s.description}</p>
           </div>
           <div className="Images">
-            {s.images.map(i => (
-              <img alt={'slack comment screenshot'} src={i} className="Comment" />
-            ))}
+            <img alt={'slack comment screenshot'} src={s.image} className="Comment" />
           </div>
         </div>
       ))}
