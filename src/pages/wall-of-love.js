@@ -1,4 +1,6 @@
 import React from "react"
+import { Helmet } from "react-helmet"
+import { Parser } from 'html-to-react'
 
 import Button from "../components/Button"
 import EmailListSignup from "../components/EmailListSignup"
@@ -22,6 +24,7 @@ import Sukhpal from "../images/testimonials/Sukhpal.jpg";
 import Toby from "../images/testimonials/Toby.jpeg";
 import Volkan from "../images/testimonials/Volkan.jpg";
 
+import "./wall-of-love.scss";
 
 const testimonials = [
   {
@@ -138,9 +141,32 @@ const testimonials = [
   }
 ]
 
+// Embed Tweets
+const rawHTML = `
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I second this. 💯<br><br>The Founders&#39; Club <a href="https://twitter.com/AnthonyCastrio?ref_src=twsrc%5Etfw">@AnthonyCastrio</a> has put together is just amazing.<br><br>I already met several great folks, and with some of them, we&#39;re talking about possible partnerships/cooperations.<br><br>The best decision I made this year.</p>&mdash; Robert Balazsi (@robertbalazsi) <a href="https://twitter.com/robertbalazsi/status/1491864155640541184?ref_src=twsrc%5Etfw">February 10, 2022</a></blockquote> 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I was a lucky recipient of a free year of Founders’ Club and I’m so grateful for it. <br><br>FC has been an awesome way to meet amazing founders all around the world. <a href="https://t.co/eFYXdYnAuA">https://t.co/eFYXdYnAuA</a></p>&mdash; Ricky (@TheRickyIO) <a href="https://twitter.com/TheRickyIO/status/1471201170903474182?ref_src=twsrc%5Etfw">December 15, 2021</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">another great founder conversation courtesy of founders club <a href="https://twitter.com/indie_worldwide?ref_src=twsrc%5Etfw">@indie_worldwide</a> <br><br>if you are not a member yet get in touch with <a href="https://twitter.com/AnthonyCastrio?ref_src=twsrc%5Etfw">@AnthonyCastrio</a> and beg him for an invite<br><br>and then ask him to connect you with <a href="https://twitter.com/sullydoesitall?ref_src=twsrc%5Etfw">@sullydoesitall</a> so you can chat about <a href="https://twitter.com/joinentre?ref_src=twsrc%5Etfw">@joinentre</a></p>&mdash; Greg Fragin (@GFragin) <a href="https://twitter.com/GFragin/status/1481036720359579654?ref_src=twsrc%5Etfw">January 11, 2022</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just met @meet__chopra through <a href="https://twitter.com/indie_worldwide?ref_src=twsrc%5Etfw">@indie_worldwide</a> Founders&#39; Club. <br><br>We had a nice chat on product marketing and gave each other tips on how to grow our products.<br><br>Being social on web feels great. Instead of only consuming content, try to meet new people and help each other.<br><br>✌️</p>&mdash; Jim Zarkadas (@JimZarkadas) <a href="https://twitter.com/JimZarkadas/status/1316028041378689024?ref_src=twsrc%5Etfw">October 13, 2020</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/AnthonyCastrio?ref_src=twsrc%5Etfw">@AnthonyCastrio</a>&#39;s new project Founders Club (<a href="https://twitter.com/indie_worldwide?ref_src=twsrc%5Etfw">@indie_worldwide</a>) just launched on <a href="https://twitter.com/ProductHunt?ref_src=twsrc%5Etfw">@producthunt</a> - Personalised intros to other founders at similar stages with similar interests. This is well worth it, highly recommend!<a href="https://t.co/S7KU9oAQu1">https://t.co/S7KU9oAQu1</a></p>&mdash; John McGowan (HNEE) (@johnnywandering) <a href="https://twitter.com/johnnywandering/status/1336685070485217281?ref_src=twsrc%5Etfw">December 9, 2020</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I have been part of Indie Worldwide Founders Club. <a href="https://twitter.com/AnthonyCastrio?ref_src=twsrc%5Etfw">@AnthonyCastrio</a> takes the pain to connect you with awesome other founders . It has been grt getting to know some awesome pple.if you are an early entrepreneur, riddled with self doubts, Founders club will be good invstmt to do <a href="https://t.co/PgqywrTigL">https://t.co/PgqywrTigL</a></p>&mdash; Ram Srinivasan (@srama79) <a href="https://twitter.com/srama79/status/1415941932270776321?ref_src=twsrc%5Etfw">July 16, 2021</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/AnthonyCastrio?ref_src=twsrc%5Etfw">@AnthonyCastrio</a> one year since I joined <a href="https://twitter.com/indie_worldwide?ref_src=twsrc%5Etfw">@indie_worldwide</a> and still going strong. Anthony is incredible in keeping the community active and engaged.</p>&mdash; Oras Al-Kubaisi (@orask) <a href="https://twitter.com/orask/status/1489676397488615428?ref_src=twsrc%5Etfw">February 4, 2022</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">another great founders club call from <a href="https://twitter.com/indie_worldwide?ref_src=twsrc%5Etfw">@indie_worldwide</a> <br>spoke to <a href="https://twitter.com/robertbalazsi?ref_src=twsrc%5Etfw">@robertbalazsi</a> and got a demo for his amazing data scraping <a href="https://twitter.com/hashtag/NoCode?src=hash&amp;ref_src=twsrc%5Etfw">#NoCode</a> tool <a href="https://twitter.com/datagrab_io?ref_src=twsrc%5Etfw">@datagrab_io</a> <br>check it out if you are in the data capture space and keep supporting founders</p>&mdash; Greg Fragin (@GFragin) <a href="https://twitter.com/GFragin/status/1488568695588798479?ref_src=twsrc%5Etfw">February 1, 2022</a></blockquote>
+`;
+
 const WallOfLove = () => (
   <Layout>
     <Seo />
+    <Helmet>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </Helmet>
+
     <Hero
       header={"Wall of Love"}
     />
@@ -148,7 +174,12 @@ const WallOfLove = () => (
       headline={"Join a community of startup founders who are forging their own path."}
       inputText={"Enter your email to get started"}
     />
-    <Testimonials testimonials={testimonials} />
+    <div className="NiceTweets">
+      {Parser().parse(rawHTML)}
+    </div>
+    <div className="TestimonialsWrapper">
+      <Testimonials testimonials={testimonials} />
+    </div>
     <div className="CTA" style={{margin: '48px auto 0'}}>
       <Button
         text={"Meet Founders' Like These."}
