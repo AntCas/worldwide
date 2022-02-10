@@ -175,11 +175,11 @@ const WallOfLove = () => (
       inputText={"Enter your email to get started"}
     />
     <section className="WallOfLove">
-      <div className="NiceTweets">
-        {Parser().parse(rawHTML)}
-      </div>
       <div className="TestimonialsWrapper">
         <Testimonials testimonials={testimonials} />
+      </div>
+      <div className="NiceTweets">
+        {Parser().parse(rawHTML)}
       </div>
     </section>
     <div className="CTA" style={{margin: '48px auto 0'}}>
