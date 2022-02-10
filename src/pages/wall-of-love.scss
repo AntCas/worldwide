@@ -1,33 +1,46 @@
 @import "../main.scss";
 
-.NiceTweets {
-  margin: auto;
-  display: flex;
-  width: 100%;
-  justify-content: flex-start;
-  align-content: center;
-  margin: auto;
-  text-align: center;
+.WallOfLove {
+  .NiceTweets {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-content: center;
+    margin: auto;
+    text-align: center;
 
-  flex-flow: row;
-  overflow: scroll;
-
-  @include lg {
-    transform: scale(.8);
-    margin: -136px auto -240px;
-    height: 1600px;
-    flex-flow: column wrap;
-    overflow: visible
-  }
-
-  .twitter-tweet {
-    margin: 12px;
+    flex-flow: row;
+    overflow: scroll;
 
     @include lg {
-      &:nth-child(3n+1) { order: 1; }
-      &:nth-child(3n+2) { order: 2; }
-      &:nth-child(3n)   { order: 3; }
+      transform: scale(.8);
+      margin: -136px auto -240px;
+      height: 1600px;
+      flex-flow: column wrap;
+      overflow: visible
+    }
+
+    .twitter-tweet {
+      margin: 12px;
+
+      @include lg {
+        &:nth-child(3n+1) { order: 1; }
+        &:nth-child(3n+2) { order: 2; }
+        &:nth-child(3n)   { order: 3; }
+      }
+    }
+  }
+
+  .Testimonials {
+    max-width: unset;
+    flex-wrap: unset;
+    overflow: scroll;
+
+    @include lg {
+      max-width: 100%;
+      flex-wrap: wrap;
+      overflow: visible;
     }
   }
 }
-

@@ -174,12 +174,14 @@ const WallOfLove = () => (
       headline={"Join a community of startup founders who are forging their own path."}
       inputText={"Enter your email to get started"}
     />
-    <div className="NiceTweets">
-      {Parser().parse(rawHTML)}
-    </div>
-    <div className="TestimonialsWrapper">
-      <Testimonials testimonials={testimonials} />
-    </div>
+    <section className="WallOfLove">
+      <div className="NiceTweets">
+        {Parser().parse(rawHTML)}
+      </div>
+      <div className="TestimonialsWrapper">
+        <Testimonials testimonials={testimonials} />
+      </div>
+    </section>
     <div className="CTA" style={{margin: '48px auto 0'}}>
       <Button
         text={"Meet Founders' Like These."}
