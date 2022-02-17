@@ -1,28 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Button from "../components/Button"
 import EmailListSignup from "../components/EmailListSignup"
 import Hero from "../components/Hero"
 import Layout from "../components/layout"
-import NextEventCTA from "../components/NextEventCTA"
 import PodcastEmbed from "../components/PodcastEmbed"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Sponsors from "../components/Sponsors"
 import Summary from "../components/Summary"
-import Testimonials from "../components/Testimonials"
-import Videos from "../components/Videos"
-
-// Testimonials
-import Dan from "../images/testimonials/Dan.png";
-import Dru from "../images/testimonials/Dru.jpg";
-//import Marc from "../images/testimonials/Marc.jpg";
-import Volkan from "../images/testimonials/Volkan.jpg";
-import Heliodor from "../images/testimonials/Heliodor.jpg";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="The Indie Worldwide Podcast" />
+    <Seo title="The Indie Worldwide Podcast" />
     <Hero
       header={"Indie Worldwide Podcast"}
       subheader={"Season two is dropping soon!"}

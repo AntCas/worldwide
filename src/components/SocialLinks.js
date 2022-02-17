@@ -3,7 +3,7 @@ import React from "react"
 
 import Email from "../assets/email.svg";
 import Facebook from "../assets/facebook.svg";
-import IH from "../assets/ih.svg";
+import IndieHackers from "../assets/ih.svg";
 import Slack from "../assets/slack.svg";
 import Twitter from "../assets/twitter.svg";
 import YouTube from "../assets/youtube.svg";
@@ -36,7 +36,7 @@ const SocialLinks = ({ siteTitle}) => {
     {
       title: "Indie Hackers",
       url: "https://www.indiehackers.com/product/worldwide",
-      icon: <IH style={{fill}} />
+      icon: <IndieHackers style={{fill}} />
     },
     {
       title: "Mailing List",

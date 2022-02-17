@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 
 import './NextEventCTA.scss';
 import ArrowRight from "../assets/arrow-right.svg";
@@ -13,7 +12,6 @@ const Button = ({
 }) => {
   const startDateObj = new Date(startDate);
   const endDateObj = new Date(endDate);
-  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timezone: 'short' };
   return (
     <section className="NextEventCTAWrapper">
       <a className={`NextEventCTA ${className}`} href={link}>
