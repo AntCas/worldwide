@@ -5,11 +5,11 @@
   color: $font-color-main;
 
   .CommunitySection {
-    width: 1000px;
     max-width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: column;
     @include md {
       padding: 24px;
@@ -19,7 +19,6 @@
       }
     }
   }
-
   .Text {
     padding: 24px;
     @include md {
@@ -30,7 +29,8 @@
     padding: 24px;
     max-width: 80%;
     @include md {
-      width: 480px;
+      max-width: 50%;
+      //width: 480px;
     }
   }
 
@@ -39,8 +39,8 @@
   }
   p {
     font-size: $size-p;
-    margin-top: 6px;
-    line-height: 1.1;
+    margin-top: 12px;
+    line-height: 1.4;
   }
 }
 

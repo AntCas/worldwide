@@ -34,8 +34,8 @@ const sections = [
     image: [Launch],
   },
   {
-    headline: "Get Those Warm Intro's",
-    description: "Hiring? Shopping for a solution? Get recommendations from people you trust. Save weeks of your time.",
+    headline: "Get Warm Intro's",
+    description: "Hiring? Shopping for a solution? Get warm leads and recommendations from people you trust. Save weeks of your time.",
     image: [Recommend]
   },
   {
