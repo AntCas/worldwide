@@ -5,9 +5,9 @@ import './Sponsors.scss';
 // Sponsors
 //import Orbit from "../images/sponsors/Orbit.png";
 //import Folderly from "../images/sponsors/Folderly.jpg";
+//import TrueSource from "../images/sponsors/TrueSource.png";
 import AlternativeAssets from "../images/sponsors/AlternativeAssets.svg";
 import SaaSBox from "../images/sponsors/SaaSBox.png";
-import TrueSource from "../images/sponsors/TrueSource.png";
 
 const sponsors = [
   {
@@ -20,13 +20,12 @@ const sponsors = [
     link: "https://saasbox.net/?ref=indieworldwide.co",
     image: SaaSBox,
   },
+/*
   {
     name: "TrueSource",
     link: "https://www.truesource.io/?ref=indieworldwide.co",
     image: TrueSource,
   },
-
-/*
   {
     name: "Orbit.love",
     link: "https://orbit.love/?ref=indieworldwide.co",
