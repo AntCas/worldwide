@@ -94,7 +94,7 @@ const PartnerDealsPage = () => {
       <PartnerDeals deals={partnerDeals} />
       <p onClick={() => setVisible(!visible)} className="PartnerDealsToggle">View All</p>
       <div style={{padding: 48, display: visible ? 'block' : 'none'}}>
-        <iframe className="airtable-embed" src="https://airtable.com/embed/shrhLVedYY5zexkny?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
+        <iframe className="airtable-embed" src="https://airtable.com/embed/shrhLVedYY5zexkny?backgroundColor=purple&layout=card&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
       </div>
       <div className="CTA" style={{margin: '48px auto 0'}}>
         <Button
