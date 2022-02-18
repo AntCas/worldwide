@@ -92,9 +92,9 @@ const PartnerDealsPage = () => {
         description={"We've partnered with all of these companies and more to get free and discounted resources for your startup."}
       />
       <PartnerDeals deals={partnerDeals} />
-      <p onClick={() => setVisible(!visible)} className="PartnerDealsToggle">View All</p>
+      <button onClick={() => setVisible(!visible)} className="PartnerDealsToggle">View All</button>
       <div style={{padding: 48, display: visible ? 'block' : 'none'}}>
-        <iframe className="airtable-embed" src="https://airtable.com/embed/shrhLVedYY5zexkny?backgroundColor=purple&layout=card&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
+        <iframe title="airtable embed" className="airtable-embed" src="https://airtable.com/embed/shrhLVedYY5zexkny?backgroundColor=purple&layout=card&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
       </div>
       <div className="CTA" style={{margin: '48px auto 0'}}>
         <Button
