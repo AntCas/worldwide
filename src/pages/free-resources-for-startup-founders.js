@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 
 import Button from "../components/Button"
 import Hero from "../components/Hero"
@@ -17,6 +17,7 @@ import MongoDB from "../images/partner-logos/mongodb.svg";
 import Postmark from "../images/partner-logos/postmark.png";
 import Peachscore from "../images/partner-logos/peachscore.svg";
 
+import "./free-resources.scss";
 
 const partnerDeals = [
   {
@@ -77,29 +78,36 @@ const partnerDeals = [
   },
 ]
 
-const PartnerDealsPage = () => (
-  <Layout>
-    <Seo />
-    <Hero
-      header={"Partner Deals"}
-      subheader={""}
-    />
-    <Summary
-      header={"Deals for Indie Worldwide Startups."}
-      description={"We've partnered with all of these companies and more to get free and discounted resources for your startup."}
-    />
-    <PartnerDeals deals={partnerDeals} />
-    <div className="CTA" style={{margin: '48px auto 0'}}>
-      <Button
-        text={"Claim Free Resources"}
-        link={"/founders-club"}
+const PartnerDealsPage = () => {
+  const [visible, setVisible] = useState(false);
+  return (
+    <Layout>
+      <Seo />
+      <Hero
+        header={"Partner Deals"}
+        subheader={""}
       />
-    </div>
-    <div style={{margin: "140px 0 0 0" }}>
-      <NextEventCTA />
-    </div>
+      <Summary
+        header={"Deals for Indie Worldwide Startups."}
+        description={"We've partnered with all of these companies and more to get free and discounted resources for your startup."}
+      />
+      <PartnerDeals deals={partnerDeals} />
+      <p onClick={() => setVisible(!visible)} className="PartnerDealsToggle">View All</p>
+      <div style={{padding: 48, display: visible ? 'block' : 'none'}}>
+        <iframe className="airtable-embed" src="https://airtable.com/embed/shrhLVedYY5zexkny?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
+      </div>
+      <div className="CTA" style={{margin: '48px auto 0'}}>
+        <Button
+          text={"Access Partner Deals"}
+          link={"/founders-club"}
+        />
+      </div>
+      <div style={{margin: "140px 0 0 0" }}>
+        <NextEventCTA />
+      </div>
 
-  </Layout>
-)
+    </Layout>
+  )
+}
 
 export default PartnerDealsPage

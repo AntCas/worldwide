@@ -1,0 +1,9 @@
+@import "../main.scss";
+
+.PartnerDealsToggle {
+  font-family: $font-main;
+  color: $font-color-main;
+  &:hover { text-decoration: underline; }
+  cursor: pointer;
+  text-align: center;
+}
